@@ -20,7 +20,7 @@
 - Users data model is also not present in this repository.
 - db variable is the realm database instance.
 - There is no SQL database, so queries always mean Realm queries.
-- Report cards rules are present in reportCard.js files in reference under "query". It uses Mongo Realm database language for querying.
+- Report cards rules are present in reference/<project>/reportCard.js files. It uses Mongo Realm database language for querying.
 - Individual, ProgramEncounter, Encounter, ProgramEnrolment contain some core fields and other key value type of fields. Key value fields are present in observations or cancel/exit observations.
 - In reference ignore everything that has is like declarative rule.
 - RuleEvaluationService is the caller of these rules with a method for each rule.
@@ -31,7 +31,7 @@
 ### There are following types of JS rules:
 - Program Summary Rule (alias Program Enrolment Rule). In reference present in "enrolmentSummaryRule" in programs.js.
 - Subject Summary Rule (alias Individual Summary Rule). In reference present in "subjectSummaryRule" in subjectTypes.js.
-- Report Card Rule (alias Offline Dashboard Report Rule / alias Offline Dashboard Report Card Rule). In reference it is present in "query" in reportCard.js files. Report card rule always returns list of Individuals.
+- Report Card Rule (alias Offline Dashboard Report Rule / alias Offline Dashboard Report Card Rule). In reference present in "query" in reportCard.js files. Report card rule always returns list of Individuals.
 - Form Element Rule (alias Skip logic rule). In reference present in formElement.rule path. 
 - Visit Schedule Rule. In reference present in "visitScheduleRule". params.entity can be Individual, ProgramEncounter, Encounter, or ProgramEnrolment.
 - Decision Rule. In reference present in "decisionRule". params.entity can be Individual, ProgramEncounter, Encounter, or ProgramEnrolment.
