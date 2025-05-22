@@ -19,6 +19,7 @@
     - Checklists Rule
     - Worklist Rule. In reference present in "worklistUpdationRule".
     - Edit form rule.
+- Each rule has different return type present in guides and reference.
 - In the guides they are present in sections.
 - Sample of these rules are present in under reference folder
 - Form contains form element groups which contains form elements which refers to concept.
