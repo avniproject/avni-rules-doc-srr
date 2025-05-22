@@ -40,6 +40,8 @@
 - In reference ignore everything that has is like declarative rule.
 - RuleEvaluationService is the caller of these rules with a method for each rule.
 - For references and patterns only ever use the guides folder. Always provide a list to the guide if relevant.
+- Only refer to the main branch in this repository.
+- Program, EncounterType, SubjectType each has a name and uuid.
 
 ### Following libraries are used. But these are not rules code.
 1. https://github.com/avniproject/rules-config/blob/master/src/rules/builder/AdditionalComplicationsBuilder.js
