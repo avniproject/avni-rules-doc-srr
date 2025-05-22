@@ -14,7 +14,7 @@
     - Decision Rule. In reference present in "decisionRule".
     - Validation Rule. In reference present in "validationRule".
     - Encounter Eligibility Check Rule. In reference present in "entityEligibilityCheckRule" in encounterTypes.js.
-    - Enrolment Eligibility Check Rule. In reference present in "entityEligibilityCheckRule" in programs.js.
+    - Enrolment Eligibility Check Rule or Program Eligibility Check Rule. In reference present in "entityEligibilityCheckRule" in programs.js.
     - Task Schedule Rule.
     - Checklists Rule
     - Worklist Rule. In reference present in "worklistUpdationRule".
