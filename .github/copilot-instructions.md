@@ -3,13 +3,12 @@
 - All rules starts like ({params, imports}) => {
 } instead of function(params, imports) {
 }
-- Never generate anything other than JS code.
+- Never generate anything other than JS code. Always generate the full function body like found in this repository.
 - Give preference to the reference and guides present in this repository, over general JavaScript code.
 - All rule code is like present in guides and reference folder only.
 - Never generate any other type of code. All requests are of one of the above types. All above types are JavaScript rule.
 - Each rule has different return type present in guides and reference.
 - In the guides they are present in sections.
-- Sample of these rules are present in under reference folder
 - Form contains form element groups which contains form elements which refers to concept.
 - Documentation of these rules are present in under guides folder
 - Guides also contain some examples of how to use these rules
