@@ -6,20 +6,6 @@
 - Never generate anything other than JS code.
 - Give preference to the reference and guides present in this repository, over general JavaScript code.
 - All rule code is like present in guides and reference folder only.
-- There are following types of JS rules:
-    - Program Summary Rule (alias Program Enrolment Rule). In reference present in "enrolmentSummaryRule" in programs.js.
-    - Subject Summary Rule (alias Individual Summary Rule). In reference present in "subjectSummaryRule" in subjectTypes.js.
-    - Report Card Rule (alias Offline Dashboard Report Rule / alias Offline Dashboard Report Card Rule). In reference it is present in "query" in reportCard.js files.
-    - Form Element Rule (alias Skip logic rule). In reference present in formElement.rule path. 
-    - Visit Schedule Rule. In reference present in "visitScheduleRule". params.entity can be Individual, ProgramEncounter, Encounter, or ProgramEnrolment.
-    - Decision Rule. In reference present in "decisionRule". params.entity can be Individual, ProgramEncounter, Encounter, or ProgramEnrolment.
-    - Validation Rule. In reference present in "validationRule". params.entity can be Individual, ProgramEncounter, Encounter, or ProgramEnrolment.
-    - Encounter Eligibility Check Rule. In reference present in "entityEligibilityCheckRule" in encounterTypes.js.
-    - Enrolment Eligibility Check Rule or Program Eligibility Check Rule. In reference present in "entityEligibilityCheckRule" in programs.js.
-    - Task Schedule Rule.
-    - Checklists Rule
-    - Worklist Rule. In reference present in "worklistUpdationRule".
-    - Edit form rule.
 - Never generate any other type of code. All requests are of one of the above types. All above types are JavaScript rule.
 - Each rule has different return type present in guides and reference.
 - In the guides they are present in sections.
@@ -28,10 +14,7 @@
 - Documentation of these rules are present in under guides folder
 - Guides also contain some examples of how to use these rules
 - These rules use libraries as described in guides and also present in reference folder.
-- There are three different project references. Each independent from other. All using same libraries.
-    - csj-uat
-    - apf
-    - goonj
+- There are three different project references (csj-uat, apf, goonj). Each independent from other. All using same libraries.
 - Reference folder contains json as well as JS code. All JS code in reference are some type of rule or other.
 - User would generate rule for their own project. Users project is not present in this repository.
 - Users data model is also not present in this repository.
@@ -44,6 +27,22 @@
 - For references and patterns only ever use the guides folder. Always provide a list to the guide if relevant.
 - Only refer to the main branch in this repository.
 - Program, EncounterType, SubjectType each has a name and uuid.
+
+### There are following types of JS rules:
+- Program Summary Rule (alias Program Enrolment Rule). In reference present in "enrolmentSummaryRule" in programs.js.
+- Subject Summary Rule (alias Individual Summary Rule). In reference present in "subjectSummaryRule" in subjectTypes.js.
+- Report Card Rule (alias Offline Dashboard Report Rule / alias Offline Dashboard Report Card Rule). In reference it is present in "query" in reportCard.js files. Report card rule always returns list of Individuals.
+- Form Element Rule (alias Skip logic rule). In reference present in formElement.rule path. 
+- Visit Schedule Rule. In reference present in "visitScheduleRule". params.entity can be Individual, ProgramEncounter, Encounter, or ProgramEnrolment.
+- Decision Rule. In reference present in "decisionRule". params.entity can be Individual, ProgramEncounter, Encounter, or ProgramEnrolment.
+- Validation Rule. In reference present in "validationRule". params.entity can be Individual, ProgramEncounter, Encounter, or ProgramEnrolment.
+- Encounter Eligibility Check Rule. In reference present in "entityEligibilityCheckRule" in encounterTypes.js.
+- Enrolment Eligibility Check Rule or Program Eligibility Check Rule. In reference present in "entityEligibilityCheckRule" in programs.js.
+- Task Schedule Rule.
+- Checklists Rule
+- Worklist Rule. In reference present in "worklistUpdationRule".
+- Edit form rule.
+
 
 ### Following libraries are used. But these are not rules code.
 1. https://github.com/avniproject/rules-config/blob/master/src/rules/builder/AdditionalComplicationsBuilder.js
