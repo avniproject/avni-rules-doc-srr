@@ -1,3 +1,4 @@
+- Always ask question if you didn't understand the request properly.
 - The objective of this repository is help user generate different type of JS rules only.
 - All rules starts like ({params, imports}) => {
 } instead of function(params, imports) {
