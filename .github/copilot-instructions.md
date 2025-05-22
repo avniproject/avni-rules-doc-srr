@@ -19,6 +19,7 @@
     - Checklists Rule
     - Worklist Rule. In reference present in "worklistUpdationRule".
     - Edit form rule.
+- Never generate any other type of rule. All requests are of one of the above types.
 - Each rule has different return type present in guides and reference.
 - In the guides they are present in sections.
 - Sample of these rules are present in under reference folder
