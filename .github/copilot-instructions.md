@@ -1,7 +1,9 @@
 - The objective of this repository is help user generate different type of JS rules only.
-- All rules starts are contained in ({params, imports}) => {
+- All rules starts like ({params, imports}) => {
+} instead of function(params, imports) {
 }
 - Never generate anything other than JS code.
+- All rule code is like present in guides and reference folder only.
 - There are following types of JS rules:
     - Program Summary Rule (alias Program Enrolment Rule)
     - Subject Summary Rule (alias Individual Summary Rule)
@@ -31,7 +33,7 @@
 - There is no SQL database, so queries always mean Realm queries.
 - reportCards.js is present in */reportCards.js* file and it uses Mongo Realm database querying
 
-### Following libraries are used
+### Following libraries are used. But these are not rules code.
 1. https://github.com/avniproject/rules-config/blob/master/src/rules/builder/AdditionalComplicationsBuilder.js
 2. https://github.com/avniproject/rules-config/blob/master/src/rules/builder/FormElementStatusBuilder.js
 3. https://github.com/avniproject/rules-config/blob/master/src/rules/builder/StatusBuilderAnnotationFactory.js
