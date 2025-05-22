@@ -35,7 +35,7 @@
 - Form Element Rule (alias Skip logic rule). In reference present in formElement.rule path. 
 - Visit Schedule Rule. In reference present in "visitScheduleRule". params.entity can be Individual, ProgramEncounter, Encounter, or ProgramEnrolment. Always ask for which entity if not provided.
 - Decision Rule. In reference present in "decisionRule". params.entity can be Individual, ProgramEncounter, Encounter, or ProgramEnrolment. Always ask for which entity if not provided.
-- Validation Rule. In reference present in "validationRule". params.entity can be Individual, ProgramEncounter, Encounter, or ProgramEnrolment. Always ask for which entity if not provided.
+- Validation Rule. In reference present in reference/validationRule.js. params.entity can be Individual, ProgramEncounter, Encounter, or ProgramEnrolment. Always ask for which entity if not provided.
 - Encounter Eligibility Check Rule. In reference present in "entityEligibilityCheckRule" in encounterTypes.js.
 - Enrolment Eligibility Check Rule or Program Eligibility Check Rule. In reference present in "entityEligibilityCheckRule" in programs.js.
 - Task Schedule Rule.
