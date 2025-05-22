@@ -9,10 +9,10 @@
     - Program Summary Rule (alias Program Enrolment Rule). In reference present in "enrolmentSummaryRule" in programs.js.
     - Subject Summary Rule (alias Individual Summary Rule). In reference present in "subjectSummaryRule" in subjectTypes.js.
     - Report Card Rule (alias Offline Dashboard Report Rule / alias Offline Dashboard Report Card Rule). In reference present in "query" in reportCards.js.
-    - Form Element Rule (alias Skip logic rule). In reference present in formElement.rule path.
-    - Visit Schedule Rule. In reference present in "visitScheduleRule".
-    - Decision Rule. In reference present in "decisionRule".
-    - Validation Rule. In reference present in "validationRule".
+    - Form Element Rule (alias Skip logic rule). In reference present in formElement.rule path. 
+    - Visit Schedule Rule. In reference present in "visitScheduleRule". params.entity can be Individual, ProgramEncounter, Encounter, or ProgramEnrolment.
+    - Decision Rule. In reference present in "decisionRule". params.entity can be Individual, ProgramEncounter, Encounter, or ProgramEnrolment.
+    - Validation Rule. In reference present in "validationRule". params.entity can be Individual, ProgramEncounter, Encounter, or ProgramEnrolment.
     - Encounter Eligibility Check Rule. In reference present in "entityEligibilityCheckRule" in encounterTypes.js.
     - Enrolment Eligibility Check Rule or Program Eligibility Check Rule. In reference present in "entityEligibilityCheckRule" in programs.js.
     - Task Schedule Rule.
@@ -37,9 +37,9 @@
 - There is no SQL database, so queries always mean Realm queries.
 - reportCards.js is present in */reportCards.js* file and it uses Mongo Realm database querying
 - Individual, ProgramEncounter, Encounter, ProgramEnrolment contain some core fields and other key value type of fields. Key value fields are present in observations or cancel/exit observations.
-- Do not provide references and patterns used links in the generated code response.
 - In reference ignore everything that has is like declarative rule.
 - RuleEvaluationService is the caller of these rules with a method for each rule.
+- For references and patterns only ever use the guides folder. Always provide a list to the guide if relevant.
 
 ### Following libraries are used. But these are not rules code.
 1. https://github.com/avniproject/rules-config/blob/master/src/rules/builder/AdditionalComplicationsBuilder.js
