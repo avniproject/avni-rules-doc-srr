@@ -1,4 +1,37 @@
-### The javascript code in this repository uses the following files. Index them.
+- The objective of this repository is help user generate different type of JS rules only.
+- All rules starts are contained in ({params, imports}) => {
+}
+- Never generate anything other than JS code.
+- There are following types of JS rules:
+    - Program Summary Rule (alias Program Enrolment Rule)
+    - Subject Summary Rule (alias Individual Summary Rule)
+    - Report Card Rule (alias Offline Dashboard Report Rule)
+    - Form Element Rule (alias Skip logic rule)
+    - Visit Schedule Rule
+    - Decision Rule
+    - Validation Rule
+    - Encounter Eligibility Check Rule
+    - Enrolment Eligibility Check Rule
+    - Task Schedule Rule
+    - Checklists Rule
+    - Worklist Rule
+- Sample of these rules are present in under reference folder
+- Form contains form element groups which contains form elements which refers to concept.
+- Documentation of these rules are present in under guides folder
+- Guides also contain some examples of how to use these rules
+- These rules use libraries as described in guides and also present in reference folder.
+- There are three different project references. Each independent from other. All using same libraries.
+    - csj-uat
+    - apf
+    - goonj
+- Reference folder contains json as well as JS code. All JS code in reference are some type of rule or other.
+- User would generate rule for their own project. Users project is not present in this repository.
+- Users data model is also not present in this repository.
+- db variable is the realm database instance.
+- There is no SQL database, so queries always mean Realm queries.
+- reportCards.js is present in */reportCards.js* file and it uses Mongo Realm database querying
+
+### Following libraries are used
 1. https://github.com/avniproject/rules-config/blob/master/src/rules/builder/AdditionalComplicationsBuilder.js
 2. https://github.com/avniproject/rules-config/blob/master/src/rules/builder/FormElementStatusBuilder.js
 3. https://github.com/avniproject/rules-config/blob/master/src/rules/builder/StatusBuilderAnnotationFactory.js
@@ -19,18 +52,6 @@
 18. https://github.com/avniproject/avni-models/blob/master/src/CustomFilter.js
 19. https://github.com/avniproject/avni-client/blob/master/packages/openchs-android/src/service/facade/IndividualServiceFacade.js
 20. https://github.com/avniproject/avni-client/blob/master/packages/openchs-android/src/service/facade/AddressLevelServiceFacade.js
-
-### More about the code
-1. All the javascript functions in this code are called rule.
-2. Some of the JavaScript and JSON code in this repository contains multiline JavaScript code within a JS/JSON string.
-2. The report cards use
-3. the data model is expressed in the files under */forms/* folder. these are called Forms.
-4. Each Form has form-element-groups. Each form element group has form-element. Each form element links to a concept. The full definition of concepts are present in */concepts.json file.
-5. Each form is like a table in database.
-6. Concept has unique uuid, name, dataType, answers, which are of use to us. Each concept is like a field in an entity or column in database table.
-7. the reference code is present in */reference/* folder which can be used as context. in reference folder there are multiple projects as child folder.
-8. reportCards.js is present in */reportCards.js* file and it uses Mongo Realm database querying
-9. program summmary is same as enrolment summary
-10. offline dashboard report is same as report card
-11. db variable is the Realm database instance
-12. There is no SQL database, so queries always mean Realm queries
+21. lodash
+22. realm
+23. moment
