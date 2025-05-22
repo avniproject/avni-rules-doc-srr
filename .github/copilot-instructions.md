@@ -13,8 +13,8 @@
     - Visit Schedule Rule. In reference present in "visitScheduleRule".
     - Decision Rule. In reference present in "decisionRule".
     - Validation Rule. In reference present in "validationRule".
-    - Encounter Eligibility Check Rule. In reference present in "encounterEligibilityCheckRule".
-    - Enrolment Eligibility Check Rule. In reference present in "enrolmentEligibilityCheckRule".
+    - Encounter Eligibility Check Rule. In reference present in "entityEligibilityCheckRule" in encounterTypes.js.
+    - Enrolment Eligibility Check Rule. In reference present in "entityEligibilityCheckRule" in programs.js.
     - Task Schedule Rule.
     - Checklists Rule
     - Worklist Rule. In reference present in "worklistUpdationRule".
@@ -37,6 +37,8 @@
 - reportCards.js is present in */reportCards.js* file and it uses Mongo Realm database querying
 - Individual, ProgramEncounter, Encounter, ProgramEnrolment contain some core fields and other key value type of fields. Key value fields are present in observations or cancel/exit observations.
 - Do not provide references and patterns used links in the generated code response.
+- In reference ignore everything that has is like declarative rule.
+- RuleEvaluationService is the caller of these rules with a method for each rule.
 
 ### Following libraries are used. But these are not rules code.
 1. https://github.com/avniproject/rules-config/blob/master/src/rules/builder/AdditionalComplicationsBuilder.js
