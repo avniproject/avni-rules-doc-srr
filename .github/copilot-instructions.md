@@ -3,6 +3,7 @@
 } instead of function(params, imports) {
 }
 - Never generate anything other than JS code.
+- Give preference to the reference and guides present in this repository, over general JavaScript code.
 - All rule code is like present in guides and reference folder only.
 - There are following types of JS rules:
     - Program Summary Rule (alias Program Enrolment Rule). In guide present in "enrolmentSummaryRule" in programs.js.
