@@ -88,31 +88,6 @@
   ],
   "decisionRule": "",
   "visitScheduleRule": "",
-  "validationRule" : 
-({params, imports}) => {
-  const programEncounter = params.entity;
-  const validationResults = [];
-  const formElement = params.formElement;
-  const _ = imports.lodash;
-  let validationErrors = [];
-  let documentDetails = programEncounter.findGroupedObservation("4b40e085-813c-426a-9d3b-5f2ed1b0d690");
-  if(documentDetails && documentDetails.length > 0){
-
-    for(let i = 0;i<documentDetails.length;i++){
-    let currentQuestionGroup = documentDetails[i]
-    let uploadFile = currentQuestionGroup.findObservationByConceptUUID("843df6e9-d8d5-4b9d-a4f8-4ac4f0c277d4");
-    let uploadImage =  currentQuestionGroup.findObservationByConceptUUID("82ca5799-ec9c-4d6e-9bc5-947045530be9");
-
-
-    if((uploadFile === null || uploadFile === undefined) && (uploadImage === null || uploadImage === undefined)){
-        let validationError = imports.common.createValidationError('Please upload either image or file');
-        validationResults.push(validationError);
-    }
-}
-}  
-return validationResults;
-}
-,
   "checklistsRule": "",
   "decisionConcepts": []
 }

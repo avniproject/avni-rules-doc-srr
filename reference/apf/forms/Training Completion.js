@@ -121,7 +121,7 @@
           },
           "displayOrder": 1,
           "type": "MultiSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const individual = encounter.individual;
@@ -134,8 +134,8 @@
   let answersToSkip = [];
   let validationErrors = [];
 
-  let previousTraingEncounter = individual.getEncounters(true).filter((enc)=> 
-    enc.encounterType.name === 'Training' && 
+  let previousTraingEncounter = individual.getEncounters(true).filter((enc)=>
+    enc.encounterType.name === 'Training' &&
     moment(enc.encounterDateTime).format('MMMM YYYY') == lastMonthYear
   );
 
@@ -167,7 +167,7 @@
           },
           "displayOrder": 2,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const individual = encounter.individual;
@@ -180,8 +180,8 @@
   let answersToSkip = [];
   let validationErrors = [];
 
-  let previousTraingEncounter = individual.getEncounters(true).filter((enc)=> 
-    enc.encounterType.name === 'Training' && 
+  let previousTraingEncounter = individual.getEncounters(true).filter((enc)=>
+    enc.encounterType.name === 'Training' &&
     moment(enc.encounterDateTime).format('MMMM YYYY') == lastMonthYear
   );
 
@@ -335,7 +335,7 @@
           },
           "displayOrder": 4,
           "type": "MultiSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const moment = imports.moment;
@@ -345,22 +345,22 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const isTrainingIncomplete = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("845560bd-23d1-4137-9781-ec7ebdd12e89").containsAnswerConceptName("a77bd700-1409-4d52-93bc-9fe32c0e169b").matches();
-  
+
   visibility = isTrainingIncomplete ;
 
   let allTopics = [
-    '153995c3-b8c9-474e-8189-d5379b7df494', 
-    'dde6f1c8-e34e-4d80-8ebb-8e6783fd8da6', 
-    '0affbeca-d684-4f32-ad7c-bec1ddccbe62', 
-    '2d2deb9f-6cff-4f08-bb31-a450807edeab', 
-    '76619bc7-3128-4488-a2e7-f52bf7e4f816', 
-    '25d6ba07-5642-47c1-83f0-5324e3019176', 
-    'faa583de-ead4-4380-98d5-41f625fd5c8a', 
-    'cc3e6a09-b001-4cb8-9af4-f51a325aa24e', 
-    'a6183014-1bd2-4e3e-8086-9345892f8407', 
-    '1e76ca83-ca61-4aa1-bc01-da96c176c8a9', 
+    '153995c3-b8c9-474e-8189-d5379b7df494',
+    'dde6f1c8-e34e-4d80-8ebb-8e6783fd8da6',
+    '0affbeca-d684-4f32-ad7c-bec1ddccbe62',
+    '2d2deb9f-6cff-4f08-bb31-a450807edeab',
+    '76619bc7-3128-4488-a2e7-f52bf7e4f816',
+    '25d6ba07-5642-47c1-83f0-5324e3019176',
+    'faa583de-ead4-4380-98d5-41f625fd5c8a',
+    'cc3e6a09-b001-4cb8-9af4-f51a325aa24e',
+    'a6183014-1bd2-4e3e-8086-9345892f8407',
+    '1e76ca83-ca61-4aa1-bc01-da96c176c8a9',
     'cd62e21a-eadd-4aba-8809-b39caad128eb'
   ]
 
@@ -374,7 +374,7 @@
       if (answerToSkip) answersToSkip.push(answerToSkip);
     });
   }
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "mandatory": true
@@ -417,7 +417,7 @@
           },
           "displayOrder": 5,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const moment = imports.moment;
@@ -427,11 +427,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("845560bd-23d1-4137-9781-ec7ebdd12e89").containsAnswerConceptName("8ebbf088-f292-483e-9084-7de919ce67b7").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -475,20 +475,20 @@
           "mandatory": true
         }
       ],
-      "rule" : 
+      "rule" :
 ({params, imports}) => {
     const encounter = params.entity;
     const moment = imports.moment;
     const formElementGroup = params.formElementGroup;
     const _ = imports.lodash;
     let visibility = true;
-    
+
     const isOverDue = moment(encounter.maxVisitDateTime).isBefore(moment(), 'day');
-    
+
     return formElementGroup.formElements.map((formElement) => {
-  
+
         visibility = !isOverDue ;
-  
+
         return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, null);
     });
 },
@@ -546,7 +546,7 @@
           },
           "displayOrder": 1,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const moment = imports.moment;
@@ -556,11 +556,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("afe56aa6-c231-46fc-94dc-0fcbaf6ef1d1").containsAnswerConceptName("f3c4b008-554b-4226-aa3f-09084e35f38f").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -615,7 +615,7 @@
           },
           "displayOrder": 3,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const moment = imports.moment;
@@ -625,9 +625,9 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const dateOfTrainingDefined = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("f6b2dda6-0e82-4574-9610-d9e60c4595db").defined.matches();
-  
+
   if(dateOfTrainingDefined) {
 
     const currentDate = moment();
@@ -635,7 +635,7 @@
 
     if(dateOfTraining.isAfter(currentDate, 'day')) validationErrors.push("Date cannot be in the future");
   }
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "mandatory": true
@@ -653,7 +653,7 @@
           },
           "displayOrder": 4,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const moment = imports.moment;
@@ -663,11 +663,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("afe56aa6-c231-46fc-94dc-0fcbaf6ef1d1").containsAnswerConceptName("f3c4b008-554b-4226-aa3f-09084e35f38f").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -711,7 +711,7 @@
           "mandatory": true
         }
       ],
-      "rule" : 
+      "rule" :
 ({params, imports}) => {
     const encounter = params.entity;
     const moment = imports.moment;
@@ -720,15 +720,15 @@
     let visibility = true;
 
     return formElementGroup.formElements.map((formElement) => {
-        
+
         const isGrowthMonitoringTrainingReqested = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("ae7ca272-c8e8-4d49-92db-1dca212b83fe").containsAnswerConceptName("25d6ba07-5642-47c1-83f0-5324e3019176").matches();
 
         const traingDoneForAllTopics =  new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("845560bd-23d1-4137-9781-ec7ebdd12e89").containsAnswerConceptName("8ebbf088-f292-483e-9084-7de919ce67b7").matches();
 
         const isGrowthMonitoringTrainingNotDone = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("6f234049-60e8-4d8f-b70a-7a7712f6398b").containsAnswerConceptName("25d6ba07-5642-47c1-83f0-5324e3019176").matches();
-        
+
         visibility = isGrowthMonitoringTrainingReqested && (traingDoneForAllTopics || !isGrowthMonitoringTrainingNotDone) ;
-  
+
         return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, null);
     });
 },
@@ -786,7 +786,7 @@
           },
           "displayOrder": 1,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const moment = imports.moment;
@@ -796,11 +796,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("983f4e47-7f48-446e-ba39-c2246340c58d").containsAnswerConceptName("f3c4b008-554b-4226-aa3f-09084e35f38f").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -855,7 +855,7 @@
           },
           "displayOrder": 3,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const moment = imports.moment;
@@ -865,9 +865,9 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const dateOfTrainingDefined = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("56509cda-720e-40b3-983c-f04da7fec2a1").defined.matches();
-  
+
   if(dateOfTrainingDefined) {
 
     const currentDate = moment();
@@ -875,13 +875,13 @@
 
     if(dateOfTraining.isAfter(currentDate, 'day')) validationErrors.push("Date cannot be in the future");
   }
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "mandatory": true
         }
       ],
-      "rule" : 
+      "rule" :
 ({params, imports}) => {
     const encounter = params.entity;
     const moment = imports.moment;
@@ -890,15 +890,15 @@
     let visibility = true;
 
     return formElementGroup.formElements.map((formElement) => {
-        
+
         const isHighRiskPregnancyTrainingReqested = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("ae7ca272-c8e8-4d49-92db-1dca212b83fe").containsAnswerConceptName("0affbeca-d684-4f32-ad7c-bec1ddccbe62").matches();
 
         const traingDoneForAllTopics =  new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("845560bd-23d1-4137-9781-ec7ebdd12e89").containsAnswerConceptName("8ebbf088-f292-483e-9084-7de919ce67b7").matches();
 
         const isHighRiskPregnancyTrainingNotDone = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("6f234049-60e8-4d8f-b70a-7a7712f6398b").containsAnswerConceptName("0affbeca-d684-4f32-ad7c-bec1ddccbe62").matches();
-        
+
         visibility = isHighRiskPregnancyTrainingReqested && (traingDoneForAllTopics || !isHighRiskPregnancyTrainingNotDone) ;
-  
+
         return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, null);
     });
 },
@@ -956,7 +956,7 @@
           },
           "displayOrder": 1,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const moment = imports.moment;
@@ -966,11 +966,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("c6a9ce67-3ee2-4a63-8319-78ad9cab835d").containsAnswerConceptName("f3c4b008-554b-4226-aa3f-09084e35f38f").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -1025,7 +1025,7 @@
           },
           "displayOrder": 3,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const moment = imports.moment;
@@ -1035,9 +1035,9 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const dateOfTrainingDefined = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("74f97fad-3b66-4028-9d5d-446918b88af5").defined.matches();
-  
+
   if(dateOfTrainingDefined) {
 
     const currentDate = moment();
@@ -1045,13 +1045,13 @@
 
     if(dateOfTraining.isAfter(currentDate, 'day')) validationErrors.push("Date cannot be in the future");
   }
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "mandatory": true
         }
       ],
-      "rule" : 
+      "rule" :
 ({params, imports}) => {
     const encounter = params.entity;
     const moment = imports.moment;
@@ -1060,15 +1060,15 @@
     let visibility = true;
 
     return formElementGroup.formElements.map((formElement) => {
-        
+
         const isVHSNDTrainingReqested = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("ae7ca272-c8e8-4d49-92db-1dca212b83fe").containsAnswerConceptName("dde6f1c8-e34e-4d80-8ebb-8e6783fd8da6").matches();
 
         const traingDoneForAllTopics =  new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("845560bd-23d1-4137-9781-ec7ebdd12e89").containsAnswerConceptName("8ebbf088-f292-483e-9084-7de919ce67b7").matches();
 
         const isVHSNDTrainingNotDone = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("6f234049-60e8-4d8f-b70a-7a7712f6398b").containsAnswerConceptName("dde6f1c8-e34e-4d80-8ebb-8e6783fd8da6").matches();
-        
+
         visibility = isVHSNDTrainingReqested && (traingDoneForAllTopics || !isVHSNDTrainingNotDone) ;
-  
+
         return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, null);
     });
 },
@@ -1126,7 +1126,7 @@
           },
           "displayOrder": 1,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const moment = imports.moment;
@@ -1136,11 +1136,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("988b55f3-bbe7-43b4-8c31-5a4312fab6ae").containsAnswerConceptName("f3c4b008-554b-4226-aa3f-09084e35f38f").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -1195,7 +1195,7 @@
           },
           "displayOrder": 3,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const moment = imports.moment;
@@ -1205,9 +1205,9 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const dateOfTrainingDefined = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("bac0fab8-1c8e-4686-a28a-24dcc00adadb").defined.matches();
-  
+
   if(dateOfTrainingDefined) {
 
     const currentDate = moment();
@@ -1215,13 +1215,13 @@
 
     if(dateOfTraining.isAfter(currentDate, 'day')) validationErrors.push("Date cannot be in the future");
   }
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "mandatory": true
         }
       ],
-      "rule" : 
+      "rule" :
 ({params, imports}) => {
     const encounter = params.entity;
     const moment = imports.moment;
@@ -1230,15 +1230,15 @@
     let visibility = true;
 
     return formElementGroup.formElements.map((formElement) => {
-        
+
         const isHomeBasedNewbornCareTrainingReqested = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("ae7ca272-c8e8-4d49-92db-1dca212b83fe").containsAnswerConceptName("2d2deb9f-6cff-4f08-bb31-a450807edeab").matches();
 
         const traingDoneForAllTopics =  new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("845560bd-23d1-4137-9781-ec7ebdd12e89").containsAnswerConceptName("8ebbf088-f292-483e-9084-7de919ce67b7").matches();
 
         const isHomeBasedNewbornCareTrainingNotDone = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("6f234049-60e8-4d8f-b70a-7a7712f6398b").containsAnswerConceptName("2d2deb9f-6cff-4f08-bb31-a450807edeab").matches();
-        
+
         visibility = isHomeBasedNewbornCareTrainingReqested && (traingDoneForAllTopics || !isHomeBasedNewbornCareTrainingNotDone) ;
-  
+
         return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, null);
     });
 },
@@ -1296,7 +1296,7 @@
           },
           "displayOrder": 1,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const moment = imports.moment;
@@ -1306,11 +1306,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("d017ad46-e754-4e19-b3ba-f570538bc7b8").containsAnswerConceptName("f3c4b008-554b-4226-aa3f-09084e35f38f").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -1365,7 +1365,7 @@
           },
           "displayOrder": 3,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const moment = imports.moment;
@@ -1375,9 +1375,9 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const dateOfTrainingDefined = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("85229736-86ec-4938-87cb-d84c90a30c15").defined.matches();
-  
+
   if(dateOfTrainingDefined) {
 
     const currentDate = moment();
@@ -1385,13 +1385,13 @@
 
     if(dateOfTraining.isAfter(currentDate, 'day')) validationErrors.push("Date cannot be in the future");
   }
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "mandatory": true
         }
       ],
-      "rule" : 
+      "rule" :
 ({params, imports}) => {
     const encounter = params.entity;
     const moment = imports.moment;
@@ -1400,15 +1400,15 @@
     let visibility = true;
 
     return formElementGroup.formElements.map((formElement) => {
-        
+
         const isCounsellingAndHomeVisitToPregnantWomenTrainingReqested = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("ae7ca272-c8e8-4d49-92db-1dca212b83fe").containsAnswerConceptName("faa583de-ead4-4380-98d5-41f625fd5c8a").matches();
 
         const traingDoneForAllTopics =  new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("845560bd-23d1-4137-9781-ec7ebdd12e89").containsAnswerConceptName("8ebbf088-f292-483e-9084-7de919ce67b7").matches();
 
         const isCounsellingAndHomeVisitToPregnantWomenTrainingNotDone = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("6f234049-60e8-4d8f-b70a-7a7712f6398b").containsAnswerConceptName("faa583de-ead4-4380-98d5-41f625fd5c8a").matches();
-        
+
         visibility = isCounsellingAndHomeVisitToPregnantWomenTrainingReqested && (traingDoneForAllTopics || !isCounsellingAndHomeVisitToPregnantWomenTrainingNotDone) ;
-  
+
         return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, null);
     });
 },
@@ -1466,7 +1466,7 @@
           },
           "displayOrder": 1,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const moment = imports.moment;
@@ -1476,11 +1476,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("d9812a50-4740-42ea-b37e-b61f33f9d0b8").containsAnswerConceptName("f3c4b008-554b-4226-aa3f-09084e35f38f").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -1535,7 +1535,7 @@
           },
           "displayOrder": 3,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const moment = imports.moment;
@@ -1545,9 +1545,9 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const dateOfTrainingDefined = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("4e8721aa-a8b6-436e-9796-ccb6ad244c58").defined.matches();
-  
+
   if(dateOfTrainingDefined) {
 
     const currentDate = moment();
@@ -1555,13 +1555,13 @@
 
     if(dateOfTraining.isAfter(currentDate, 'day')) validationErrors.push("Date cannot be in the future");
   }
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "mandatory": true
         }
       ],
-      "rule" : 
+      "rule" :
 ({params, imports}) => {
     const encounter = params.entity;
     const moment = imports.moment;
@@ -1570,15 +1570,15 @@
     let visibility = true;
 
     return formElementGroup.formElements.map((formElement) => {
-        
+
         const isEntitlementsTrainingReqested = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("ae7ca272-c8e8-4d49-92db-1dca212b83fe").containsAnswerConceptName("153995c3-b8c9-474e-8189-d5379b7df494").matches();
 
         const traingDoneForAllTopics =  new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("845560bd-23d1-4137-9781-ec7ebdd12e89").containsAnswerConceptName("8ebbf088-f292-483e-9084-7de919ce67b7").matches();
 
         const isEntitlementsTrainingNotDone = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("6f234049-60e8-4d8f-b70a-7a7712f6398b").containsAnswerConceptName("153995c3-b8c9-474e-8189-d5379b7df494").matches();
-        
+
         visibility = isEntitlementsTrainingReqested && (traingDoneForAllTopics || !isEntitlementsTrainingNotDone) ;
-  
+
         return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, null);
     });
 },
@@ -1636,7 +1636,7 @@
           },
           "displayOrder": 1,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const moment = imports.moment;
@@ -1646,11 +1646,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("d6ede59d-c029-4661-85c5-e97f5004f90e").containsAnswerConceptName("f3c4b008-554b-4226-aa3f-09084e35f38f").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -1705,7 +1705,7 @@
           },
           "displayOrder": 3,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const moment = imports.moment;
@@ -1715,9 +1715,9 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const dateOfTrainingDefined = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("09bf2341-ee14-4154-922c-ddc384a711eb").defined.matches();
-  
+
   if(dateOfTrainingDefined) {
 
     const currentDate = moment();
@@ -1725,13 +1725,13 @@
 
     if(dateOfTraining.isAfter(currentDate, 'day')) validationErrors.push("Date cannot be in the future");
   }
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "mandatory": true
         }
       ],
-      "rule" : 
+      "rule" :
 ({params, imports}) => {
     const encounter = params.entity;
     const moment = imports.moment;
@@ -1740,15 +1740,15 @@
     let visibility = true;
 
     return formElementGroup.formElements.map((formElement) => {
-        
+
         const isBreastfeedingAndDietaryPatternTrainingReqested = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("ae7ca272-c8e8-4d49-92db-1dca212b83fe").containsAnswerConceptName("cc3e6a09-b001-4cb8-9af4-f51a325aa24e").matches();
 
         const traingDoneForAllTopics =  new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("845560bd-23d1-4137-9781-ec7ebdd12e89").containsAnswerConceptName("8ebbf088-f292-483e-9084-7de919ce67b7").matches();
 
         const isBreastfeedingAndDietaryPatternTrainingNotDone = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("6f234049-60e8-4d8f-b70a-7a7712f6398b").containsAnswerConceptName("cc3e6a09-b001-4cb8-9af4-f51a325aa24e").matches();
-        
+
         visibility = isBreastfeedingAndDietaryPatternTrainingReqested && (traingDoneForAllTopics || !isBreastfeedingAndDietaryPatternTrainingNotDone) ;
-  
+
         return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, null);
     });
 },
@@ -1806,7 +1806,7 @@
           },
           "displayOrder": 1,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const moment = imports.moment;
@@ -1816,11 +1816,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("1f44b6ab-2084-4c4d-b8ae-0f6e417c210e").containsAnswerConceptName("f3c4b008-554b-4226-aa3f-09084e35f38f").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -1875,7 +1875,7 @@
           },
           "displayOrder": 3,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const moment = imports.moment;
@@ -1885,9 +1885,9 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const dateOfTrainingDefined = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("b9ab266c-4659-4fd2-b422-1ba2d19205b8").defined.matches();
-  
+
   if(dateOfTrainingDefined) {
 
     const currentDate = moment();
@@ -1895,13 +1895,13 @@
 
     if(dateOfTraining.isAfter(currentDate, 'day')) validationErrors.push("Date cannot be in the future");
   }
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "mandatory": true
         }
       ],
-      "rule" : 
+      "rule" :
 ({params, imports}) => {
     const encounter = params.entity;
     const moment = imports.moment;
@@ -1910,15 +1910,15 @@
     let visibility = true;
 
     return formElementGroup.formElements.map((formElement) => {
-        
+
         const isCounsellingToSamMamOrGf2TrainingReqested = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("ae7ca272-c8e8-4d49-92db-1dca212b83fe").containsAnswerConceptName("1e76ca83-ca61-4aa1-bc01-da96c176c8a9").matches();
 
         const traingDoneForAllTopics =  new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("845560bd-23d1-4137-9781-ec7ebdd12e89").containsAnswerConceptName("8ebbf088-f292-483e-9084-7de919ce67b7").matches();
 
         const isCounsellingToSamMamOrGf2TrainingNotDone = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("6f234049-60e8-4d8f-b70a-7a7712f6398b").containsAnswerConceptName("1e76ca83-ca61-4aa1-bc01-da96c176c8a9").matches();
-        
+
         visibility = isCounsellingToSamMamOrGf2TrainingReqested && (traingDoneForAllTopics || !isCounsellingToSamMamOrGf2TrainingNotDone) ;
-  
+
         return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, null);
     });
 },
@@ -1976,7 +1976,7 @@
           },
           "displayOrder": 1,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const moment = imports.moment;
@@ -1986,11 +1986,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("8c1b4ae5-a2af-4594-8992-ed6bbd2d6eb6").containsAnswerConceptName("f3c4b008-554b-4226-aa3f-09084e35f38f").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -2045,7 +2045,7 @@
           },
           "displayOrder": 3,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const moment = imports.moment;
@@ -2055,9 +2055,9 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const dateOfTrainingDefined = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("03d7e277-a1f7-4941-a42c-f42d9253f8cc").defined.matches();
-  
+
   if(dateOfTrainingDefined) {
 
     const currentDate = moment();
@@ -2065,13 +2065,13 @@
 
     if(dateOfTraining.isAfter(currentDate, 'day')) validationErrors.push("Date cannot be in the future");
   }
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "mandatory": true
         }
       ],
-      "rule" : 
+      "rule" :
 ({params, imports}) => {
     const encounter = params.entity;
     const moment = imports.moment;
@@ -2080,15 +2080,15 @@
     let visibility = true;
 
     return formElementGroup.formElements.map((formElement) => {
-        
+
         const isAvniTrainingReqested = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("ae7ca272-c8e8-4d49-92db-1dca212b83fe").containsAnswerConceptName("a6183014-1bd2-4e3e-8086-9345892f8407").matches();
 
         const traingDoneForAllTopics =  new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("845560bd-23d1-4137-9781-ec7ebdd12e89").containsAnswerConceptName("8ebbf088-f292-483e-9084-7de919ce67b7").matches();
 
         const isAvniTrainingNotDone = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("6f234049-60e8-4d8f-b70a-7a7712f6398b").containsAnswerConceptName("a6183014-1bd2-4e3e-8086-9345892f8407").matches();
-        
+
         visibility = isAvniTrainingReqested && (traingDoneForAllTopics || !isAvniTrainingNotDone) ;
-  
+
         return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, null);
     });
 },
@@ -2146,7 +2146,7 @@
           },
           "displayOrder": 1,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const moment = imports.moment;
@@ -2156,11 +2156,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("d860aff9-ca9b-4bff-93a2-c827d1a53649").containsAnswerConceptName("f3c4b008-554b-4226-aa3f-09084e35f38f").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -2215,7 +2215,7 @@
           },
           "displayOrder": 3,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const moment = imports.moment;
@@ -2225,9 +2225,9 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const dateOfTrainingDefined = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("6e9262a0-3859-497c-9304-91838f3fa490").defined.matches();
-  
+
   if(dateOfTrainingDefined) {
 
     const currentDate = moment();
@@ -2235,13 +2235,13 @@
 
     if(dateOfTraining.isAfter(currentDate, 'day')) validationErrors.push("Date cannot be in the future");
   }
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "mandatory": true
         }
       ],
-      "rule" : 
+      "rule" :
 ({params, imports}) => {
     const encounter = params.entity;
     const moment = imports.moment;
@@ -2250,15 +2250,15 @@
     let visibility = true;
 
     return formElementGroup.formElements.map((formElement) => {
-        
+
         const isOtherTopicsTrainingReqested = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("ae7ca272-c8e8-4d49-92db-1dca212b83fe").containsAnswerConceptName("cd62e21a-eadd-4aba-8809-b39caad128eb").matches();
 
         const traingDoneForAllTopics =  new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("845560bd-23d1-4137-9781-ec7ebdd12e89").containsAnswerConceptName("8ebbf088-f292-483e-9084-7de919ce67b7").matches();
 
         const isOtherTopicsTrainingNotDone = new imports.rulesConfig.RuleCondition({encounter, formElement}).when.valueInEncounter("6f234049-60e8-4d8f-b70a-7a7712f6398b").containsAnswerConceptName("cd62e21a-eadd-4aba-8809-b39caad128eb").matches();
-        
+
         visibility = isOtherTopicsTrainingReqested && (traingDoneForAllTopics || !isOtherTopicsTrainingNotDone) ;
-  
+
         return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, null);
     });
 },
@@ -2268,20 +2268,6 @@
   ],
   "decisionRule": "",
   "visitScheduleRule": "",
-  "validationRule" : 
-({params, imports}) => {
-  const encounter = params.entity;
-  const moment = imports.moment;
-  const validationResults = [];
-  
-  const isOverDue = moment(encounter.maxVisitDateTime).isBefore(moment(), 'day');
-  
-  if(isOverDue){
-    validationResults.push(imports.common.createValidationError("Overdue forms cannot be filled, please cancel this form so that next due form can be scheduled"));  
-  }
-  
-  return validationResults;
-},
   "checklistsRule": "",
   "decisionConcepts": []
 }

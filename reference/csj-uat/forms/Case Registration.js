@@ -21,7 +21,7 @@
           },
           "displayOrder": 1,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -31,11 +31,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("7d720c7b-7f5c-43f7-a091-6f5cff171c21").containsAnswerConceptName("03ead610-1596-4a1f-b57d-07792c6e66b6").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -91,7 +91,7 @@
           },
           "displayOrder": 5,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -101,11 +101,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("7d720c7b-7f5c-43f7-a091-6f5cff171c21").containsAnswerConceptName("03ead610-1596-4a1f-b57d-07792c6e66b6").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -272,18 +272,18 @@
           "mandatory": false
         }
       ],
-      "rule" : 
+      "rule" :
 ({params, imports}) => {
     const individual = params.entity;
     const moment = imports.moment;
     const formElementGroup = params.formElementGroup;
     const _ = imports.lodash;
     let visibility = true;
-    
+
     return formElementGroup.formElements.map((formElement) => {
-    
+
         if(individual) {
-            
+
             if(!individual.lowestAddressLevel || individual.lowestAddressLevel.name.length == 0) {
                 individual.firstName = "Case: ";
                 individual.name = "Case: ";
@@ -292,7 +292,7 @@
                 individual.name = "Case: " + individual.lowestAddressLevel.name;
             }
         }
-        
+
         return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, null);
     });
 },
@@ -349,7 +349,7 @@
           },
           "displayOrder": 2,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -359,11 +359,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("8a45b281-8e39-4ea7-9e85-58dfd186275d").containsAnswerConceptName("03ead610-1596-4a1f-b57d-07792c6e66b6").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -418,7 +418,7 @@
           },
           "displayOrder": 3,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -428,11 +428,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("8a45b281-8e39-4ea7-9e85-58dfd186275d").containsAnswerConceptName("03ead610-1596-4a1f-b57d-07792c6e66b6").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -762,7 +762,7 @@
           },
           "displayOrder": 11,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -772,11 +772,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("2cee655a-dac6-463e-9beb-abc5dc4a214b").containsAnswerConceptName("5fd7069b-13ce-45f2-a086-d80efce951d5").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -1015,7 +1015,7 @@
           },
           "displayOrder": 14,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -1025,11 +1025,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("f7408a66-5974-4feb-8d7e-6648fb4f41cb").containsAnswerConceptName("da2df86f-a9c0-44e3-b6e4-f3d30bf0a93b").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -1399,7 +1399,7 @@
           },
           "displayOrder": 10,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -1409,11 +1409,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("49b3302d-c1d7-4cc6-bbd4-5bd907def7ea").containsAnswerConceptName("08c76ffc-ef68-471f-a95d-78a65fad6617").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -1704,7 +1704,7 @@
           },
           "displayOrder": 1,
           "type": "MultiSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -1714,13 +1714,13 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("17095076-3b48-4954-b8aa-b70e4c6d2930").containsAnswerConceptNameOtherThan("4012e98a-eb61-47fb-9f33-afeb3a66fff9").matches();
-    
+
   const condition12 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("4987907c-78bf-4297-88e4-ef831d8d9c4c").containsAnswerConceptNameOtherThan("dc5d596d-3f05-4a48-ae28-a9faf4155a18").and.when.valueInRegistration("4987907c-78bf-4297-88e4-ef831d8d9c4c").containsAnswerConceptNameOtherThan("5f88add0-3407-48cc-ba89-5f9218aa6e5a").matches();
-  
+
   const condition22 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("eb7b6609-c2aa-4697-8a18-fc9261bb983b").containsAnyAnswerConceptName("dc5d596d-3f05-4a48-ae28-a9faf4155a18","5f88add0-3407-48cc-ba89-5f9218aa6e5a").and.when.valueInRegistration("4987907c-78bf-4297-88e4-ef831d8d9c4c").containsAnyAnswerConceptName("dc5d596d-3f05-4a48-ae28-a9faf4155a18","5f88add0-3407-48cc-ba89-5f9218aa6e5a").matches();
-  
+
   if(condition11 ) {
     _.forEach(["65fda2ac-cdae-4f2a-af78-9cafb0b6f237"], (answer) => {
         const answerToSkip = formElement.getAnswerWithConceptUuid(answer);
@@ -1733,7 +1733,7 @@
         if (answerToSkip) answersToSkip.push(answerToSkip);
     });
 };
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -1908,7 +1908,7 @@
           },
           "displayOrder": 2,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -1918,11 +1918,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("05865e79-c454-47c2-af03-fc719213b576").containsAnswerConceptName("92a93d51-4899-45d3-af53-99c3bf3d7768").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -2099,7 +2099,7 @@
           },
           "displayOrder": 3,
           "type": "MultiSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -2109,11 +2109,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("05865e79-c454-47c2-af03-fc719213b576").containsAnswerConceptName("65fda2ac-cdae-4f2a-af78-9cafb0b6f237").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -2169,7 +2169,7 @@
           },
           "displayOrder": 4,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -2179,11 +2179,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("57df7482-20dc-4af0-87ce-c4110df7fdf3").containsAnswerConceptName("25a56761-2ed4-4e77-8eda-ed5f55639905").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -2288,7 +2288,7 @@
           },
           "displayOrder": 5,
           "type": "MultiSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -2298,11 +2298,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("05865e79-c454-47c2-af03-fc719213b576").containsAnswerConceptName("fb503cbc-5051-4c40-8d98-dec8ef0d2758").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -2358,7 +2358,7 @@
           },
           "displayOrder": 6,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -2368,11 +2368,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("3db5dae3-5b17-4d0d-9a4d-f1878d4c2243").containsAnswerConceptName("e871a269-4f18-47ba-8022-9121d50fa551").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -2477,7 +2477,7 @@
           },
           "displayOrder": 7,
           "type": "MultiSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -2487,11 +2487,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("05865e79-c454-47c2-af03-fc719213b576").containsAnswerConceptName("f7ce17cd-b888-45f1-a976-8dcf028efbed").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -2547,7 +2547,7 @@
           },
           "displayOrder": 8,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -2557,11 +2557,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("30df70d5-96c0-4147-95a3-d6196b1e7924").containsAnswerConceptName("a2d80800-19b4-41f0-9b9e-98be1f6ba516").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -2633,7 +2633,7 @@
           },
           "displayOrder": 9,
           "type": "MultiSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -2643,11 +2643,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("05865e79-c454-47c2-af03-fc719213b576").containsAnswerConceptName("096d5dcf-4e69-4c17-93e4-90d54fc8798e").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -2702,7 +2702,7 @@
           },
           "displayOrder": 10,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -2712,11 +2712,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("2897555a-ba05-4dfe-9e34-7e98395c0792").containsAnswerConceptName("c4133e8f-f73b-43ad-a567-aae943862c02").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -2805,7 +2805,7 @@
           },
           "displayOrder": 11,
           "type": "MultiSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -2815,11 +2815,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("05865e79-c454-47c2-af03-fc719213b576").containsAnswerConceptName("e3cb96f0-62e7-4428-b136-d325c587d0e6").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -2875,7 +2875,7 @@
           },
           "displayOrder": 12,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -2885,11 +2885,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("8ffdedc8-d8e4-4808-aa60-7b074a1a5958").containsAnswerConceptName("5d71b848-5577-4639-80eb-250cffed6396").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -2994,7 +2994,7 @@
           },
           "displayOrder": 13,
           "type": "MultiSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -3004,11 +3004,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("05865e79-c454-47c2-af03-fc719213b576").containsAnswerConceptName("b5db4acf-4161-4b5b-a495-a8a42a854868").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -3064,7 +3064,7 @@
           },
           "displayOrder": 14,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -3074,11 +3074,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("ed44e193-f685-4911-b997-ba04b007e8ad").containsAnswerConceptName("681a8498-6a65-4a38-a87b-88482e231f0f").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -3183,7 +3183,7 @@
           },
           "displayOrder": 15,
           "type": "MultiSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -3193,11 +3193,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("05865e79-c454-47c2-af03-fc719213b576").containsAnswerConceptName("5290aa15-0073-4e27-b673-b5821fdf11a7").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -3253,7 +3253,7 @@
           },
           "displayOrder": 16,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -3263,11 +3263,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("2c886435-bb26-4206-9fd4-7811083a5871").containsAnswerConceptName("5c4c38d2-dca0-43ff-b0b9-4c41317fcbf9").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -3372,7 +3372,7 @@
           },
           "displayOrder": 17,
           "type": "MultiSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -3382,11 +3382,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("05865e79-c454-47c2-af03-fc719213b576").containsAnswerConceptName("06709008-bebd-4ca9-a04e-0423131eba7c").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -3442,7 +3442,7 @@
           },
           "displayOrder": 18,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -3452,11 +3452,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("197b8fef-49a9-428d-adda-f8c9f1f800da").containsAnswerConceptName("9e7596a1-fd99-4abd-a25a-09038b134da0").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -3537,7 +3537,7 @@
           },
           "displayOrder": 19,
           "type": "MultiSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -3547,11 +3547,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("05865e79-c454-47c2-af03-fc719213b576").containsAnswerConceptName("631bd65d-5257-4db1-9612-b0b861ff3957").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -3607,7 +3607,7 @@
           },
           "displayOrder": 20,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -3617,11 +3617,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("74056c05-df3f-4e9e-aa2f-ffcedc98cd16").containsAnswerConceptName("0dfa87a8-d98b-4577-896b-596ff368c5a5").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -3734,7 +3734,7 @@
           },
           "displayOrder": 21,
           "type": "MultiSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -3744,11 +3744,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("05865e79-c454-47c2-af03-fc719213b576").containsAnswerConceptName("c22d37aa-7891-4302-8779-422617f0fc24").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -3804,7 +3804,7 @@
           },
           "displayOrder": 22,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -3814,11 +3814,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("0122fe96-a79b-4f6f-8ed2-c050998cb642").containsAnswerConceptName("49273865-66d2-48f2-9956-7f31ac9ba7a9").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -3915,7 +3915,7 @@
           },
           "displayOrder": 23,
           "type": "MultiSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -3925,11 +3925,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("05865e79-c454-47c2-af03-fc719213b576").containsAnswerConceptName("af8c13be-ced0-424c-b5bb-0e8e12b3bb29").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -3985,7 +3985,7 @@
           },
           "displayOrder": 24,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -3995,11 +3995,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("0127d408-91fb-4eb1-906f-febbc882f69b").containsAnswerConceptName("b443105a-a13d-4e66-9078-35f992d02159").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -4216,7 +4216,7 @@
           },
           "displayOrder": 28,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({ params, imports }) => {
   const individual = params.entity;
   const formElement = params.formElement;
@@ -4331,7 +4331,7 @@
           },
           "displayOrder": 29,
           "type": "MultiSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const individual = params.entity;
   const moment = imports.moment;
@@ -4341,11 +4341,11 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   const condition11 = new imports.rulesConfig.RuleCondition({individual, formElement}).when.valueInRegistration("05865e79-c454-47c2-af03-fc719213b576").containsAnswerConceptName("7df1508b-c290-4628-8ac9-0e69d2790c51").matches();
-  
+
   visibility = condition11 ;
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "declarativeRule": [
@@ -4428,22 +4428,6 @@
   ],
   "decisionRule": "",
   "visitScheduleRule": "",
-  "validationRule" : 
-({params, imports}) => {
-  const individual = params.entity;
-  const moment = imports.moment;
-  const validationResults = [];
-  
-  const fileUpload = individual.getObservationValue("89261fc0-f4ca-4ff2-ad96-bd27d3eece37")
-  const ImageUpload = individual.getObservationValue("33ef4aad-8a5e-407a-897c-54cf989284f9")
-
-   if((fileUpload === null || fileUpload === undefined) && (ImageUpload === null || ImageUpload === undefined)){
-        let validationError = imports.common.createValidationError('Please upload either image or file');
-        validationResults.push(validationError);
-    }
-  
-  return validationResults;
-},
   "checklistsRule": "",
   "decisionConcepts": []
 }

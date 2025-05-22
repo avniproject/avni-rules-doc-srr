@@ -295,30 +295,6 @@
   ],
   "decisionRule": "",
   "visitScheduleRule": "",
-  "validationRule" : 
-({params, imports}) => {
-  const programEncounter = params.entity;
-  const validationResults = [];
-  const formElement = params.formElement;
-  const _ = imports.lodash;
-  let validationErrors = [];
-  let documentDetails = programEncounter.findGroupedObservation("26746aea-5579-4394-ae1c-ac6bfe2c8370");
-  if(documentDetails && documentDetails.length > 0){
-
-    for(let i = 0;i<documentDetails.length;i++){
-    let currentQuestionGroup = documentDetails[i]
-    let uploadFile = currentQuestionGroup.findObservationByConceptUUID("1fe8cc53-8b76-4130-9fb2-7219402dc941");
-    let uploadImage =  currentQuestionGroup.findObservationByConceptUUID("01999727-08f9-4d0d-886a-86ab3143ec36");
-
-
-    if((uploadFile === null || uploadFile === undefined) && (uploadImage === null || uploadImage === undefined)){
-        let validationError = imports.common.createValidationError('Please upload either image or file');
-        validationResults.push(validationError);
-    }
-}
-}  
-return validationResults;
-},
   "checklistsRule": "",
   "decisionConcepts": []
 }

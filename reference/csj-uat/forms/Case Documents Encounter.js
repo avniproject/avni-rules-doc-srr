@@ -142,7 +142,7 @@
           },
           "displayOrder": 3,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const moment = imports.moment;
@@ -152,18 +152,18 @@
   let value = null;
   let answersToSkip = [];
   let validationErrors = [];
-  
+
   let selectedDate = encounter.getObservationValue('8bb3fd94-f7b2-4b37-aa00-db81833ff379');
 
   if(selectedDate) {
-    
+
     const currentDate = moment().startOf('day');
     selectedDate = moment(selectedDate).startOf('day');
     if(selectedDate.isAfter(currentDate)){
         validationErrors.push("Invalid date: Future dates are not allowed");
     }
   }
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "voided": true,
@@ -344,7 +344,7 @@
           },
           "displayOrder": 8,
           "type": "SingleSelect",
-          "rule" : 
+          "rule" :
 ({params, imports}) => {
   const encounter = params.entity;
   const moment = imports.moment;
@@ -356,22 +356,22 @@
   let validationErrors = [];
   const questionGroupIndex = params.questionGroupIndex;
   let documentDetails = encounter.getObservationValue("6fa30553-806c-4a54-ac9f-a348ec9f7275");
-  
+
   if(documentDetails && documentDetails.length > 0){
 
     let currentQuestionGroup = documentDetails[questionGroupIndex]
     let selectedDate = currentQuestionGroup.findObservationByConceptUUID('8bb3fd94-f7b2-4b37-aa00-db81833ff379');
 
     if(selectedDate) {
-      
+
       const currentDate = moment().startOf('day');
       selectedDate = moment(selectedDate.getValue()).startOf('day');
       if(selectedDate.isAfter(currentDate)){
           validationErrors.push("Invalid date: Future dates are not allowed");
       }
-    } 
+    }
   }
-  
+
   return new imports.rulesConfig.FormElementStatus(formElement.uuid, visibility, value, answersToSkip, validationErrors);
 },
           "parentFormElementUuid": "061c2c98-fa69-484f-8aae-a24da352fb38",
@@ -421,31 +421,6 @@
   ],
   "decisionRule": "",
   "visitScheduleRule": "",
-  "validationRule" : 
-({params, imports}) => {
-  const programEncounter = params.entity;
-  const validationResults = [];
-  const formElement = params.formElement;
-  const _ = imports.lodash;
-  let validationErrors = [];
-  let documentDetails = programEncounter.findGroupedObservation("6fa30553-806c-4a54-ac9f-a348ec9f7275");
-  if(documentDetails && documentDetails.length > 0){
-
-    for(let i = 0;i<documentDetails.length;i++){
-    let currentQuestionGroup = documentDetails[i]
-    let uploadFile = currentQuestionGroup.findObservationByConceptUUID("f217e57e-b1a3-4e0f-8af4-d193be6dabe1");
-    let uploadImage =  currentQuestionGroup.findObservationByConceptUUID("cdc460c1-400b-41ff-abc7-a8a324e2275f");
-
-
-    if((uploadFile === null || uploadFile === undefined) && (uploadImage === null || uploadImage === undefined)){
-        let validationError = imports.common.createValidationError('Please upload either image or file');
-        validationResults.push(validationError);
-    }
-}
-}  
-return validationResults;
-}
-,
   "checklistsRule": "",
   "decisionConcepts": []
 }
