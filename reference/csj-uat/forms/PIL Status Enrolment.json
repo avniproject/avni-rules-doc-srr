@@ -1,0 +1,46 @@
+{
+  "name" : "PIL Status Enrolment",
+  "uuid" : "62cfbacf-13a3-4eed-963c-ce251605e197",
+  "formType" : "ProgramEnrolment",
+  "formElementGroups" : [ {
+    "uuid" : "e75d5352-c752-45e5-b3bf-264e5b5acbfd",
+    "name" : "PIL Status Details",
+    "displayOrder" : 1.0,
+    "formElements" : [ {
+      "name" : "Status",
+      "uuid" : "0e806299-8c13-40a0-9ca2-ce142dc626e6",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "PIL status",
+        "uuid" : "b3f6962b-9509-42b0-a658-457fc464d646",
+        "dataType" : "Coded",
+        "answers" : [ {
+          "name" : "Resolved",
+          "uuid" : "65688e86-a632-4e70-9ef8-4f19b0fc3bee",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 1.0,
+          "active" : true
+        }, {
+          "name" : "Active",
+          "uuid" : "a291f5e8-9e80-4420-99de-67996e72dae3",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 0.0,
+          "active" : true
+        } ],
+        "active" : true
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    } ],
+    "display" : "PIL Status Details",
+    "timed" : false
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : "",
+  "checklistsRule" : "",
+  "decisionConcepts" : [ ]
+}

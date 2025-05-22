@@ -1,0 +1,22 @@
+[ {
+  "uuid" : "1b30fb8f-9f90-4ffa-976e-bca5d46f9cd4",
+  "id" : 2309,
+  "name" : "Everyone",
+  "notEveryoneGroup" : false
+}, {
+  "uuid" : "e38f47ae-30dd-4c23-92e6-8b395670a25c",
+  "id" : 2313,
+  "name" : "Field Workers"
+}, {
+  "uuid" : "1297be34-2ce2-468b-9d19-2c6eb65cb16a",
+  "id" : 2314,
+  "name" : "Unit Leaders"
+}, {
+  "uuid" : "0ffd5077-e161-4fae-835b-8a03af8d8745",
+  "id" : 2315,
+  "name" : "Unit Managers"
+}, {
+  "uuid" : "0cfa6fda-f656-48dd-90c6-f75d68bc3b37",
+  "id" : 2316,
+  "name" : "Program Managers"
+} ]

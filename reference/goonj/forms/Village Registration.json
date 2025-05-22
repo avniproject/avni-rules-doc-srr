@@ -1,0 +1,7 @@
+{
+  "name" : "Village Registration",
+  "uuid" : "c3d90e78-a3b1-43fb-8f03-96eb2463d8fe",
+  "formType" : "IndividualProfile",
+  "formElementGroups" : [ ],
+  "decisionConcepts" : [ ]
+}

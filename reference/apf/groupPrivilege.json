@@ -1,0 +1,4597 @@
+[ {
+  "uuid" : "8a996a06-e3af-4276-9a26-8e6482bac9f0",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "67410e50-8b40-4735-bfb4-135b13580027",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : true,
+  "privilegeType" : "ViewSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "2e52dd2f-f1b9-4322-b24e-ba8558e72605",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "67410e50-8b40-4735-bfb4-135b13580027",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "ViewSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "86f91718-f7c6-4d96-8e5c-3417ea2479a6",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "020c5e18-01f0-469a-8a4a-e27cbc2a2292",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "allow" : true,
+  "privilegeType" : "EnrolSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "0ee1a27b-20ef-48f2-a20d-8f419233fbbd",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "583188ff-cd10-4615-9e22-000ce0bc6d80",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "allow" : true,
+  "privilegeType" : "ViewEnrolmentDetails",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "ae84af0f-097f-40b0-b549-d91a542ba7d9",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "46c3aa38-1ef5-4639-a406-d0b4f9bcb420",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : true,
+  "privilegeType" : "RegisterSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "8846babb-a8f1-484e-89c5-72b4a21c4213",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "db791f27-0c04-4060-8938-6f18fb4069ee",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : true,
+  "privilegeType" : "EditSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "ff295bdc-843d-4dfb-9ff2-738c0ee15983",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "088a30ca-9ce2-4ab3-a517-e249cc43a4bf",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : true,
+  "privilegeType" : "VoidSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "f747df27-3480-4e98-9a9f-3bb9e8cd3fee",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "67410e50-8b40-4735-bfb4-135b13580027",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "ViewSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "b5f66a2b-053b-4948-9804-957db1ced8a4",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "46c3aa38-1ef5-4639-a406-d0b4f9bcb420",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "RegisterSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "0a52b309-b1d9-4d5a-81d4-405458cecee8",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "db791f27-0c04-4060-8938-6f18fb4069ee",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "EditSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "1b3b812c-59b0-42c5-8913-b985df3d8fd9",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "088a30ca-9ce2-4ab3-a517-e249cc43a4bf",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "VoidSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "47aa3fae-98f8-4eb3-9bf0-e925ee09b172",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "0843ee63-721c-49c5-8374-818b512caf82",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "AddMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "9bd05c1d-0d9b-4c5b-b141-e5fac98a441c",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "d9d7ae77-a67e-4644-8976-5b3551106a53",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "EditMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "09c5bbb6-47c8-4984-bc7e-3dc251966607",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "f2915fc4-d2cb-492a-b9bc-88a7bae11b75",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "RemoveMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "51974599-a0ac-4c32-8ae1-10963f93fe43",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "46c3aa38-1ef5-4639-a406-d0b4f9bcb420",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "RegisterSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "40c535c9-e0fd-4b7d-b250-244ea84e43da",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "db791f27-0c04-4060-8938-6f18fb4069ee",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "EditSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "dba0a14b-6b92-43c6-8b03-9c4baaa6626c",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "088a30ca-9ce2-4ab3-a517-e249cc43a4bf",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "VoidSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "4138a160-9881-4dc5-b334-43929698fb54",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "020c5e18-01f0-469a-8a4a-e27cbc2a2292",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "allow" : true,
+  "privilegeType" : "EnrolSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "0f10be5d-2c61-4217-8b17-ab46850f4ad8",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "583188ff-cd10-4615-9e22-000ce0bc6d80",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "allow" : true,
+  "privilegeType" : "ViewEnrolmentDetails",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "e23962fd-39b3-429d-a3f8-45fdcd992ea7",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "a1dcc42f-eed4-4baf-807a-4f6e238f1cba",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "allow" : true,
+  "privilegeType" : "EditEnrolmentDetails",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "6cf66053-cab0-40ae-ad4a-f8b8be0379a0",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "bd419d1e-cfc6-4607-8cad-38871721115d",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "allow" : true,
+  "privilegeType" : "ExitEnrolment",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "2086c684-afc0-4be9-8fc9-13c6c38744b2",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "450a83ed-0e49-4b4c-8b8c-2dbfebcd7e5d",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "checklistDetailUUID" : "223b48b2-326d-4d8f-addb-5c29cbe5ed96",
+  "allow" : true,
+  "privilegeType" : "ViewChecklist",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "e6a3a2a3-a5a0-432b-9d59-19313a0fa907",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "79bcebce-4177-471d-8f0d-5558fbd91b76",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "checklistDetailUUID" : "223b48b2-326d-4d8f-addb-5c29cbe5ed96",
+  "allow" : true,
+  "privilegeType" : "EditChecklist",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "e655b486-f7a5-4135-aa56-49c887af304a",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "a1dcc42f-eed4-4baf-807a-4f6e238f1cba",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "allow" : true,
+  "privilegeType" : "EditEnrolmentDetails",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "4e961a6c-de8d-4e41-8387-45b1acae406f",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "bd419d1e-cfc6-4607-8cad-38871721115d",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "allow" : true,
+  "privilegeType" : "ExitEnrolment",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "b7637bd3-16b4-4333-9232-27fd34b50063",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "25c6c7d8-d779-43e2-b53e-d1cbf92f3865",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "4f0bccdb-3b94-42c8-9c17-a343dca93475",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "25c6c7d8-d779-43e2-b53e-d1cbf92f3865",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "3f7a07b6-4656-4809-babc-c42f7c31f487",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "25c6c7d8-d779-43e2-b53e-d1cbf92f3865",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "e80b498b-a29f-4f2d-b343-d801d78c1142",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "25c6c7d8-d779-43e2-b53e-d1cbf92f3865",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "cca76c54-6083-42f2-8559-ccd70d4d83bb",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "25c6c7d8-d779-43e2-b53e-d1cbf92f3865",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "766bd226-dc42-432b-92ff-07dee727a43f",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "5c68b335-0456-4111-ae77-4697cb61cd56",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "29916748-5a98-47ff-92e7-41e4241783b8",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "5c68b335-0456-4111-ae77-4697cb61cd56",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "ca1809f5-c10c-4931-a8c0-311fa0ae53e1",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "5c68b335-0456-4111-ae77-4697cb61cd56",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "8c313ab3-14b6-42ee-aa64-2cdb5bb10c20",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "5c68b335-0456-4111-ae77-4697cb61cd56",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "3ba02cf0-48f0-48f4-9c17-b9c46c6bbe75",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "5c68b335-0456-4111-ae77-4697cb61cd56",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "1f16afe5-d583-4f51-895c-7aebe4b3b813",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "0ffc5fe0-eb12-40e2-b707-65ef26efc70e",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "b5c39aa8-b88b-4a11-b666-99b21bb0b5cb",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "0ffc5fe0-eb12-40e2-b707-65ef26efc70e",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "420c41dd-63ba-4d98-8816-ea287682ae2e",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "0ffc5fe0-eb12-40e2-b707-65ef26efc70e",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "1c8fb0c7-99bd-40e5-960a-771161a11831",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "0ffc5fe0-eb12-40e2-b707-65ef26efc70e",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "bc845620-36e2-4a0a-98d9-2b5b8f6f3056",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "0ffc5fe0-eb12-40e2-b707-65ef26efc70e",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "57314775-6afb-40f8-8737-e0de2a608df6",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "7d725125-6b48-44d2-a53b-bf847ae8a3d0",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "0ffc5fe0-eb12-40e2-b707-65ef26efc70e",
+  "allow" : false,
+  "privilegeType" : "ApproveEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "7ebfcb0d-ac28-4ac3-8e51-03c645c78541",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "aaaa9032-072c-4662-acb1-f651e6b67946",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "c1fcc232-c9c5-45ef-9473-9212c49ef3f1",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "aaaa9032-072c-4662-acb1-f651e6b67946",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "58a2ef59-abca-47d7-ac32-c8707d2886cc",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "aaaa9032-072c-4662-acb1-f651e6b67946",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "7b0642d4-c875-4a12-becd-d5d10c4997e0",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "aaaa9032-072c-4662-acb1-f651e6b67946",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "80085daa-0b99-4ab2-8ff7-51dcaa03b2dd",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "aaaa9032-072c-4662-acb1-f651e6b67946",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "5afd0faa-e15c-435e-b2d4-4c451ed94c40",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "91719f2a-0312-41ad-80ce-9e010f193e0b",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "2628cbfe-e937-4962-b0d0-be0c802c3844",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "91719f2a-0312-41ad-80ce-9e010f193e0b",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "b6a7aba7-5f7f-4f0f-9dd3-1875475d010b",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "231e81b3-8f1c-474a-bc2e-4398006e2579",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "702ad6da-cf17-487d-a695-e7edd994f708",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "231e81b3-8f1c-474a-bc2e-4398006e2579",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "cf975ed1-b2af-4c95-ac65-91c89ac4749a",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "231e81b3-8f1c-474a-bc2e-4398006e2579",
+  "allow" : false,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "c3e0dc26-e751-4458-b888-4d68913ff3a2",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "c901cd8b-fcc3-44c6-bbd2-848e8466e00e",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "16ffebd1-2453-4a3c-adff-73c7788c5f1a",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "c901cd8b-fcc3-44c6-bbd2-848e8466e00e",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "75b3478d-96fc-4e4f-a6cd-ed381d2f9f04",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "24474001-f69a-433f-8a65-737c1662bbca",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "6b6b1ba1-4562-4236-bb35-52c048dc7012",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "24474001-f69a-433f-8a65-737c1662bbca",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "8cc7ec4b-abf7-4863-9ff6-1549b7b16fad",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "67410e50-8b40-4735-bfb4-135b13580027",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : true,
+  "privilegeType" : "ViewSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "51f3cb99-ef8d-446c-9341-4afc9f502e3a",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "46c3aa38-1ef5-4639-a406-d0b4f9bcb420",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : true,
+  "privilegeType" : "RegisterSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "e16b8689-7c7c-44c4-abea-b059b3e8a9e2",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "db791f27-0c04-4060-8938-6f18fb4069ee",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : true,
+  "privilegeType" : "EditSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "bcb6c3d5-81b9-4fca-a2a6-0a1ec3d77fda",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "088a30ca-9ce2-4ab3-a517-e249cc43a4bf",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : true,
+  "privilegeType" : "VoidSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "b64ea5d2-3ac8-4fac-8033-868d272ce6fb",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "196ebfd9-9649-41c1-b07d-2ea5f6b7cd59",
+  "allow" : false,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "31d736d5-4dd1-41cd-a44e-737e5c0c9f41",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "196ebfd9-9649-41c1-b07d-2ea5f6b7cd59",
+  "allow" : false,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "5e3bd6ee-231e-4213-bc52-773c6da4152f",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "196ebfd9-9649-41c1-b07d-2ea5f6b7cd59",
+  "allow" : false,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "a638039b-316b-47a5-8601-6711dcd317ca",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "67410e50-8b40-4735-bfb4-135b13580027",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "ViewSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "d1e13f33-e289-4262-8011-89231fe52dc8",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "46c3aa38-1ef5-4639-a406-d0b4f9bcb420",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "RegisterSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "39ed513a-0dd6-4b9c-a43e-f19995dbb4c0",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "db791f27-0c04-4060-8938-6f18fb4069ee",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "EditSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "5fed7c56-cc27-4bb7-ac3d-717b94da67c8",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "088a30ca-9ce2-4ab3-a517-e249cc43a4bf",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "VoidSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "ec192d1f-b79c-449b-af99-97c55a770e71",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "020c5e18-01f0-469a-8a4a-e27cbc2a2292",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "allow" : false,
+  "privilegeType" : "EnrolSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "ae2a2e03-ead3-417a-aa09-ad3c485bcd4e",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "583188ff-cd10-4615-9e22-000ce0bc6d80",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "allow" : true,
+  "privilegeType" : "ViewEnrolmentDetails",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "4a6a6dab-cd4a-4dd8-b353-15ae35fa8f77",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "24474001-f69a-433f-8a65-737c1662bbca",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "6df76f74-cb34-4387-86fb-3dd33dfc902d",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "24474001-f69a-433f-8a65-737c1662bbca",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "96c3b25f-aa2e-4335-ae74-0bcb6c395bf1",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "24474001-f69a-433f-8a65-737c1662bbca",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "3349ac56-d536-465b-bc95-4ebdaaf67b53",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "24474001-f69a-433f-8a65-737c1662bbca",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "51da1b01-1979-42e5-8f16-4385979045a8",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "24474001-f69a-433f-8a65-737c1662bbca",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "fe1fa8f3-c98d-4968-9228-1f1ea0650ca8",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "c901cd8b-fcc3-44c6-bbd2-848e8466e00e",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "58c011b5-d198-48f2-abd3-19c3e13b1db4",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "c901cd8b-fcc3-44c6-bbd2-848e8466e00e",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "96a53655-75cb-4c0c-a3cb-23ec44eee89a",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "231e81b3-8f1c-474a-bc2e-4398006e2579",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "80125eb9-97be-49a7-b99b-5dc9dc9794eb",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "231e81b3-8f1c-474a-bc2e-4398006e2579",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "54dc3a58-5ff2-4ecd-855e-20d951648e3a",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "231e81b3-8f1c-474a-bc2e-4398006e2579",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "d07c2b57-4043-421e-8042-a17a6ed74abe",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "196ebfd9-9649-41c1-b07d-2ea5f6b7cd59",
+  "allow" : false,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "809df0cd-223c-443c-bdea-8f3c60a87e2f",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "231e81b3-8f1c-474a-bc2e-4398006e2579",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "120e9907-2bc4-4815-a744-c6887f364e65",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "231e81b3-8f1c-474a-bc2e-4398006e2579",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "f1a597dc-0593-4424-bef4-d12501ad5469",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "91719f2a-0312-41ad-80ce-9e010f193e0b",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "7a71c212-21b4-4840-8fb3-b1d055cbd82d",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "91719f2a-0312-41ad-80ce-9e010f193e0b",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "cf0f958d-2e42-41c1-a36c-c9deec1da52d",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "aaaa9032-072c-4662-acb1-f651e6b67946",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "3f30fd43-b12b-403f-8cbb-bddd9de162fb",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "aaaa9032-072c-4662-acb1-f651e6b67946",
+  "allow" : false,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "44dd8664-b1aa-41d3-887f-0d789bcfe925",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "aaaa9032-072c-4662-acb1-f651e6b67946",
+  "allow" : false,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "0dc7e593-e0a4-4ae5-a5ec-cb4368040425",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "0ffc5fe0-eb12-40e2-b707-65ef26efc70e",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "256337f3-f404-463d-8cdd-84e101ad2ea7",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "aaaa9032-072c-4662-acb1-f651e6b67946",
+  "allow" : false,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "c75de4be-58f5-44a9-a98f-02964b3ecb40",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "aaaa9032-072c-4662-acb1-f651e6b67946",
+  "allow" : false,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "e2eace8d-bf6c-4bc1-9f94-529f3f28b198",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "5c68b335-0456-4111-ae77-4697cb61cd56",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "a24c216e-da65-4eb4-9adc-e6848be510dd",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "25c6c7d8-d779-43e2-b53e-d1cbf92f3865",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "917aebe4-b65b-4641-ad4d-0902386c6f0d",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "583188ff-cd10-4615-9e22-000ce0bc6d80",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "allow" : true,
+  "privilegeType" : "ViewEnrolmentDetails",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "3e60a0af-11b6-4a5d-b874-a1460ef6b0ed",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "020c5e18-01f0-469a-8a4a-e27cbc2a2292",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "allow" : false,
+  "privilegeType" : "EnrolSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "245766f1-f2ab-46fb-ba46-3c4238d4fee9",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "a1dcc42f-eed4-4baf-807a-4f6e238f1cba",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "allow" : false,
+  "privilegeType" : "EditEnrolmentDetails",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "5033fd4f-3ff8-4904-9044-995a7a2539af",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "67410e50-8b40-4735-bfb4-135b13580027",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : false,
+  "privilegeType" : "ViewSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "2e927a63-dad6-4aaf-9434-3583b6632b6b",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "46c3aa38-1ef5-4639-a406-d0b4f9bcb420",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : false,
+  "privilegeType" : "RegisterSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "0231c474-867f-4c6a-a122-306489a3bde7",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "db791f27-0c04-4060-8938-6f18fb4069ee",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : false,
+  "privilegeType" : "EditSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "66c4e18b-13ab-4eba-87b0-370c65841038",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "088a30ca-9ce2-4ab3-a517-e249cc43a4bf",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : false,
+  "privilegeType" : "VoidSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "e82efeb1-c96f-42fa-a194-9323c9ef1c69",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "196ebfd9-9649-41c1-b07d-2ea5f6b7cd59",
+  "allow" : false,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "11c06e0b-b332-41a4-a820-71805fa8ab13",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "196ebfd9-9649-41c1-b07d-2ea5f6b7cd59",
+  "allow" : false,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "d538dc32-23ab-419a-8b75-518aa78eb070",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "196ebfd9-9649-41c1-b07d-2ea5f6b7cd59",
+  "allow" : false,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "f8f4285d-dcc9-47e4-b182-1b93ec08ea1a",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "67410e50-8b40-4735-bfb4-135b13580027",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : false,
+  "privilegeType" : "ViewSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "25900608-0874-4fd6-af4e-65e39117d86b",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "46c3aa38-1ef5-4639-a406-d0b4f9bcb420",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : false,
+  "privilegeType" : "RegisterSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "54e52236-66cd-47aa-a4f4-2ebabf87c202",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "db791f27-0c04-4060-8938-6f18fb4069ee",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : false,
+  "privilegeType" : "EditSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "c75cc83c-3324-4c8b-b126-51fe1df627eb",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "088a30ca-9ce2-4ab3-a517-e249cc43a4bf",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : false,
+  "privilegeType" : "VoidSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "1bfe9fb7-b165-41bf-95f8-c7ec6afa2e3e",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "0843ee63-721c-49c5-8374-818b512caf82",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : false,
+  "privilegeType" : "AddMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "04eb77fb-0add-48d0-b335-6a90639edcda",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "d9d7ae77-a67e-4644-8976-5b3551106a53",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : false,
+  "privilegeType" : "EditMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "02858b22-737d-4436-bb32-cf086b066b84",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "f2915fc4-d2cb-492a-b9bc-88a7bae11b75",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : false,
+  "privilegeType" : "RemoveMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "93957981-4276-4fff-9f1c-560573fba2be",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "67410e50-8b40-4735-bfb4-135b13580027",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : false,
+  "privilegeType" : "ViewSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "b27d0de8-1dd7-45e9-84bb-e0bfceb40c0f",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "46c3aa38-1ef5-4639-a406-d0b4f9bcb420",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : false,
+  "privilegeType" : "RegisterSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "eb09b706-6394-4fc0-99f3-c26fb2d5d444",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "db791f27-0c04-4060-8938-6f18fb4069ee",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : false,
+  "privilegeType" : "EditSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "1ba60c6e-31c1-4b54-9ec9-1729c52bd131",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "088a30ca-9ce2-4ab3-a517-e249cc43a4bf",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : false,
+  "privilegeType" : "VoidSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "449f2d9a-5908-4d78-afb2-a9c2d992dcf3",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "027e6ce6-8bf8-44f4-9621-7de7557d99f5",
+  "allow" : false,
+  "privilegeType" : "EditCatchment",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "4b036b54-0ac1-4a96-801e-e41f4ac1cb81",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "eb05b1cf-a38a-40a2-b7fe-933ff29bddc5",
+  "allow" : false,
+  "privilegeType" : "EditLocation",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "55ed34e1-d784-4d6d-abf2-1c36c0b33cd3",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "24474001-f69a-433f-8a65-737c1662bbca",
+  "allow" : false,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "48fd5501-46e0-4069-8237-3b0a7b10c697",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "450a83ed-0e49-4b4c-8b8c-2dbfebcd7e5d",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "checklistDetailUUID" : "223b48b2-326d-4d8f-addb-5c29cbe5ed96",
+  "allow" : false,
+  "privilegeType" : "ViewChecklist",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "aed9c697-8a1f-4a02-9be6-3442c83e05c8",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "79bcebce-4177-471d-8f0d-5558fbd91b76",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "checklistDetailUUID" : "223b48b2-326d-4d8f-addb-5c29cbe5ed96",
+  "allow" : false,
+  "privilegeType" : "EditChecklist",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "32c03c8b-486a-4153-9342-b7b042bfe6b3",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "98858b47-db1d-450b-86ed-e8cf592beb9c",
+  "allow" : false,
+  "privilegeType" : "Messaging",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "e771d1da-4137-4f06-a37d-a87cbb47f2e0",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "b52e5625-3176-4108-93fa-9341e019d9b4",
+  "allow" : false,
+  "privilegeType" : "EditTask",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "60e762d7-72db-4df9-abb4-182fa4c719a2",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "7b81a2c1-d373-4859-a4b7-ffc7f2039a93",
+  "allow" : false,
+  "privilegeType" : "DeleteTask",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "deb88dbd-dda5-467b-9749-12edceca71d9",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "e491db17-da8a-4ecd-82b1-9cd9921d7c72",
+  "allow" : false,
+  "privilegeType" : "EditSubjectType",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "47e17c54-1337-4a6f-898f-868c37c1838b",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "fc03c90d-6dd4-4067-9096-4e1b3c800270",
+  "allow" : false,
+  "privilegeType" : "EditProgram",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "0eaa19f3-6076-4e44-aa77-716678fbcc63",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "c814bcf3-4739-48d8-8dae-375df72ee468",
+  "allow" : false,
+  "privilegeType" : "EditEncounterType",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "caa38916-de65-4aac-9ea7-483fcb65b56b",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "f042823e-dbed-44dc-b3d7-a4dd342d883e",
+  "allow" : false,
+  "privilegeType" : "EditConcept",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "05b86f4c-d0bf-44ab-974b-35ae4f7c5dad",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "df745841-79e6-4d6e-a04d-f2379449a318",
+  "allow" : false,
+  "privilegeType" : "EditOrganisationConfiguration",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "e497d6ce-c61c-4151-b4eb-afbe8a869b92",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "6a687443-8640-4ea7-9df5-7af17e4f3bd9",
+  "allow" : false,
+  "privilegeType" : "DeleteOrganisationConfiguration",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "c0602244-ef46-486f-89d6-c076fc745607",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "2ebe6ce5-77fa-491c-a629-f1fc46d87557",
+  "allow" : false,
+  "privilegeType" : "UploadMetadataAndData",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "a5c9ffd6-eafa-4f7e-a716-d63336c8cc01",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "ee51fb36-8712-4125-8693-5c524bd75327",
+  "allow" : false,
+  "privilegeType" : "DownloadBundle",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "3d273221-f166-4018-b336-b1d613a4fe19",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "dd436429-7b9c-4350-bfeb-754717d553ff",
+  "allow" : false,
+  "privilegeType" : "EditChecklistConfiguration",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "fa1123de-3d95-48a4-a144-81f3f0e31fa0",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "8b335ec5-e42c-425b-ab1c-ba549a19a3f2",
+  "allow" : false,
+  "privilegeType" : "EditDocumentation",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "608071df-b51e-4cb1-91ce-a32dd6dd81fd",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "d8ce88f8-c965-42c9-bed1-1f3a188b25b4",
+  "allow" : false,
+  "privilegeType" : "EditOfflineDashboardAndReportCard",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "ef11fc4f-f576-4fc6-983d-b93917228134",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "9091283d-19fe-4bfd-8db6-c662575747c0",
+  "allow" : false,
+  "privilegeType" : "EditApplicationMenu",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "2eeacf4f-80ff-4278-a9f6-1a06263d0d22",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "911a5dcf-eacd-45e0-a1c4-e65802c11e0d",
+  "allow" : false,
+  "privilegeType" : "EditExtension",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "640eda51-2168-47b3-9457-a9ddcbd48b6e",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "0d3e10d7-6e19-4652-9d47-2836210d5f7f",
+  "allow" : false,
+  "privilegeType" : "EditRuleFailure",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "afff30f4-4600-4c54-baf1-77d5c4208b0b",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "59fbf0a4-cb92-45d7-9ec8-fe382ad504ba",
+  "allow" : false,
+  "privilegeType" : "EditLocationType",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "183be3f6-d9d8-4fdf-b593-a098581cbde4",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "eb05b1cf-a38a-40a2-b7fe-933ff29bddc5",
+  "allow" : false,
+  "privilegeType" : "EditLocation",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "075a027f-05bf-4f43-bded-97b9f35a8b4a",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "027e6ce6-8bf8-44f4-9621-7de7557d99f5",
+  "allow" : false,
+  "privilegeType" : "EditCatchment",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "4d6ac964-6292-4d3d-b5a1-128867e86025",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "31c16b7d-825a-4bfa-b961-128846beb3ef",
+  "allow" : false,
+  "privilegeType" : "EditUserConfiguration",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "56f85ac8-6358-42d3-b900-80fde09d49f9",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "78902b7a-7970-4557-9ffa-ce8e93d20e9a",
+  "allow" : false,
+  "privilegeType" : "EditUserGroup",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "320bb8f1-f9e5-4804-99c0-80232370d276",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "d60e01c2-ce9e-44f8-8ea1-99e88be93104",
+  "allow" : false,
+  "privilegeType" : "EditIdentifierSource",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "4e98fccb-0ed6-4b7e-95de-8f92d5db11af",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "27775bb8-2cf0-4f00-92bd-12c7950c9193",
+  "allow" : false,
+  "privilegeType" : "EditIdentifierUserAssignment",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "232c2020-78b0-4af6-a199-a9cafcfee240",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "83435813-79a7-411b-9b1d-92fcdd439a40",
+  "allow" : false,
+  "privilegeType" : "PhoneVerification",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "9342fd90-902f-41d5-a57a-892a6cb95ce1",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "e24a7cca-7e76-4398-a2d0-e6db735a8e08",
+  "allow" : false,
+  "privilegeType" : "EditLanguage",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "ff004354-d075-4d03-bfba-b80dc7920cd6",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "1cc8fae5-fb31-4643-ad63-58fcfb31a709",
+  "allow" : false,
+  "privilegeType" : "EditVideo",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "9f883054-6ec9-4ae6-8cf0-0568d7001f93",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "c21758c9-d238-4746-81e8-f5e1ee3643c0",
+  "allow" : false,
+  "privilegeType" : "Analytics",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "865a484a-25aa-4729-a40c-94691be1842d",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "044c3bf5-9818-4e05-a100-e8608ae2dfe1",
+  "allow" : false,
+  "privilegeType" : "EditNews",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "639b7756-abed-41c8-a92a-8d53ff9db371",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "98858b47-db1d-450b-86ed-e8cf592beb9c",
+  "allow" : false,
+  "privilegeType" : "Messaging",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "522b0f13-ab56-499a-8f1a-dd6f46c93c98",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "b52e5625-3176-4108-93fa-9341e019d9b4",
+  "allow" : false,
+  "privilegeType" : "EditTask",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "770df798-ad65-4f1a-9838-59d16262e7e9",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "7b81a2c1-d373-4859-a4b7-ffc7f2039a93",
+  "allow" : false,
+  "privilegeType" : "DeleteTask",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "37e35927-b97a-4e7f-9068-3beae57cae78",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "e491db17-da8a-4ecd-82b1-9cd9921d7c72",
+  "allow" : false,
+  "privilegeType" : "EditSubjectType",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "a56c58a2-4c12-4f9d-95c9-42f861a95b90",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "fc03c90d-6dd4-4067-9096-4e1b3c800270",
+  "allow" : false,
+  "privilegeType" : "EditProgram",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "b396623d-468a-4ae9-bcb4-49eab4f1e83c",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "c814bcf3-4739-48d8-8dae-375df72ee468",
+  "allow" : false,
+  "privilegeType" : "EditEncounterType",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "0ce441d1-a276-461a-8282-d906ecf11b7b",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "f042823e-dbed-44dc-b3d7-a4dd342d883e",
+  "allow" : false,
+  "privilegeType" : "EditConcept",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "a723c9f0-187d-4a7f-be39-5ce760adc4c3",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "df745841-79e6-4d6e-a04d-f2379449a318",
+  "allow" : false,
+  "privilegeType" : "EditOrganisationConfiguration",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "c079d3f1-2999-4b1b-96e0-69a393468947",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "6a687443-8640-4ea7-9df5-7af17e4f3bd9",
+  "allow" : false,
+  "privilegeType" : "DeleteOrganisationConfiguration",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "5bd1e2fb-bfb1-4cae-b3ca-2317864a068b",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "2ebe6ce5-77fa-491c-a629-f1fc46d87557",
+  "allow" : false,
+  "privilegeType" : "UploadMetadataAndData",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "1c12625b-e2a1-4704-a201-f8238f721a5a",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "ee51fb36-8712-4125-8693-5c524bd75327",
+  "allow" : false,
+  "privilegeType" : "DownloadBundle",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "954357ef-7f6f-4619-bffd-6f34404b32e8",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "dd436429-7b9c-4350-bfeb-754717d553ff",
+  "allow" : false,
+  "privilegeType" : "EditChecklistConfiguration",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "bbc1148b-1d8e-4267-9bfd-e2b255a55c1f",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "8b335ec5-e42c-425b-ab1c-ba549a19a3f2",
+  "allow" : false,
+  "privilegeType" : "EditDocumentation",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "bf45961f-2ee2-46db-bd90-055bae7ad426",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "d8ce88f8-c965-42c9-bed1-1f3a188b25b4",
+  "allow" : false,
+  "privilegeType" : "EditOfflineDashboardAndReportCard",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "392894ef-146e-48a7-bfc9-07c87c7d91c3",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "9091283d-19fe-4bfd-8db6-c662575747c0",
+  "allow" : false,
+  "privilegeType" : "EditApplicationMenu",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "52c5a717-16d1-4bdd-af97-757624ba1670",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "911a5dcf-eacd-45e0-a1c4-e65802c11e0d",
+  "allow" : false,
+  "privilegeType" : "EditExtension",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "94f82c51-57ea-44fb-a31e-fea14ea837b0",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "0d3e10d7-6e19-4652-9d47-2836210d5f7f",
+  "allow" : false,
+  "privilegeType" : "EditRuleFailure",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "217ca4c0-46b9-40d8-b265-cecfc347beef",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "59fbf0a4-cb92-45d7-9ec8-fe382ad504ba",
+  "allow" : false,
+  "privilegeType" : "EditLocationType",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "2b3006c6-cd79-470f-b1ab-514ed4aa6c9a",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "d60e01c2-ce9e-44f8-8ea1-99e88be93104",
+  "allow" : false,
+  "privilegeType" : "EditIdentifierSource",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "e53bfc21-8bc5-4c72-acc1-bde4a4d64ab2",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "27775bb8-2cf0-4f00-92bd-12c7950c9193",
+  "allow" : false,
+  "privilegeType" : "EditIdentifierUserAssignment",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "f5b82d14-2d23-49fd-80bd-ed0dc5a0f2b8",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "83435813-79a7-411b-9b1d-92fcdd439a40",
+  "allow" : false,
+  "privilegeType" : "PhoneVerification",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "418ca6ba-6f58-4798-8e68-a46755ad8fdb",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "e24a7cca-7e76-4398-a2d0-e6db735a8e08",
+  "allow" : false,
+  "privilegeType" : "EditLanguage",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "f67846f9-0176-4b7c-8d1d-7395f9c1fe7c",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "1cc8fae5-fb31-4643-ad63-58fcfb31a709",
+  "allow" : false,
+  "privilegeType" : "EditVideo",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "0341af9e-2e74-4a12-b376-128654787c9a",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "c21758c9-d238-4746-81e8-f5e1ee3643c0",
+  "allow" : false,
+  "privilegeType" : "Analytics",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "f5731577-12fc-4d8f-9a19-42d95b514a24",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "044c3bf5-9818-4e05-a100-e8608ae2dfe1",
+  "allow" : false,
+  "privilegeType" : "EditNews",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "92468c13-404a-423c-aa78-1400ff066c88",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "450a83ed-0e49-4b4c-8b8c-2dbfebcd7e5d",
+  "checklistDetailUUID" : "223b48b2-326d-4d8f-addb-5c29cbe5ed96",
+  "allow" : true,
+  "privilegeType" : "ViewChecklist",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "8d95c440-cd36-4019-9bca-92ff41a4020b",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "79bcebce-4177-471d-8f0d-5558fbd91b76",
+  "checklistDetailUUID" : "223b48b2-326d-4d8f-addb-5c29cbe5ed96",
+  "allow" : true,
+  "privilegeType" : "EditChecklist",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "e100f48a-4640-4cbe-9d09-8ad57baa7001",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "9635465c-f0bb-4b10-8cf9-eda181fe7a4f",
+  "checklistDetailUUID" : "223b48b2-326d-4d8f-addb-5c29cbe5ed96",
+  "allow" : true,
+  "privilegeType" : "ApproveChecklistitem",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "25757ede-8e01-41f1-8bbf-10b83320c434",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "54654e97-acb6-4a89-8754-82a56af93f37",
+  "checklistDetailUUID" : "223b48b2-326d-4d8f-addb-5c29cbe5ed96",
+  "allow" : true,
+  "privilegeType" : "RejectChecklistitem",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "44493b51-3898-4a98-bb62-5ebb1a5c8892",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "450a83ed-0e49-4b4c-8b8c-2dbfebcd7e5d",
+  "checklistDetailUUID" : "223b48b2-326d-4d8f-addb-5c29cbe5ed96",
+  "allow" : true,
+  "privilegeType" : "ViewChecklist",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "1bfe8c43-3277-4231-99a6-2e61124aeb8b",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "79bcebce-4177-471d-8f0d-5558fbd91b76",
+  "checklistDetailUUID" : "223b48b2-326d-4d8f-addb-5c29cbe5ed96",
+  "allow" : true,
+  "privilegeType" : "EditChecklist",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "3c0f7b26-af57-4475-aaba-84cb0162cade",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "9635465c-f0bb-4b10-8cf9-eda181fe7a4f",
+  "checklistDetailUUID" : "223b48b2-326d-4d8f-addb-5c29cbe5ed96",
+  "allow" : true,
+  "privilegeType" : "ApproveChecklistitem",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "f11d58b6-6ebc-4b97-a211-272ac6a82e48",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "54654e97-acb6-4a89-8754-82a56af93f37",
+  "checklistDetailUUID" : "223b48b2-326d-4d8f-addb-5c29cbe5ed96",
+  "allow" : true,
+  "privilegeType" : "RejectChecklistitem",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "9b75f280-ec53-4066-b134-19dec1bdfed3",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "cac5adae-8d99-4cef-a00b-af7d66e31a09",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : true,
+  "privilegeType" : "AssignSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "2e941919-a8a6-403a-8d06-5bc0ec579a2c",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "67410e50-8b40-4735-bfb4-135b13580027",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : true,
+  "privilegeType" : "ViewSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "d547dc2f-654e-4543-ae4b-43f11a0abf95",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "46c3aa38-1ef5-4639-a406-d0b4f9bcb420",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : true,
+  "privilegeType" : "RegisterSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "58e89f62-6274-4ca5-bcd9-80f6ee6a6ccc",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "db791f27-0c04-4060-8938-6f18fb4069ee",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : true,
+  "privilegeType" : "EditSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "a6ade280-5293-4801-b8c7-734315c3f975",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "088a30ca-9ce2-4ab3-a517-e249cc43a4bf",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : true,
+  "privilegeType" : "VoidSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "91fb1306-816c-4fa6-ac8c-88c35de6be14",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "0843ee63-721c-49c5-8374-818b512caf82",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : true,
+  "privilegeType" : "AddMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "c048c797-87d0-4235-9f2e-72d24029ed09",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "d9d7ae77-a67e-4644-8976-5b3551106a53",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : true,
+  "privilegeType" : "EditMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "24416a29-07cd-4d9e-9131-7ae6ae23419a",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "f2915fc4-d2cb-492a-b9bc-88a7bae11b75",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : true,
+  "privilegeType" : "RemoveMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "0eb2693d-1545-4a88-b733-1e643956f2bb",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "37ae14f9-e6ac-4d24-951a-e457b0cdcf00",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : true,
+  "privilegeType" : "ApproveSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "d1573306-00c4-4b8f-bb3a-1edd2eee9b86",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "8a2e92c2-8af2-4f1c-896e-317c0bb4095f",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : true,
+  "privilegeType" : "RejectSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "f242c7ba-613f-4522-9fb2-85e6b9641c35",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "cac5adae-8d99-4cef-a00b-af7d66e31a09",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : true,
+  "privilegeType" : "AssignSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "44b714da-a2f0-4172-b16f-e1150654f93e",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "67410e50-8b40-4735-bfb4-135b13580027",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : true,
+  "privilegeType" : "ViewSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "4fafec93-fe37-4b05-95a1-ef0e7eeb2e0e",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "46c3aa38-1ef5-4639-a406-d0b4f9bcb420",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : true,
+  "privilegeType" : "RegisterSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "757dcdae-e0d9-4290-ac52-15c2877a70eb",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "db791f27-0c04-4060-8938-6f18fb4069ee",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : true,
+  "privilegeType" : "EditSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "77acc432-5d6e-4d42-b103-667e9332f30e",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "088a30ca-9ce2-4ab3-a517-e249cc43a4bf",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : true,
+  "privilegeType" : "VoidSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "1db44046-00d2-49b9-9780-5acb8dbcffb5",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "0843ee63-721c-49c5-8374-818b512caf82",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : true,
+  "privilegeType" : "AddMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "59365533-d14a-4539-80e0-93d32083a9b9",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "d9d7ae77-a67e-4644-8976-5b3551106a53",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : true,
+  "privilegeType" : "EditMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "d24ae2a4-99ce-4d29-919e-a9ec6bfeb296",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "f2915fc4-d2cb-492a-b9bc-88a7bae11b75",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : true,
+  "privilegeType" : "RemoveMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "1056374c-a7b3-47a8-931f-0a28edb9080f",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "37ae14f9-e6ac-4d24-951a-e457b0cdcf00",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : true,
+  "privilegeType" : "ApproveSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "74166419-68db-4189-bd11-5fa75bd64387",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "8a2e92c2-8af2-4f1c-896e-317c0bb4095f",
+  "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+  "allow" : true,
+  "privilegeType" : "RejectSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "d8497e23-d6de-4784-9952-0c6d19f46927",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "cac5adae-8d99-4cef-a00b-af7d66e31a09",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "AssignSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "891f8d68-790d-4e13-b039-76f8bbb5fb75",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "67410e50-8b40-4735-bfb4-135b13580027",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "ViewSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "4b066758-c4c3-4546-97c4-65348d112860",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "46c3aa38-1ef5-4639-a406-d0b4f9bcb420",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "RegisterSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "c8a817c6-4cdd-4efa-a060-121fb418171e",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "db791f27-0c04-4060-8938-6f18fb4069ee",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "EditSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "d8e3d40a-a340-45f7-9c15-e62c608c5f52",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "088a30ca-9ce2-4ab3-a517-e249cc43a4bf",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "VoidSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "d669391e-7480-493f-911a-6eec4a056438",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "0843ee63-721c-49c5-8374-818b512caf82",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "AddMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "51aa0bb1-4d95-4773-ab84-5e7605b6d145",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "d9d7ae77-a67e-4644-8976-5b3551106a53",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "EditMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "ac630ef4-f45f-4f49-bdd5-327f57395a5f",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "f2915fc4-d2cb-492a-b9bc-88a7bae11b75",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "RemoveMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "6055829c-4f4b-4938-9b4e-7c23e366ce8f",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "37ae14f9-e6ac-4d24-951a-e457b0cdcf00",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "ApproveSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "aeddfbc0-8be5-40ec-bb2a-e1db9d55621b",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "8a2e92c2-8af2-4f1c-896e-317c0bb4095f",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "RejectSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "b526d832-39ec-4215-8f00-86c6e3aad16f",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "cac5adae-8d99-4cef-a00b-af7d66e31a09",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "AssignSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "b052e257-f820-4d13-9da1-fbb53735dc49",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "67410e50-8b40-4735-bfb4-135b13580027",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "ViewSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "8815ae91-94de-4e59-8fb1-15a54408aa6a",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "46c3aa38-1ef5-4639-a406-d0b4f9bcb420",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "RegisterSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "04d56040-90aa-4add-bb03-d683e9fe23c9",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "db791f27-0c04-4060-8938-6f18fb4069ee",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "EditSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "97c4fe9a-5121-4ee3-aeb0-36ba91b3c985",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "088a30ca-9ce2-4ab3-a517-e249cc43a4bf",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "VoidSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "70ee1b5d-980e-4c30-80f8-fda03174f2ce",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "0843ee63-721c-49c5-8374-818b512caf82",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "AddMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "fa18f704-c103-4c10-8034-ab4f7c01426f",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "d9d7ae77-a67e-4644-8976-5b3551106a53",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "EditMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "9a1d9c64-c3c0-4c3a-8c9e-67e556173db1",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "f2915fc4-d2cb-492a-b9bc-88a7bae11b75",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "RemoveMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "c6ef07b9-1444-4181-8dac-d02791995228",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "37ae14f9-e6ac-4d24-951a-e457b0cdcf00",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "ApproveSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "eaeff29f-93a5-4e2e-b816-71d63f14031c",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "8a2e92c2-8af2-4f1c-896e-317c0bb4095f",
+  "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "allow" : true,
+  "privilegeType" : "RejectSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "77394fe4-e93b-47ae-a85c-81700483739d",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "cac5adae-8d99-4cef-a00b-af7d66e31a09",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "AssignSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "a4e13215-8f8b-4783-89a4-0cc7f02dba9c",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "67410e50-8b40-4735-bfb4-135b13580027",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "ViewSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "778c1fc3-435d-47fa-b205-339f6855b02d",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "46c3aa38-1ef5-4639-a406-d0b4f9bcb420",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "RegisterSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "ab09ad7a-e0e0-4fda-b2c4-a999a2ef1893",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "db791f27-0c04-4060-8938-6f18fb4069ee",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "EditSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "a63180b6-c88a-42f2-9e44-b35960ef1fc2",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "088a30ca-9ce2-4ab3-a517-e249cc43a4bf",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "VoidSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "0a324532-5ca0-40aa-83ab-73432cfc4226",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "0843ee63-721c-49c5-8374-818b512caf82",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "AddMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "3b8510a6-bc60-49d7-8be0-fd654b19f206",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "d9d7ae77-a67e-4644-8976-5b3551106a53",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "EditMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "8feb418f-7a03-4169-9463-b4eefbbd221f",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "f2915fc4-d2cb-492a-b9bc-88a7bae11b75",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "RemoveMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "2be5cea8-ce3f-4c03-84b6-56a351460e51",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "37ae14f9-e6ac-4d24-951a-e457b0cdcf00",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "ApproveSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "7fef0162-0aa4-4a2b-886b-ca5162ced65a",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "8a2e92c2-8af2-4f1c-896e-317c0bb4095f",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "RejectSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "9c8450b2-52f8-4c89-8a51-86e5d7655738",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "cac5adae-8d99-4cef-a00b-af7d66e31a09",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "AssignSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "d6f74435-b25b-42d2-8d11-3e3b7d4d5c58",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "67410e50-8b40-4735-bfb4-135b13580027",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "ViewSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "e6271354-cc47-4649-b3d4-f0045fe235dd",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "46c3aa38-1ef5-4639-a406-d0b4f9bcb420",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "RegisterSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "d1438891-dade-4229-ae84-054d9ecc7ce8",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "db791f27-0c04-4060-8938-6f18fb4069ee",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "EditSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "2c489718-a2dd-4400-98dc-784c1e775d99",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "088a30ca-9ce2-4ab3-a517-e249cc43a4bf",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "VoidSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "9b1e2d6f-851a-44eb-b111-7d7e82a42978",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "0843ee63-721c-49c5-8374-818b512caf82",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "AddMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "bb818d80-f9db-4a0d-a5fa-10960c91a63c",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "d9d7ae77-a67e-4644-8976-5b3551106a53",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "EditMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "b17edc34-537d-4e73-9f0f-4d9e3f0bd8d5",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "f2915fc4-d2cb-492a-b9bc-88a7bae11b75",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "RemoveMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "1082cb11-2f75-4201-97c7-ad6547e5613b",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "37ae14f9-e6ac-4d24-951a-e457b0cdcf00",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "ApproveSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "1a281816-8b68-4d5a-ac93-e3b9a5bcc43c",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "8a2e92c2-8af2-4f1c-896e-317c0bb4095f",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "allow" : true,
+  "privilegeType" : "RejectSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "9e5febcd-bf6b-4b39-b1f2-0e73cffdc4d4",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "cac5adae-8d99-4cef-a00b-af7d66e31a09",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : true,
+  "privilegeType" : "AssignSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "b261f9f3-59f0-4dca-9a8d-70a8866ca27d",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "67410e50-8b40-4735-bfb4-135b13580027",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : true,
+  "privilegeType" : "ViewSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "8533ed20-bcbe-4e27-aace-b8f9640a7897",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "46c3aa38-1ef5-4639-a406-d0b4f9bcb420",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : true,
+  "privilegeType" : "RegisterSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "9ac449e0-1efc-47f9-98d0-2f03c9ccdf45",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "db791f27-0c04-4060-8938-6f18fb4069ee",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : true,
+  "privilegeType" : "EditSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "bbb93254-2ebd-4eb8-8f99-f11fd7c0dffb",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "088a30ca-9ce2-4ab3-a517-e249cc43a4bf",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : true,
+  "privilegeType" : "VoidSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "9e308f05-cf71-466e-a843-e0965e31db39",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "0843ee63-721c-49c5-8374-818b512caf82",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : true,
+  "privilegeType" : "AddMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "b9afda79-58dd-445e-918a-16c32f4c8f1c",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "d9d7ae77-a67e-4644-8976-5b3551106a53",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : true,
+  "privilegeType" : "EditMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "3f9acf67-b40e-4c3c-9775-685c45c26db1",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "f2915fc4-d2cb-492a-b9bc-88a7bae11b75",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : true,
+  "privilegeType" : "RemoveMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "4f9c73d4-ee55-4d82-95fa-af44ab13b381",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "37ae14f9-e6ac-4d24-951a-e457b0cdcf00",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : true,
+  "privilegeType" : "ApproveSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "e52caa7c-aebc-4644-8440-8d130e8a27b5",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "8a2e92c2-8af2-4f1c-896e-317c0bb4095f",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : true,
+  "privilegeType" : "RejectSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "27a1f4d7-91bd-4e73-bf54-52dc603f0629",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "cac5adae-8d99-4cef-a00b-af7d66e31a09",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : true,
+  "privilegeType" : "AssignSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "89095a7c-6c10-4bd1-ad73-32f94bbce1fc",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "67410e50-8b40-4735-bfb4-135b13580027",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : true,
+  "privilegeType" : "ViewSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "325f9b2d-1675-4171-b3b3-c3aec385f5a3",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "46c3aa38-1ef5-4639-a406-d0b4f9bcb420",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : true,
+  "privilegeType" : "RegisterSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "ab711ae7-09e0-4942-9eb6-17d558adbde1",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "db791f27-0c04-4060-8938-6f18fb4069ee",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : true,
+  "privilegeType" : "EditSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "dfb158db-c5b9-4858-896f-bfef4cb3bae2",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "088a30ca-9ce2-4ab3-a517-e249cc43a4bf",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : true,
+  "privilegeType" : "VoidSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "8c20d511-eeae-4c07-9ee1-1addce01e5f0",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "0843ee63-721c-49c5-8374-818b512caf82",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : true,
+  "privilegeType" : "AddMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "eca00142-fa30-49ad-96bc-627f75b5c599",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "d9d7ae77-a67e-4644-8976-5b3551106a53",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : true,
+  "privilegeType" : "EditMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "c09c266f-0d37-41d3-bc29-34d4c6708862",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "f2915fc4-d2cb-492a-b9bc-88a7bae11b75",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : true,
+  "privilegeType" : "RemoveMember",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "72b012ab-2d40-46dd-b80e-752aaba8959d",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "37ae14f9-e6ac-4d24-951a-e457b0cdcf00",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : true,
+  "privilegeType" : "ApproveSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "07085056-b960-40d4-a3d3-9e81b1dca3a9",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "8a2e92c2-8af2-4f1c-896e-317c0bb4095f",
+  "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+  "allow" : true,
+  "privilegeType" : "RejectSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "73e94f48-5ec9-4eec-a54b-8b79266e01ec",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "91719f2a-0312-41ad-80ce-9e010f193e0b",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "11bae53d-3573-49d8-8cbe-282a2ed8a479",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "91719f2a-0312-41ad-80ce-9e010f193e0b",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "b16e994b-6858-4d11-9888-b8185634f3b5",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "c901cd8b-fcc3-44c6-bbd2-848e8466e00e",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "93be1c58-0dd7-4685-a724-7bfcfdfe9826",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "c901cd8b-fcc3-44c6-bbd2-848e8466e00e",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "a07ef5d9-82de-44a8-8a12-1267151032c7",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "91719f2a-0312-41ad-80ce-9e010f193e0b",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "100e3176-a300-4876-a6eb-999c0ab62986",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "c901cd8b-fcc3-44c6-bbd2-848e8466e00e",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "cc80252c-caea-4875-8e8f-54f8acdc440c",
+  "groupUUID" : "509ea127-d6d0-4eac-b904-02012fe486f0",
+  "privilegeUUID" : "a5899d5a-7a9b-4cba-88dd-20167411787c",
+  "allow" : true,
+  "privilegeType" : "ViewEditEntitiesOnDataEntryApp",
+  "notEveryoneGroup" : false,
+  "voided" : false
+}, {
+  "uuid" : "9ca77b97-905c-4277-865c-c70347d18874",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "a5899d5a-7a9b-4cba-88dd-20167411787c",
+  "allow" : true,
+  "privilegeType" : "ViewEditEntitiesOnDataEntryApp",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "e7a54dc9-af1f-4b86-ba1a-29d76d7eb9b2",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "a5899d5a-7a9b-4cba-88dd-20167411787c",
+  "allow" : true,
+  "privilegeType" : "ViewEditEntitiesOnDataEntryApp",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "b09060f1-fcd0-4126-8bbe-d0522cd6a1aa",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "a5899d5a-7a9b-4cba-88dd-20167411787c",
+  "allow" : true,
+  "privilegeType" : "ViewEditEntitiesOnDataEntryApp",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "59468016-6bcf-414f-9d50-786ad7631c82",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "a5899d5a-7a9b-4cba-88dd-20167411787c",
+  "allow" : true,
+  "privilegeType" : "ViewEditEntitiesOnDataEntryApp",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "48bbb61b-64ce-4ca7-990f-bb89a4d41975",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "196ebfd9-9649-41c1-b07d-2ea5f6b7cd59",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "0279c5d0-78db-43ad-85c0-8fff119a2c38",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "196ebfd9-9649-41c1-b07d-2ea5f6b7cd59",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "36afc319-4f9f-42ee-8572-407ed98c6bec",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "196ebfd9-9649-41c1-b07d-2ea5f6b7cd59",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "1aeec4c0-ce6e-4b9f-a85f-5885260c4bae",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "196ebfd9-9649-41c1-b07d-2ea5f6b7cd59",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "56381833-4b60-41dc-974e-dfc3f3b473ee",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "196ebfd9-9649-41c1-b07d-2ea5f6b7cd59",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "75db02e1-45c8-464d-a707-86e11d4e9177",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "7d725125-6b48-44d2-a53b-bf847ae8a3d0",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "196ebfd9-9649-41c1-b07d-2ea5f6b7cd59",
+  "allow" : true,
+  "privilegeType" : "ApproveEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "2cfcca6a-2b02-4623-83c8-d5a5fece0ecf",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "ca4428e7-dc4c-4dad-8190-451d8ccd7402",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "196ebfd9-9649-41c1-b07d-2ea5f6b7cd59",
+  "allow" : true,
+  "privilegeType" : "RejectEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "2d448b3e-6c7b-46e7-bee5-6b0b113a57ad",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "305d8287-731b-4094-8139-71bc171b242e",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "196ebfd9-9649-41c1-b07d-2ea5f6b7cd59",
+  "allow" : true,
+  "privilegeType" : "VoidVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "3888c913-149c-42bc-914f-b22264db0b98",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "196ebfd9-9649-41c1-b07d-2ea5f6b7cd59",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "45cacf46-0e4f-44e0-9a28-a74a1f4c5720",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "196ebfd9-9649-41c1-b07d-2ea5f6b7cd59",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "17e7467c-4471-4369-b7d9-374d7b89adc6",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "196ebfd9-9649-41c1-b07d-2ea5f6b7cd59",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "76374cb0-c593-4293-baa2-c07fcf4b28d6",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "196ebfd9-9649-41c1-b07d-2ea5f6b7cd59",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "ebb1c013-f686-4269-a221-d48a5663d962",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "196ebfd9-9649-41c1-b07d-2ea5f6b7cd59",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "e71025c5-0387-477f-9641-106fb7445fa2",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "7d725125-6b48-44d2-a53b-bf847ae8a3d0",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "196ebfd9-9649-41c1-b07d-2ea5f6b7cd59",
+  "allow" : true,
+  "privilegeType" : "ApproveEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "2b39c85a-b211-4792-8d5d-59fd7149d5ca",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "ca4428e7-dc4c-4dad-8190-451d8ccd7402",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "196ebfd9-9649-41c1-b07d-2ea5f6b7cd59",
+  "allow" : true,
+  "privilegeType" : "RejectEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "23951ecb-3926-46df-89f7-095d27626f37",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "305d8287-731b-4094-8139-71bc171b242e",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "196ebfd9-9649-41c1-b07d-2ea5f6b7cd59",
+  "allow" : true,
+  "privilegeType" : "VoidVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "c4f0a09b-c926-4110-abe5-193fb91b8ae9",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "0ffc5fe0-eb12-40e2-b707-65ef26efc70e",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "de6f46c5-2590-4c50-bf4b-ab46ed347ab9",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "0ffc5fe0-eb12-40e2-b707-65ef26efc70e",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "8407f4c3-ebbb-444c-aeb3-e828d9a30a59",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "0ffc5fe0-eb12-40e2-b707-65ef26efc70e",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "b0824705-8b09-4400-ac09-f2df7317512f",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "0ffc5fe0-eb12-40e2-b707-65ef26efc70e",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "a88f8d24-3e9c-4a55-88a0-e08c08782b32",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "0ffc5fe0-eb12-40e2-b707-65ef26efc70e",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "7fca2a50-70b3-40df-8445-b6e30608f879",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "7d725125-6b48-44d2-a53b-bf847ae8a3d0",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "0ffc5fe0-eb12-40e2-b707-65ef26efc70e",
+  "allow" : true,
+  "privilegeType" : "ApproveEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "9d7818e5-4166-49ba-826a-4c14b5baf099",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "ca4428e7-dc4c-4dad-8190-451d8ccd7402",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "0ffc5fe0-eb12-40e2-b707-65ef26efc70e",
+  "allow" : true,
+  "privilegeType" : "RejectEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "60844853-c52f-45c1-9689-16872c1d7a8f",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "305d8287-731b-4094-8139-71bc171b242e",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "0ffc5fe0-eb12-40e2-b707-65ef26efc70e",
+  "allow" : true,
+  "privilegeType" : "VoidVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "fb9d9398-d08b-48b7-989d-399662997bc5",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "0ffc5fe0-eb12-40e2-b707-65ef26efc70e",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "a7914b03-a131-4be1-8843-1ac2b4268c1f",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "0ffc5fe0-eb12-40e2-b707-65ef26efc70e",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "af153938-928b-4be0-a9ef-20aa29a75374",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "0ffc5fe0-eb12-40e2-b707-65ef26efc70e",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "34fd9826-552f-4601-bb63-5c8288db840d",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "0ffc5fe0-eb12-40e2-b707-65ef26efc70e",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "879f9ef4-04a7-40c1-b4b2-379a7b6b2ebe",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "0ffc5fe0-eb12-40e2-b707-65ef26efc70e",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "f2cfe312-18de-46f0-aae0-c243b9f45a1e",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "7d725125-6b48-44d2-a53b-bf847ae8a3d0",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "0ffc5fe0-eb12-40e2-b707-65ef26efc70e",
+  "allow" : true,
+  "privilegeType" : "ApproveEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "f2b6074d-e29d-4edd-8a9c-e98c3d33dd31",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "ca4428e7-dc4c-4dad-8190-451d8ccd7402",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "0ffc5fe0-eb12-40e2-b707-65ef26efc70e",
+  "allow" : true,
+  "privilegeType" : "RejectEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "ea0f09be-5ff8-4810-8052-83de3e225c74",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "305d8287-731b-4094-8139-71bc171b242e",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "0ffc5fe0-eb12-40e2-b707-65ef26efc70e",
+  "allow" : true,
+  "privilegeType" : "VoidVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "f53385f7-9d9d-4fd8-87ad-529fc04e21aa",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "5c68b335-0456-4111-ae77-4697cb61cd56",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "c696b984-d1f5-4e38-a6be-ce4879feff1d",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "5c68b335-0456-4111-ae77-4697cb61cd56",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "5fa1d5c3-fc06-4b09-8913-de2af71ea201",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "5c68b335-0456-4111-ae77-4697cb61cd56",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "c7e26eb0-ca25-4641-8688-845f7462aa1f",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "5c68b335-0456-4111-ae77-4697cb61cd56",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "7b95b483-1e24-4f39-aa54-8e132fbe5daa",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "5c68b335-0456-4111-ae77-4697cb61cd56",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "515ba08d-df0e-4c71-acd9-54af09cda738",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "7d725125-6b48-44d2-a53b-bf847ae8a3d0",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "5c68b335-0456-4111-ae77-4697cb61cd56",
+  "allow" : true,
+  "privilegeType" : "ApproveEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "a20f3116-9bf7-4391-a9f3-c038f7451af9",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "ca4428e7-dc4c-4dad-8190-451d8ccd7402",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "5c68b335-0456-4111-ae77-4697cb61cd56",
+  "allow" : true,
+  "privilegeType" : "RejectEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "6ce6e862-1e01-4a88-9c27-52c9cb2a4107",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "305d8287-731b-4094-8139-71bc171b242e",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "5c68b335-0456-4111-ae77-4697cb61cd56",
+  "allow" : true,
+  "privilegeType" : "VoidVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "197fa8ae-d465-44d0-8ebe-ebc1277ced10",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "5c68b335-0456-4111-ae77-4697cb61cd56",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "1e64820e-f091-474c-b31a-0b8a78d74e57",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "5c68b335-0456-4111-ae77-4697cb61cd56",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "11cefc93-5f5a-44c3-8a95-a444c9d54992",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "5c68b335-0456-4111-ae77-4697cb61cd56",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "246586d3-427a-4280-b39f-c37af64f0082",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "5c68b335-0456-4111-ae77-4697cb61cd56",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "358a98ee-3289-4db9-b25b-c651c9efbe2b",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "5c68b335-0456-4111-ae77-4697cb61cd56",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "712d58fd-7c7d-4303-a392-86e2bc5d73d1",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "7d725125-6b48-44d2-a53b-bf847ae8a3d0",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "5c68b335-0456-4111-ae77-4697cb61cd56",
+  "allow" : true,
+  "privilegeType" : "ApproveEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "3cbe6688-15ef-4318-8a73-469229c01c24",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "ca4428e7-dc4c-4dad-8190-451d8ccd7402",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "5c68b335-0456-4111-ae77-4697cb61cd56",
+  "allow" : true,
+  "privilegeType" : "RejectEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "c4272400-9ede-4071-b3ca-3ab482dbd58e",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "305d8287-731b-4094-8139-71bc171b242e",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "5c68b335-0456-4111-ae77-4697cb61cd56",
+  "allow" : true,
+  "privilegeType" : "VoidVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "7984036c-0f43-4157-a22a-17fb2609e80c",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "231e81b3-8f1c-474a-bc2e-4398006e2579",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "f9e036a5-cd95-4bd6-9009-10c9beee9bd0",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "231e81b3-8f1c-474a-bc2e-4398006e2579",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "bf083360-6b7d-4e59-b69b-f441060c5c93",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "231e81b3-8f1c-474a-bc2e-4398006e2579",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "d96a274d-eda0-47f9-a3e6-b7eb89b52348",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "231e81b3-8f1c-474a-bc2e-4398006e2579",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "0d79bfa7-77e5-4f0a-9b99-053ae3f87ccc",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "231e81b3-8f1c-474a-bc2e-4398006e2579",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "b2333970-08a5-4935-a827-0d633e3c758d",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "7d725125-6b48-44d2-a53b-bf847ae8a3d0",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "231e81b3-8f1c-474a-bc2e-4398006e2579",
+  "allow" : true,
+  "privilegeType" : "ApproveEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "ae67e1bd-509d-4d52-99a1-08add3df136a",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "ca4428e7-dc4c-4dad-8190-451d8ccd7402",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "231e81b3-8f1c-474a-bc2e-4398006e2579",
+  "allow" : true,
+  "privilegeType" : "RejectEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "d0c1362a-c0f1-4936-8869-2069a3aa1dbc",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "305d8287-731b-4094-8139-71bc171b242e",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "231e81b3-8f1c-474a-bc2e-4398006e2579",
+  "allow" : true,
+  "privilegeType" : "VoidVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "a8acd6ba-a20b-41ba-a213-6be302e4ac61",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "231e81b3-8f1c-474a-bc2e-4398006e2579",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "2dd11837-9872-4b94-80e6-872a6df7d281",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "231e81b3-8f1c-474a-bc2e-4398006e2579",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "bd6fd97d-f5a3-4ead-b351-4c01b8b7bac3",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "231e81b3-8f1c-474a-bc2e-4398006e2579",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "02012f24-be65-4f28-bd50-75316257aa52",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "231e81b3-8f1c-474a-bc2e-4398006e2579",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "5020f46b-f578-4aaa-85a1-6e6288a83de1",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "231e81b3-8f1c-474a-bc2e-4398006e2579",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "fb161bf2-26ce-4631-afd2-ef7d387f036b",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "7d725125-6b48-44d2-a53b-bf847ae8a3d0",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "231e81b3-8f1c-474a-bc2e-4398006e2579",
+  "allow" : true,
+  "privilegeType" : "ApproveEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "44e88f4e-0f92-4410-a7b5-b87d754effbc",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "ca4428e7-dc4c-4dad-8190-451d8ccd7402",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "231e81b3-8f1c-474a-bc2e-4398006e2579",
+  "allow" : true,
+  "privilegeType" : "RejectEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "9fc7e5cd-46ac-4f92-9617-f669b9a08aca",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "305d8287-731b-4094-8139-71bc171b242e",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "231e81b3-8f1c-474a-bc2e-4398006e2579",
+  "allow" : true,
+  "privilegeType" : "VoidVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "0cded9be-8db9-4898-bff0-730e6aeaa032",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "24474001-f69a-433f-8a65-737c1662bbca",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "2840aae1-5dcf-4aeb-931d-62cfe51a792d",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "24474001-f69a-433f-8a65-737c1662bbca",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "f2336852-62a2-4893-9810-ea48593360a9",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "24474001-f69a-433f-8a65-737c1662bbca",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "3ded82a5-1e77-45cc-8071-c770611d6d44",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "24474001-f69a-433f-8a65-737c1662bbca",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "b66056f6-66b3-4e0b-897c-8e9e2f620db7",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "24474001-f69a-433f-8a65-737c1662bbca",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "5cf31bad-1c6b-4ae4-a008-f4d6cd9ff6ce",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "7d725125-6b48-44d2-a53b-bf847ae8a3d0",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "24474001-f69a-433f-8a65-737c1662bbca",
+  "allow" : true,
+  "privilegeType" : "ApproveEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "e5b9cf3b-5c5c-43c1-aa42-3cc01fb348b8",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "ca4428e7-dc4c-4dad-8190-451d8ccd7402",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "24474001-f69a-433f-8a65-737c1662bbca",
+  "allow" : true,
+  "privilegeType" : "RejectEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "c1bbebde-d3b5-48ac-8a69-b07fbce5b87b",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "305d8287-731b-4094-8139-71bc171b242e",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "24474001-f69a-433f-8a65-737c1662bbca",
+  "allow" : true,
+  "privilegeType" : "VoidVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "7cf40054-90e6-4965-be7a-789d3ed6ec78",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "24474001-f69a-433f-8a65-737c1662bbca",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "2a690f49-1c4d-4498-920b-a1eb4c202823",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "24474001-f69a-433f-8a65-737c1662bbca",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "c7657dba-35c3-44a0-b875-541e2975421a",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "24474001-f69a-433f-8a65-737c1662bbca",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "49af5d12-ec85-4195-b0b1-3f0a6a7b4073",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "24474001-f69a-433f-8a65-737c1662bbca",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "5faa1a99-9999-4fb5-aa63-da345b97dd50",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "24474001-f69a-433f-8a65-737c1662bbca",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "bd70085d-f4e1-4fb0-8eab-29fcaf5a9381",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "7d725125-6b48-44d2-a53b-bf847ae8a3d0",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "24474001-f69a-433f-8a65-737c1662bbca",
+  "allow" : true,
+  "privilegeType" : "ApproveEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "ce4c3388-8b3c-43aa-89ff-80f6b7325c5f",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "ca4428e7-dc4c-4dad-8190-451d8ccd7402",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "24474001-f69a-433f-8a65-737c1662bbca",
+  "allow" : true,
+  "privilegeType" : "RejectEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "d7b5d65a-23aa-4db5-bf96-a47101fa1738",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "305d8287-731b-4094-8139-71bc171b242e",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "24474001-f69a-433f-8a65-737c1662bbca",
+  "allow" : true,
+  "privilegeType" : "VoidVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "35efd2e4-8e42-426f-b9b0-918091d1750c",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "25c6c7d8-d779-43e2-b53e-d1cbf92f3865",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "a3fb6229-4f11-4823-946e-ac387e2a8ff4",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "25c6c7d8-d779-43e2-b53e-d1cbf92f3865",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "504c02bb-b8f6-4fd2-b6b7-922e5ae36596",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "25c6c7d8-d779-43e2-b53e-d1cbf92f3865",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "b407f53c-24f9-4c3e-a612-03a797854140",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "25c6c7d8-d779-43e2-b53e-d1cbf92f3865",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "91e19d80-a148-42f8-bddc-c74ef93a3100",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "25c6c7d8-d779-43e2-b53e-d1cbf92f3865",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "48476f85-f44a-40ec-a08e-b93541aa2c04",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "7d725125-6b48-44d2-a53b-bf847ae8a3d0",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "25c6c7d8-d779-43e2-b53e-d1cbf92f3865",
+  "allow" : true,
+  "privilegeType" : "ApproveEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "a433c745-6aca-447a-a3e9-3665e96c8af3",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "ca4428e7-dc4c-4dad-8190-451d8ccd7402",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "25c6c7d8-d779-43e2-b53e-d1cbf92f3865",
+  "allow" : true,
+  "privilegeType" : "RejectEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "af046bf5-8dce-4b3a-b30a-99cb1c31d2d6",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "305d8287-731b-4094-8139-71bc171b242e",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "25c6c7d8-d779-43e2-b53e-d1cbf92f3865",
+  "allow" : true,
+  "privilegeType" : "VoidVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "5b20a02b-f28f-4a8c-8d2d-c299a5818105",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "25c6c7d8-d779-43e2-b53e-d1cbf92f3865",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "93196932-4f2a-41cf-a67f-15395cc0f0a1",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "25c6c7d8-d779-43e2-b53e-d1cbf92f3865",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "d78eb783-8b0b-4608-b9a0-0004e25c56a3",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "25c6c7d8-d779-43e2-b53e-d1cbf92f3865",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "3e2fb0cc-4c60-4f92-bf44-bcb2c22a0b06",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "25c6c7d8-d779-43e2-b53e-d1cbf92f3865",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "5c6ee6b7-4482-4e8d-9f32-ebdd348a4ce6",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "25c6c7d8-d779-43e2-b53e-d1cbf92f3865",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "85c1ffb7-4472-43e2-a7a3-c2ef7d02af2f",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "7d725125-6b48-44d2-a53b-bf847ae8a3d0",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "25c6c7d8-d779-43e2-b53e-d1cbf92f3865",
+  "allow" : true,
+  "privilegeType" : "ApproveEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "2df423ab-5f77-4592-8721-bb0db765a92a",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "ca4428e7-dc4c-4dad-8190-451d8ccd7402",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "25c6c7d8-d779-43e2-b53e-d1cbf92f3865",
+  "allow" : true,
+  "privilegeType" : "RejectEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "1e3ec64c-2400-493e-9929-70e8a91bd69b",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "305d8287-731b-4094-8139-71bc171b242e",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "25c6c7d8-d779-43e2-b53e-d1cbf92f3865",
+  "allow" : true,
+  "privilegeType" : "VoidVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "a19f15a3-5859-424d-8e3d-ffd236fc1953",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "aaaa9032-072c-4662-acb1-f651e6b67946",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "494ff6ee-a6a7-4ef3-bf55-2e0c6dab80c7",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "aaaa9032-072c-4662-acb1-f651e6b67946",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "05091688-5b79-4c9f-815f-856268ba7a53",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "aaaa9032-072c-4662-acb1-f651e6b67946",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "ff07c847-3126-485c-9a4b-59f3ba67d37f",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "aaaa9032-072c-4662-acb1-f651e6b67946",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "c3e6a3de-4f08-4653-8faf-d2ab7e3e7d85",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "aaaa9032-072c-4662-acb1-f651e6b67946",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "3cb136f4-a215-4194-b4b6-c6d1a3f39b4e",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "7d725125-6b48-44d2-a53b-bf847ae8a3d0",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "aaaa9032-072c-4662-acb1-f651e6b67946",
+  "allow" : true,
+  "privilegeType" : "ApproveEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "8d9467c5-f569-4797-9258-dcd23d4264c4",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "ca4428e7-dc4c-4dad-8190-451d8ccd7402",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "aaaa9032-072c-4662-acb1-f651e6b67946",
+  "allow" : true,
+  "privilegeType" : "RejectEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "d4698f20-daf6-454f-8622-79e87ed2c863",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "305d8287-731b-4094-8139-71bc171b242e",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "aaaa9032-072c-4662-acb1-f651e6b67946",
+  "allow" : true,
+  "privilegeType" : "VoidVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "f151c162-b787-43cf-acd6-eeba32c3bb88",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "aaaa9032-072c-4662-acb1-f651e6b67946",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "9d0a337a-ef54-4f74-aa8f-738a5bc23671",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "aaaa9032-072c-4662-acb1-f651e6b67946",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "0423377a-c554-4f2e-8498-0c1e2278cf57",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "aaaa9032-072c-4662-acb1-f651e6b67946",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "557c3044-81f0-4cff-ae3c-3b310eae8e96",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "aaaa9032-072c-4662-acb1-f651e6b67946",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "784749ca-e55a-413e-ba41-e88621330cfd",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "aaaa9032-072c-4662-acb1-f651e6b67946",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "48476133-aa76-4329-83a0-4d2d8b0b6d51",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "7d725125-6b48-44d2-a53b-bf847ae8a3d0",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "aaaa9032-072c-4662-acb1-f651e6b67946",
+  "allow" : true,
+  "privilegeType" : "ApproveEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "c9c35b3b-c8c5-4622-a9d3-e3a65abecc28",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "ca4428e7-dc4c-4dad-8190-451d8ccd7402",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "aaaa9032-072c-4662-acb1-f651e6b67946",
+  "allow" : true,
+  "privilegeType" : "RejectEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "8fae2058-8ed3-4a15-8d54-2257ae119f4c",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "305d8287-731b-4094-8139-71bc171b242e",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "aaaa9032-072c-4662-acb1-f651e6b67946",
+  "allow" : true,
+  "privilegeType" : "VoidVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "2fde4b74-5988-4803-8ae3-4fd37a90fa06",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "c901cd8b-fcc3-44c6-bbd2-848e8466e00e",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "57bf04d1-7869-46fe-8d1a-1458423ec761",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "c901cd8b-fcc3-44c6-bbd2-848e8466e00e",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "be65840e-a193-4f34-be08-c798581d6fff",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "c901cd8b-fcc3-44c6-bbd2-848e8466e00e",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "6d0f66da-f413-4db4-b5e4-7a44de8150cc",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "c901cd8b-fcc3-44c6-bbd2-848e8466e00e",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "e3ddd474-5985-4d3a-9b57-75af6bf72b4c",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "c901cd8b-fcc3-44c6-bbd2-848e8466e00e",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "fa29fc3e-08e4-4021-9f54-922098cb3be9",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "7d725125-6b48-44d2-a53b-bf847ae8a3d0",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "c901cd8b-fcc3-44c6-bbd2-848e8466e00e",
+  "allow" : true,
+  "privilegeType" : "ApproveEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "41697c2d-2db9-4b13-bd63-11c20b446578",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "ca4428e7-dc4c-4dad-8190-451d8ccd7402",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "c901cd8b-fcc3-44c6-bbd2-848e8466e00e",
+  "allow" : true,
+  "privilegeType" : "RejectEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "48c136b4-24be-49a2-a695-254842dffbeb",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "305d8287-731b-4094-8139-71bc171b242e",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "c901cd8b-fcc3-44c6-bbd2-848e8466e00e",
+  "allow" : true,
+  "privilegeType" : "VoidVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "145ab36a-1276-43e8-8ef9-9da0ad9f592e",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "c901cd8b-fcc3-44c6-bbd2-848e8466e00e",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "5fc756c6-cef3-410f-acc9-c58597214630",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "c901cd8b-fcc3-44c6-bbd2-848e8466e00e",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "89ea99bb-27e8-45aa-ae8e-e396ed8a7ac7",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "c901cd8b-fcc3-44c6-bbd2-848e8466e00e",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "ff53963a-ca52-4277-92d7-85b1dfac6896",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "c901cd8b-fcc3-44c6-bbd2-848e8466e00e",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "cbaa73f3-9a22-45df-a444-91192f2f96c9",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "c901cd8b-fcc3-44c6-bbd2-848e8466e00e",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "4ffcd77a-efa9-4e2c-add9-f086351a0b2b",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "7d725125-6b48-44d2-a53b-bf847ae8a3d0",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "c901cd8b-fcc3-44c6-bbd2-848e8466e00e",
+  "allow" : true,
+  "privilegeType" : "ApproveEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "958c9a8b-804b-4541-9fef-01f5e6f72ad5",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "ca4428e7-dc4c-4dad-8190-451d8ccd7402",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "c901cd8b-fcc3-44c6-bbd2-848e8466e00e",
+  "allow" : true,
+  "privilegeType" : "RejectEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "f7f62eab-22c3-4851-861d-e8c80f37893e",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "305d8287-731b-4094-8139-71bc171b242e",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "c901cd8b-fcc3-44c6-bbd2-848e8466e00e",
+  "allow" : true,
+  "privilegeType" : "VoidVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "28774ad8-a889-417f-b664-6a820c97757e",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "91719f2a-0312-41ad-80ce-9e010f193e0b",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "52d68105-2525-4647-8c26-72423dee96de",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "91719f2a-0312-41ad-80ce-9e010f193e0b",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "a82851ea-9e28-4d08-a5a8-f438eb7f733f",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "91719f2a-0312-41ad-80ce-9e010f193e0b",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "f59e1699-6cef-479a-b0f0-2b3816304420",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "91719f2a-0312-41ad-80ce-9e010f193e0b",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "be875b79-7bc5-4986-9ef4-83f86d08d6a7",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "91719f2a-0312-41ad-80ce-9e010f193e0b",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "b44c04bb-29cc-4bbf-9f46-52d19a632926",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "7d725125-6b48-44d2-a53b-bf847ae8a3d0",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "91719f2a-0312-41ad-80ce-9e010f193e0b",
+  "allow" : true,
+  "privilegeType" : "ApproveEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "6a3a0e91-65f2-48aa-b441-d43517bd0bcc",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "ca4428e7-dc4c-4dad-8190-451d8ccd7402",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "91719f2a-0312-41ad-80ce-9e010f193e0b",
+  "allow" : true,
+  "privilegeType" : "RejectEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "237ce078-70f4-4679-b18c-bd0c3fd98741",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "305d8287-731b-4094-8139-71bc171b242e",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "91719f2a-0312-41ad-80ce-9e010f193e0b",
+  "allow" : true,
+  "privilegeType" : "VoidVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "138e1ade-7f0a-476b-ac16-5d413bfec61f",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "91719f2a-0312-41ad-80ce-9e010f193e0b",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "b011359d-9b47-454a-8257-fe97a4837d25",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "91719f2a-0312-41ad-80ce-9e010f193e0b",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "60de77ab-b3eb-4007-be0e-6618cdfa4736",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "91719f2a-0312-41ad-80ce-9e010f193e0b",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "2b7ebc7c-4723-4539-8b09-51f1d7485c42",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "91719f2a-0312-41ad-80ce-9e010f193e0b",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "f1eeff62-3b49-45c7-8430-3ba7ee6a3a72",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "91719f2a-0312-41ad-80ce-9e010f193e0b",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "5808c0f7-4616-483d-b904-e8c5239d9ba8",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "7d725125-6b48-44d2-a53b-bf847ae8a3d0",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "91719f2a-0312-41ad-80ce-9e010f193e0b",
+  "allow" : true,
+  "privilegeType" : "ApproveEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "ea06c6ff-a108-4d19-8da7-83a2a3ef3d50",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "ca4428e7-dc4c-4dad-8190-451d8ccd7402",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "91719f2a-0312-41ad-80ce-9e010f193e0b",
+  "allow" : true,
+  "privilegeType" : "RejectEncounter",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "6d6a9d05-c8fd-44f4-83a5-90f1d42d9692",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "305d8287-731b-4094-8139-71bc171b242e",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "91719f2a-0312-41ad-80ce-9e010f193e0b",
+  "allow" : true,
+  "privilegeType" : "VoidVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "d40784f2-0c98-4e61-9c06-459fb60c2672",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "020c5e18-01f0-469a-8a4a-e27cbc2a2292",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "allow" : true,
+  "privilegeType" : "EnrolSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "dc2271ec-16d1-44f2-9d67-de1ed50131c7",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "583188ff-cd10-4615-9e22-000ce0bc6d80",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "allow" : true,
+  "privilegeType" : "ViewEnrolmentDetails",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "57a29042-77bd-4a7c-a537-bf642f622ffa",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "a1dcc42f-eed4-4baf-807a-4f6e238f1cba",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "allow" : true,
+  "privilegeType" : "EditEnrolmentDetails",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "ffb0a67c-9b37-4ad0-8abe-a16640d22b2f",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "bd419d1e-cfc6-4607-8cad-38871721115d",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "allow" : true,
+  "privilegeType" : "ExitEnrolment",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "de025902-4022-4eb7-aab1-557f1df50a2b",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "31449500-4b8d-43db-855a-c9099600ee32",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "allow" : true,
+  "privilegeType" : "ApproveEnrolment",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "24379ab1-6f3a-48bb-bd8c-3b16abeced36",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "8b0089f6-8c52-471c-bb89-8d4c1800dbcd",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "allow" : true,
+  "privilegeType" : "RejectEnrolment",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "f5680efa-f50a-4a29-9aba-dfe41508ba1e",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "020c5e18-01f0-469a-8a4a-e27cbc2a2292",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "allow" : true,
+  "privilegeType" : "EnrolSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "c24026ad-7062-4ca5-b2df-79cf300966ae",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "583188ff-cd10-4615-9e22-000ce0bc6d80",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "allow" : true,
+  "privilegeType" : "ViewEnrolmentDetails",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "7ad25b13-7e2d-4238-ae05-1c4cbacb031d",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "a1dcc42f-eed4-4baf-807a-4f6e238f1cba",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "allow" : true,
+  "privilegeType" : "EditEnrolmentDetails",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "2c00cb52-cc6c-48db-a579-90f438c321e7",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "bd419d1e-cfc6-4607-8cad-38871721115d",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "allow" : true,
+  "privilegeType" : "ExitEnrolment",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "e796a4f7-25e0-4a8c-ad8e-7a9d1065167a",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "31449500-4b8d-43db-855a-c9099600ee32",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "allow" : true,
+  "privilegeType" : "ApproveEnrolment",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "22595f35-69f4-4187-875e-f54d9c2bae5f",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "8b0089f6-8c52-471c-bb89-8d4c1800dbcd",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "allow" : true,
+  "privilegeType" : "RejectEnrolment",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "8001b43e-b855-4513-a35d-81eef62baa11",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "020c5e18-01f0-469a-8a4a-e27cbc2a2292",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "allow" : true,
+  "privilegeType" : "EnrolSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "2656bf61-c8c6-4e2e-acab-6d02d35fc294",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "583188ff-cd10-4615-9e22-000ce0bc6d80",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "allow" : true,
+  "privilegeType" : "ViewEnrolmentDetails",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "51cf47d8-1190-45a8-a443-79feecfecdc7",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "a1dcc42f-eed4-4baf-807a-4f6e238f1cba",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "allow" : true,
+  "privilegeType" : "EditEnrolmentDetails",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "83aba5fc-f202-4de1-9e31-8371c4227cae",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "bd419d1e-cfc6-4607-8cad-38871721115d",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "allow" : true,
+  "privilegeType" : "ExitEnrolment",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "7567874d-8a4a-4352-8e9c-d2c6cdf944a4",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "31449500-4b8d-43db-855a-c9099600ee32",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "allow" : true,
+  "privilegeType" : "ApproveEnrolment",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "c56a122e-b00d-4a17-a97b-0a6ca8651b3f",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "8b0089f6-8c52-471c-bb89-8d4c1800dbcd",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "allow" : true,
+  "privilegeType" : "RejectEnrolment",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "bb0e18d1-26be-4683-ae5f-a9a9b898352e",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "020c5e18-01f0-469a-8a4a-e27cbc2a2292",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "allow" : true,
+  "privilegeType" : "EnrolSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "1f402e8a-74a8-423e-b4c4-82e5ef3dab1e",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "583188ff-cd10-4615-9e22-000ce0bc6d80",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "allow" : true,
+  "privilegeType" : "ViewEnrolmentDetails",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "73526a50-2300-4c6c-93dc-afdc8b0ac8a9",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "a1dcc42f-eed4-4baf-807a-4f6e238f1cba",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "allow" : true,
+  "privilegeType" : "EditEnrolmentDetails",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "8e46a85b-4fc4-4fa8-aa3b-f96f456cea66",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "bd419d1e-cfc6-4607-8cad-38871721115d",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "allow" : true,
+  "privilegeType" : "ExitEnrolment",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "8ed8ecf3-1c56-41d9-b0a5-5e92d5eb31ed",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "31449500-4b8d-43db-855a-c9099600ee32",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "allow" : true,
+  "privilegeType" : "ApproveEnrolment",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "c45da420-ce08-4645-b46f-644cf4bd8c19",
+  "groupUUID" : "87f29170-fb20-44be-a6b6-0cbe0da8a2e2",
+  "privilegeUUID" : "8b0089f6-8c52-471c-bb89-8d4c1800dbcd",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "allow" : true,
+  "privilegeType" : "RejectEnrolment",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "3d1249bc-2323-4327-a71e-754309101642",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "196ebfd9-9649-41c1-b07d-2ea5f6b7cd59",
+  "allow" : false,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "24b2351a-bdd7-4ab1-bbec-7e078087b072",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "196ebfd9-9649-41c1-b07d-2ea5f6b7cd59",
+  "allow" : false,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "42fc8e9f-83cf-42a4-b62a-7adc57c8c708",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "bd419d1e-cfc6-4607-8cad-38871721115d",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "allow" : false,
+  "privilegeType" : "ExitEnrolment",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "60579724-a74a-4be4-8c0b-13621b677bd8",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "c901cd8b-fcc3-44c6-bbd2-848e8466e00e",
+  "allow" : false,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "84f752e8-9837-4de3-b739-6cc419808a43",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "c901cd8b-fcc3-44c6-bbd2-848e8466e00e",
+  "allow" : false,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "f7542d07-a9b9-47b0-a0c9-9944b565c0d7",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "programEncounterTypeUUID" : "c901cd8b-fcc3-44c6-bbd2-848e8466e00e",
+  "allow" : false,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "4b0954e2-6d62-4e4a-af86-de0552c846ba",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "91719f2a-0312-41ad-80ce-9e010f193e0b",
+  "allow" : false,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "daf161b6-e9c1-416e-bc38-43111cb79a85",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "91719f2a-0312-41ad-80ce-9e010f193e0b",
+  "allow" : false,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "b230660c-2885-49a0-8a38-f8fd673d6e87",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "91719f2a-0312-41ad-80ce-9e010f193e0b",
+  "allow" : false,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "2cd5b301-76e1-4447-b673-43108bb5224e",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "bd419d1e-cfc6-4607-8cad-38871721115d",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "7e905823-0326-4f67-8bc3-84cc4bb9f407",
+  "allow" : false,
+  "privilegeType" : "ExitEnrolment",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "7e7cd511-defb-493e-a3c8-7be2841cee4c",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "31c16b7d-825a-4bfa-b961-128846beb3ef",
+  "allow" : false,
+  "privilegeType" : "EditUserConfiguration",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "4f4dff35-6f65-481a-a8b3-57816f196a49",
+  "groupUUID" : "799d528a-fe6f-4789-9b72-f337c46c638b",
+  "privilegeUUID" : "78902b7a-7970-4557-9ffa-ce8e93d20e9a",
+  "allow" : false,
+  "privilegeType" : "EditUserGroup",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "528e15fb-b1ae-4e40-9bfe-38e7991cec1b",
+  "groupUUID" : "0d816e07-c783-414f-9812-575601adb781",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "programUUID" : "5538d0f1-194c-4055-9311-dcc0239fe1ce",
+  "programEncounterTypeUUID" : "196ebfd9-9649-41c1-b07d-2ea5f6b7cd59",
+  "allow" : false,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "f71c7f50-eb59-4f18-abf0-5776b066e29b",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "67410e50-8b40-4735-bfb4-135b13580027",
+  "subjectTypeUUID" : "542e9019-04c8-4aec-9801-26a7be8a39ad",
+  "allow" : true,
+  "privilegeType" : "ViewSubject",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "e12511fe-54f6-4f7c-b6a2-67a92a21671f",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "542e9019-04c8-4aec-9801-26a7be8a39ad",
+  "encounterTypeUUID" : "039b6488-5395-4fda-989e-d3b00760c5bd",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "a160455f-3340-4f1f-bdeb-4e3990b1015a",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "542e9019-04c8-4aec-9801-26a7be8a39ad",
+  "encounterTypeUUID" : "039b6488-5395-4fda-989e-d3b00760c5bd",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "eb48d8ef-67ab-4b79-90d8-d1bceae0fcc8",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "9f2a3495-93b7-47c3-8560-d572b6a9fc61",
+  "subjectTypeUUID" : "542e9019-04c8-4aec-9801-26a7be8a39ad",
+  "encounterTypeUUID" : "e8ec379d-8cc7-4617-a74e-264854b7139d",
+  "allow" : true,
+  "privilegeType" : "ViewVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "294d1e55-473a-4961-b8a8-22ed9288c3cd",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "542e9019-04c8-4aec-9801-26a7be8a39ad",
+  "encounterTypeUUID" : "e8ec379d-8cc7-4617-a74e-264854b7139d",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "daf93813-96c2-4d93-8ec1-dd4f7a31d2bb",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "542e9019-04c8-4aec-9801-26a7be8a39ad",
+  "encounterTypeUUID" : "039b6488-5395-4fda-989e-d3b00760c5bd",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "3e7ff941-aea3-4e42-aef5-38c03ade4cb1",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "867d5de9-0bf3-434c-9cb1-bd09a05250af",
+  "subjectTypeUUID" : "542e9019-04c8-4aec-9801-26a7be8a39ad",
+  "encounterTypeUUID" : "e8ec379d-8cc7-4617-a74e-264854b7139d",
+  "allow" : true,
+  "privilegeType" : "ScheduleVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "f6734517-1ed8-4d55-9338-b1c9048baa64",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "542e9019-04c8-4aec-9801-26a7be8a39ad",
+  "encounterTypeUUID" : "e8ec379d-8cc7-4617-a74e-264854b7139d",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "1b94bfae-e592-451a-a325-cd2a31b55d52",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "51fa8342-3228-4945-88eb-4b41970fa425",
+  "subjectTypeUUID" : "542e9019-04c8-4aec-9801-26a7be8a39ad",
+  "encounterTypeUUID" : "e8ec379d-8cc7-4617-a74e-264854b7139d",
+  "allow" : true,
+  "privilegeType" : "CancelVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "5167205a-4366-4cbe-ab2a-21f2fef0973f",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "305d8287-731b-4094-8139-71bc171b242e",
+  "subjectTypeUUID" : "542e9019-04c8-4aec-9801-26a7be8a39ad",
+  "encounterTypeUUID" : "039b6488-5395-4fda-989e-d3b00760c5bd",
+  "allow" : false,
+  "privilegeType" : "VoidVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "d63b3846-8ff7-42ee-a34a-e0aa0b6f1edc",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "e3352a23-f478-4166-af11-e949cc69e1cc",
+  "subjectTypeUUID" : "542e9019-04c8-4aec-9801-26a7be8a39ad",
+  "encounterTypeUUID" : "039b6488-5395-4fda-989e-d3b00760c5bd",
+  "allow" : true,
+  "privilegeType" : "PerformVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+}, {
+  "uuid" : "22aceb96-97b6-45fc-8679-edf755c69dd0",
+  "groupUUID" : "948e3c3f-192d-48a8-b7c0-12aad9155766",
+  "privilegeUUID" : "85ce5ed4-1490-4980-8c64-63fb423b5f14",
+  "subjectTypeUUID" : "542e9019-04c8-4aec-9801-26a7be8a39ad",
+  "encounterTypeUUID" : "039b6488-5395-4fda-989e-d3b00760c5bd",
+  "allow" : true,
+  "privilegeType" : "EditVisit",
+  "notEveryoneGroup" : true,
+  "voided" : false
+} ]

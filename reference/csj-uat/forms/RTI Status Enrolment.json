@@ -1,0 +1,53 @@
+{
+  "name" : "RTI Status Enrolment",
+  "uuid" : "5bc4dab0-d284-4aa0-81e5-df87feeb7753",
+  "formType" : "ProgramEnrolment",
+  "formElementGroups" : [ {
+    "uuid" : "37c75343-1a37-42b3-b3b6-6c8ef5877c3f",
+    "name" : "Status Details",
+    "displayOrder" : 1.0,
+    "formElements" : [ {
+      "name" : "Status",
+      "uuid" : "0884f8d0-a811-4f67-88a5-7b7ff3f143f6",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "RTI Status",
+        "uuid" : "10854671-98b9-422c-bd82-3337c5746f30",
+        "dataType" : "Coded",
+        "answers" : [ {
+          "name" : "Info Received",
+          "uuid" : "122315be-1e8a-4303-80c6-20ee68d4ac39",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 1.0,
+          "active" : true
+        }, {
+          "name" : "RTI filed",
+          "uuid" : "6bb25780-3e71-4b0e-8c4f-bb6c2e1ce445",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 0.0,
+          "active" : true
+        }, {
+          "name" : "Info not received and closed",
+          "uuid" : "9b634340-3b4d-4460-b15e-2e1a65da2e84",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 2.0,
+          "active" : true
+        } ],
+        "active" : true
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    } ],
+    "display" : "Status Details",
+    "timed" : false
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : "",
+  "checklistsRule" : "",
+  "decisionConcepts" : [ ]
+}

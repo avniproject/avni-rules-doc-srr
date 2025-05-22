@@ -1,0 +1,33 @@
+{
+  "name" : "Village Form Encounter",
+  "uuid" : "a2687eec-8161-425e-9745-e3fb0554ae3b",
+  "formType" : "Encounter",
+  "formElementGroups" : [ {
+    "uuid" : "10b21b40-0a2c-484c-b090-ef33c6759c69",
+    "name" : "Census Details",
+    "displayOrder" : 1.0,
+    "formElements" : [ {
+      "name" : "Number of Male residents",
+      "uuid" : "6d330d5a-4d5a-4c30-8eb4-fe32dc1107c5",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Number of Male residents",
+        "uuid" : "496ef25c-c797-489a-ad95-0b74a8dd0838",
+        "dataType" : "Numeric",
+        "answers" : [ ],
+        "lowAbsolute" : 1.0,
+        "active" : true
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    } ],
+    "display" : "Census Details",
+    "timed" : false
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : "",
+  "checklistsRule" : "",
+  "decisionConcepts" : [ ]
+}

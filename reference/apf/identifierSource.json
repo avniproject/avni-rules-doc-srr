@@ -1,0 +1,33 @@
+[ {
+  "batchGenerationSize" : 100,
+  "minimumBalance" : 10,
+  "name" : "Beneficiary ID",
+  "options" : {
+    "prefix" : "B"
+  },
+  "type" : "userPoolBasedIdentifierGenerator",
+  "catchmentId" : null,
+  "minLength" : 2,
+  "maxLength" : 3,
+  "voided" : true,
+  "organisationId" : 272,
+  "id" : 41,
+  "catchmentUUID" : null,
+  "uuid" : "4bf58d34-a034-4a77-87ef-e4e994ba6490"
+}, {
+  "batchGenerationSize" : 100,
+  "minimumBalance" : 10,
+  "name" : "Household id",
+  "options" : {
+    "prefix" : "H"
+  },
+  "type" : "userPoolBasedIdentifierGenerator",
+  "catchmentId" : null,
+  "minLength" : 3,
+  "maxLength" : 9,
+  "voided" : true,
+  "organisationId" : 272,
+  "id" : 42,
+  "catchmentUUID" : null,
+  "uuid" : "94c98dec-755d-4fd1-958c-b54d91d47001"
+} ]

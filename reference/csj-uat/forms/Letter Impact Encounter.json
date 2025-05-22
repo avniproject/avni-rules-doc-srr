@@ -1,0 +1,65 @@
+{
+  "name" : "Letter Impact Encounter",
+  "uuid" : "0835bfa7-947e-48e0-aa09-2a77fcf61521",
+  "formType" : "ProgramEncounter",
+  "formElementGroups" : [ {
+    "uuid" : "a36cfcf1-4443-40a6-bc7f-3d4a7edb5d35",
+    "name" : "Impact details",
+    "displayOrder" : 1.0,
+    "formElements" : [ {
+      "name" : "Impact details",
+      "uuid" : "4c603105-c6b8-41a3-8018-6e2273ce7a5f",
+      "keyValues" : [ {
+        "key" : "repeatable",
+        "value" : true
+      } ],
+      "concept" : {
+        "name" : "Letter Impact Details",
+        "uuid" : "6a66028e-e11c-4b47-a94d-695d1b232577",
+        "dataType" : "QuestionGroup",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
+      "name" : "Description of Impact",
+      "uuid" : "d8468d22-0be6-47c6-aaee-0060d6b09bf2",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Impact Description",
+        "uuid" : "bed28fd5-e245-42d5-b547-6b100a90c1d9",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 2.0,
+      "type" : "SingleSelect",
+      "parentFormElementUuid" : "4c603105-c6b8-41a3-8018-6e2273ce7a5f",
+      "mandatory" : true
+    }, {
+      "name" : "Monetary Impact",
+      "uuid" : "7cc803d1-272b-49e6-895f-2f562d76b7f4",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Impact Monetary Letter",
+        "uuid" : "35d197f1-e61c-4efe-a8a9-7d65f741edad",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 3.0,
+      "type" : "SingleSelect",
+      "parentFormElementUuid" : "4c603105-c6b8-41a3-8018-6e2273ce7a5f",
+      "mandatory" : true
+    } ],
+    "display" : "Impact details",
+    "timed" : false
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : "",
+  "checklistsRule" : "",
+  "decisionConcepts" : [ ]
+}

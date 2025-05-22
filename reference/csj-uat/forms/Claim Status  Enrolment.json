@@ -1,0 +1,53 @@
+{
+  "name" : "Claim Status  Enrolment",
+  "uuid" : "a1de8904-294d-4e5e-aab0-2d6975212c84",
+  "formType" : "ProgramEnrolment",
+  "formElementGroups" : [ {
+    "uuid" : "35b02548-bb07-47bd-9349-796ef0794d60",
+    "name" : "Status Details",
+    "displayOrder" : 1.0,
+    "formElements" : [ {
+      "name" : "Status",
+      "uuid" : "047dad7f-b95b-47dc-8b0d-fcfbe708dc70",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Status",
+        "uuid" : "f3ce6acf-60e2-4b93-8de0-40348e40db79",
+        "dataType" : "Coded",
+        "answers" : [ {
+          "name" : "Closed",
+          "uuid" : "d56b69db-da83-4f60-9a3f-4cc159e5e191",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 2.0,
+          "active" : true
+        }, {
+          "name" : "Resolved",
+          "uuid" : "65688e86-a632-4e70-9ef8-4f19b0fc3bee",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 1.0,
+          "active" : true
+        }, {
+          "name" : "Active",
+          "uuid" : "a291f5e8-9e80-4420-99de-67996e72dae3",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 0.0,
+          "active" : true
+        } ],
+        "active" : true
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    } ],
+    "display" : "Status Details",
+    "timed" : false
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : "",
+  "checklistsRule" : "",
+  "decisionConcepts" : [ ]
+}

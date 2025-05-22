@@ -1,0 +1,130 @@
+{
+  "name" : "Location Attribute Form",
+  "uuid" : "60616708-8326-46f9-b743-c0729a4adea1",
+  "formType" : "Location",
+  "formElementGroups" : [ {
+    "uuid" : "c20cf049-a6a8-4113-a5d7-fecf9ac131cc",
+    "name" : "Details",
+    "displayOrder" : 1.0,
+    "formElements" : [ {
+      "name" : "PPK Village",
+      "uuid" : "4df5a023-2790-4d9d-9cdb-ecea13f7ef74",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "PPK Village",
+        "uuid" : "e9a75284-7fa0-46f2-a519-0999779dd507",
+        "dataType" : "Coded",
+        "answers" : [ {
+          "name" : "No",
+          "uuid" : "a77bd700-1409-4d52-93bc-9fe32c0e169b",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 1.0,
+          "active" : true
+        }, {
+          "name" : "Yes",
+          "uuid" : "8ebbf088-f292-483e-9084-7de919ce67b7",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 0.0,
+          "active" : true
+        } ],
+        "active" : true
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    }, {
+      "name" : "PVTG Village",
+      "uuid" : "2b8ea129-7884-4d89-971c-5a34b014b024",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "PVTG Village",
+        "uuid" : "d06665f5-904a-452c-a776-130cb0915ec6",
+        "dataType" : "Coded",
+        "answers" : [ {
+          "name" : "Yes",
+          "uuid" : "8ebbf088-f292-483e-9084-7de919ce67b7",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 0.0,
+          "active" : true
+        }, {
+          "name" : "No",
+          "uuid" : "a77bd700-1409-4d52-93bc-9fe32c0e169b",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 1.0,
+          "active" : true
+        } ],
+        "active" : true
+      },
+      "displayOrder" : 2.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    }, {
+      "name" : "SAMPURNA Village",
+      "uuid" : "d9f4317d-ecde-4491-b13b-a2e47ba9615f",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "SAMPURNA Village",
+        "uuid" : "5c1f9940-2a3f-4f86-ac54-48612cbb5129",
+        "dataType" : "Coded",
+        "answers" : [ {
+          "name" : "Yes",
+          "uuid" : "8ebbf088-f292-483e-9084-7de919ce67b7",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 0.0,
+          "active" : true
+        }, {
+          "name" : "No",
+          "uuid" : "a77bd700-1409-4d52-93bc-9fe32c0e169b",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 1.0,
+          "active" : true
+        } ],
+        "active" : true
+      },
+      "displayOrder" : 3.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    }, {
+      "name" : "Geographically hard to reach village",
+      "uuid" : "a96a3df0-0b2c-4ab6-be9d-e4a3dbf5ce1e",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Geographically hard to reach village",
+        "uuid" : "b65ea6e5-b3cf-459e-9902-6012cbf73794",
+        "dataType" : "Coded",
+        "answers" : [ {
+          "name" : "Yes",
+          "uuid" : "8ebbf088-f292-483e-9084-7de919ce67b7",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 0.0,
+          "active" : true
+        }, {
+          "name" : "No",
+          "uuid" : "a77bd700-1409-4d52-93bc-9fe32c0e169b",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 1.0,
+          "active" : true
+        } ],
+        "active" : true
+      },
+      "displayOrder" : 4.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    } ],
+    "display" : "Details",
+    "timed" : false
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : "",
+  "checklistsRule" : "",
+  "decisionConcepts" : [ ]
+}

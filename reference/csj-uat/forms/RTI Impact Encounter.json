@@ -1,0 +1,113 @@
+{
+  "name" : "RTI Impact Encounter",
+  "uuid" : "40022ea7-4884-407f-92e0-cfe322807c21",
+  "formType" : "ProgramEncounter",
+  "formElementGroups" : [ {
+    "uuid" : "6582a140-8c37-46bd-94ca-4262f95e7290",
+    "name" : "Impact details",
+    "displayOrder" : 1.0,
+    "formElements" : [ {
+      "name" : "Description of Impact",
+      "uuid" : "82e05211-3ea0-4017-a993-d188ee0927fd",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Description of impact (voided~269733)",
+        "uuid" : "3fc4abb6-dc49-4ad4-85da-975b3c9f6eb5",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true,
+        "voided" : true
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "validFormat" : {
+        "regex" : "^[a-zA-Z0-9]+$",
+        "descriptionKey" : "Enter only in alphaNumerics!"
+      },
+      "voided" : true,
+      "mandatory" : true
+    }, {
+      "name" : "Monetary impact",
+      "uuid" : "5c4637a1-1038-4aca-982e-f882ee983f94",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Monetary impact (voided~269734)",
+        "uuid" : "4a645535-a851-479f-aaf3-c49b7bc39152",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true,
+        "voided" : true
+      },
+      "displayOrder" : 2.0,
+      "type" : "SingleSelect",
+      "validFormat" : {
+        "regex" : "^[a-zA-Z0-9]+$",
+        "descriptionKey" : "Enter only in alphaNumerics!"
+      },
+      "voided" : true,
+      "mandatory" : true
+    } ],
+    "display" : "Impact details",
+    "voided" : true,
+    "timed" : false
+  }, {
+    "uuid" : "55666787-10ca-436f-ba14-4ca246b649f1",
+    "name" : "Impact details",
+    "displayOrder" : 2.0,
+    "formElements" : [ {
+      "name" : "Impact details",
+      "uuid" : "141157c7-abc9-4edc-a36d-14a37485a59d",
+      "keyValues" : [ {
+        "key" : "repeatable",
+        "value" : true
+      } ],
+      "concept" : {
+        "name" : "Impact Details",
+        "uuid" : "dd15d326-ae66-478e-996f-aab226a4b1ce",
+        "dataType" : "QuestionGroup",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
+      "name" : "Description of Impact",
+      "uuid" : "aa1d2635-7771-4ac1-bd34-434cc49d7d1d",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Description of impact",
+        "uuid" : "66ed83a5-9311-44d9-a696-697de6e57ac1",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 2.0,
+      "type" : "SingleSelect",
+      "parentFormElementUuid" : "141157c7-abc9-4edc-a36d-14a37485a59d",
+      "mandatory" : true
+    }, {
+      "name" : "Monetary impact",
+      "uuid" : "82b07151-51fe-47ed-9420-9a97eb729751",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Monetary impact",
+        "uuid" : "c7de0f07-5fad-4e9a-b276-28f3580f6ac8",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 3.0,
+      "type" : "SingleSelect",
+      "parentFormElementUuid" : "141157c7-abc9-4edc-a36d-14a37485a59d",
+      "mandatory" : true
+    } ],
+    "display" : "Impact details",
+    "timed" : false
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : "",
+  "checklistsRule" : "",
+  "decisionConcepts" : [ ]
+}

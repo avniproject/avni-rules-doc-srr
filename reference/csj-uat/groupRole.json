@@ -1,0 +1,12 @@
+[ {
+  "uuid" : "776dbbb9-3a55-42c2-a727-d9937f3b1385",
+  "groupSubjectTypeUUID" : "a92cdaae-19cd-4778-920c-235e30c5ecdf",
+  "memberSubjectTypeUUID" : "cd93d6db-d4be-47a0-9f84-d25391f90e77",
+  "role" : "Admin",
+  "subjectMemberName" : "Claim",
+  "groupRoleUUID" : "776dbbb9-3a55-42c2-a727-d9937f3b1385",
+  "maximumNumberOfMembers" : 2,
+  "minimumNumberOfMembers" : 2,
+  "primary" : false,
+  "voided" : false
+} ]

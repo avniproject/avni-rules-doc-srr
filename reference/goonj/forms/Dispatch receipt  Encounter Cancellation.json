@@ -1,0 +1,7 @@
+{
+  "name" : "Dispatch receipt  Encounter Cancellation",
+  "uuid" : "ba3ee4a5-3155-49ef-9d37-4fee9744e95c",
+  "formType" : "IndividualEncounterCancellation",
+  "formElementGroups" : [ ],
+  "decisionConcepts" : [ ]
+}

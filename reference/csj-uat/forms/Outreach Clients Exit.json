@@ -1,0 +1,7 @@
+{
+  "name" : "Outreach Clients Exit",
+  "uuid" : "c0607fb6-a151-4d6a-9823-edc1b54e7166",
+  "formType" : "ProgramExit",
+  "formElementGroups" : [ ],
+  "decisionConcepts" : [ ]
+}

@@ -1,0 +1,7 @@
+{
+  "name" : "Case Status Exit",
+  "uuid" : "7edb5b28-53fb-4aaf-9735-08cd2258f567",
+  "formType" : "ProgramExit",
+  "formElementGroups" : [ ],
+  "decisionConcepts" : [ ]
+}

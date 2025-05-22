@@ -1,0 +1,79 @@
+{
+  "name" : "Claim Impact Form",
+  "uuid" : "5e8197d4-fbf0-42c7-a6c5-2021bc0096cc",
+  "formType" : "Encounter",
+  "formElementGroups" : [ {
+    "uuid" : "d765572e-fc3e-450c-9de6-c155684ac517",
+    "name" : "Impact Details",
+    "displayOrder" : 1.0,
+    "formElements" : [ {
+      "name" : "Fill details of the impact of this application",
+      "uuid" : "52af2369-3cc6-44bf-bc06-a09012610d60",
+      "keyValues" : [ {
+        "key" : "repeatable",
+        "value" : true
+      } ],
+      "concept" : {
+        "name" : "IMPACT Details",
+        "uuid" : "45e3f7e6-a1dd-434b-804b-43013a49b2e1",
+        "dataType" : "QuestionGroup",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
+      "name" : "Outcome",
+      "uuid" : "34ebef3c-5469-4b6b-a9f4-62be3435cd5d",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Outcome",
+        "uuid" : "a98d701b-bcce-4510-ac83-d3cd038ff9ee",
+        "dataType" : "Coded",
+        "answers" : [ {
+          "name" : "Non compulsory",
+          "uuid" : "8e26ba57-1e8b-4653-bd2e-f3a7ffe3643a",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 1.0,
+          "active" : true
+        }, {
+          "name" : "Descriptive",
+          "uuid" : "eaf64c5d-c761-40f1-86ac-d07712758724",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 0.0,
+          "active" : true
+        } ],
+        "active" : true
+      },
+      "displayOrder" : 2.0,
+      "type" : "SingleSelect",
+      "parentFormElementUuid" : "52af2369-3cc6-44bf-bc06-a09012610d60",
+      "mandatory" : false
+    }, {
+      "name" : "Monetary Impact",
+      "uuid" : "a76683f4-67fb-4a17-b804-473e16ae4b46",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Monetary Impact Claim",
+        "uuid" : "7e660845-224b-4037-aef2-1d850800cf2b",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 3.0,
+      "type" : "SingleSelect",
+      "parentFormElementUuid" : "52af2369-3cc6-44bf-bc06-a09012610d60",
+      "mandatory" : false
+    } ],
+    "display" : "Impact Details",
+    "timed" : false
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : "",
+  "checklistsRule" : "",
+  "decisionConcepts" : [ ]
+}

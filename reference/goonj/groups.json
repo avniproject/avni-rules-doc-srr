@@ -1,0 +1,49 @@
+[ {
+  "uuid" : "932c2827-e93f-435b-8150-8a711fdb55fb",
+  "id" : 1537,
+  "name" : "Everyone",
+  "notEveryoneGroup" : false
+}, {
+  "uuid" : "b439d26b-7663-4e75-a938-75d743e77fad",
+  "id" : 1539,
+  "name" : "Field Supervisor"
+}, {
+  "uuid" : "a4d50fb5-a077-4609-81b1-6f58e3e93300",
+  "id" : 1541,
+  "name" : "System users"
+}, {
+  "uuid" : "f1339912-9d52-4d65-ba94-171ab8c54aa3",
+  "id" : 1545,
+  "name" : "Goonj Administrators"
+}, {
+  "uuid" : "59d4f04e-f674-42a9-94e9-4d8a96aad306",
+  "id" : 1628,
+  "name" : "Edit forms temp group",
+  "voided" : true
+}, {
+  "uuid" : "189bed89-067f-4cb0-b686-25b2261f714c",
+  "id" : 1620,
+  "name" : "Field Users"
+}, {
+  "uuid" : "a585f9a8-9960-45e0-a6a2-54193123e6af",
+  "id" : 1710,
+  "name" : "Viewer"
+}, {
+  "uuid" : "f37c5427-86fe-475d-b077-0d1675e932b0",
+  "id" : 1730,
+  "name" : "test"
+}, {
+  "uuid" : "c90c4d7d-dd99-494a-b6ae-6c318670a7e5",
+  "id" : 2042,
+  "name" : "Goonj Admin-UserPriv"
+}, {
+  "uuid" : "92b7b315-71b9-4248-9856-e3c2cbe4980e",
+  "id" : 1540,
+  "name" : "Field staff",
+  "voided" : true
+}, {
+  "uuid" : "35b185f4-75c8-453d-b151-0a385fc85ee9",
+  "id" : 1542,
+  "name" : "AllPermissions",
+  "voided" : true
+} ]

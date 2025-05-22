@@ -1,0 +1,65 @@
+{
+  "name" : "PIL Impact Encounter",
+  "uuid" : "2cc4bc62-b6f4-4fc6-a18c-1cb73366572c",
+  "formType" : "ProgramEncounter",
+  "formElementGroups" : [ {
+    "uuid" : "4374cf76-a1e2-4d8b-a87c-fded93dc2f3d",
+    "name" : "PIL Impact Details",
+    "displayOrder" : 1.0,
+    "formElements" : [ {
+      "name" : "Fill the details related to the PIL Impact filed",
+      "uuid" : "f277cd2f-8c57-42a9-9e71-b18d0c5c5fb0",
+      "keyValues" : [ {
+        "key" : "repeatable",
+        "value" : true
+      } ],
+      "concept" : {
+        "name" : "PIL Impact details",
+        "uuid" : "5264c519-b964-4697-a30b-26c7623607af",
+        "dataType" : "QuestionGroup",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
+      "name" : "Description of Impact",
+      "uuid" : "ef99b5c9-7e53-4585-9470-c0a0ab7abb7e",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "PIL Description of Impact",
+        "uuid" : "eef75f5e-aaab-451e-8971-546555fb179a",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 2.0,
+      "type" : "SingleSelect",
+      "parentFormElementUuid" : "f277cd2f-8c57-42a9-9e71-b18d0c5c5fb0",
+      "mandatory" : true
+    }, {
+      "name" : "Monetary Impact",
+      "uuid" : "1977dd96-08ad-4467-930b-f0ee6e623e82",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "PIL Monetary Impact",
+        "uuid" : "70a1b713-2b6c-4708-b037-a205b3934ccd",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 3.0,
+      "type" : "SingleSelect",
+      "parentFormElementUuid" : "f277cd2f-8c57-42a9-9e71-b18d0c5c5fb0",
+      "mandatory" : true
+    } ],
+    "display" : "PIL Impact Details",
+    "timed" : false
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : "",
+  "checklistsRule" : "",
+  "decisionConcepts" : [ ]
+}

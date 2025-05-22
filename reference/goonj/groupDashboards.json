@@ -1,0 +1,122 @@
+[ {
+  "uuid" : "4fb89bde-6430-43e7-baab-e9e49d44db06",
+  "voided" : true,
+  "dashboardUUID" : "c5e88f26-e804-4630-9847-2a08a107dcc3",
+  "groupUUID" : "92b7b315-71b9-4248-9856-e3c2cbe4980e",
+  "groupName" : "Field staff",
+  "dashboardName" : "Test",
+  "dashboardDescription" : "",
+  "groupOneOfTheDefaultGroups" : false,
+  "primaryDashboard" : false,
+  "secondaryDashboard" : false
+}, {
+  "uuid" : "c514c8af-09b8-421a-8765-cd58d04b2197",
+  "voided" : false,
+  "dashboardUUID" : "e5bb3ecb-a1d9-4516-b5bd-f6fdbaebe9b7",
+  "groupUUID" : "59d4f04e-f674-42a9-94e9-4d8a96aad306",
+  "groupName" : "Edit forms temp group",
+  "dashboardName" : "Overall statistics",
+  "dashboardDescription" : "Overall statistics",
+  "groupOneOfTheDefaultGroups" : false,
+  "primaryDashboard" : false,
+  "secondaryDashboard" : false
+}, {
+  "uuid" : "e68120dd-bb8d-4a53-a9b4-973fc95d5290",
+  "voided" : true,
+  "dashboardUUID" : "e5bb3ecb-a1d9-4516-b5bd-f6fdbaebe9b7",
+  "groupUUID" : "932c2827-e93f-435b-8150-8a711fdb55fb",
+  "groupName" : "Everyone",
+  "dashboardName" : "Overall statistics",
+  "dashboardDescription" : "Overall statistics",
+  "groupOneOfTheDefaultGroups" : true,
+  "primaryDashboard" : false,
+  "secondaryDashboard" : false
+}, {
+  "uuid" : "f00c8845-bb2f-40d4-80cd-4eab3957bdb6",
+  "voided" : true,
+  "dashboardUUID" : "e5bb3ecb-a1d9-4516-b5bd-f6fdbaebe9b7",
+  "groupUUID" : "92b7b315-71b9-4248-9856-e3c2cbe4980e",
+  "groupName" : "Field staff",
+  "dashboardName" : "Overall statistics",
+  "dashboardDescription" : "Overall statistics",
+  "groupOneOfTheDefaultGroups" : false,
+  "primaryDashboard" : false,
+  "secondaryDashboard" : false
+}, {
+  "uuid" : "b147873f-c315-4ec1-bb6d-7ab6c7859386",
+  "voided" : true,
+  "dashboardUUID" : "e5bb3ecb-a1d9-4516-b5bd-f6fdbaebe9b7",
+  "groupUUID" : "932c2827-e93f-435b-8150-8a711fdb55fb",
+  "groupName" : "Everyone",
+  "dashboardName" : "Overall statistics",
+  "dashboardDescription" : "Overall statistics",
+  "groupOneOfTheDefaultGroups" : true,
+  "primaryDashboard" : false,
+  "secondaryDashboard" : false
+}, {
+  "uuid" : "fe2c471d-4be5-4396-aeb4-531af44cceb4",
+  "voided" : true,
+  "dashboardUUID" : "e5bb3ecb-a1d9-4516-b5bd-f6fdbaebe9b7",
+  "groupUUID" : "932c2827-e93f-435b-8150-8a711fdb55fb",
+  "groupName" : "Everyone",
+  "dashboardName" : "Overall statistics",
+  "dashboardDescription" : "Overall statistics",
+  "groupOneOfTheDefaultGroups" : true,
+  "primaryDashboard" : true,
+  "secondaryDashboard" : false
+}, {
+  "uuid" : "d396d4f5-34c1-4cd4-a4fa-bfbe51cc23b4",
+  "voided" : false,
+  "dashboardUUID" : "e5bb3ecb-a1d9-4516-b5bd-f6fdbaebe9b7",
+  "groupUUID" : "932c2827-e93f-435b-8150-8a711fdb55fb",
+  "groupName" : "Everyone",
+  "dashboardName" : "Overall statistics",
+  "dashboardDescription" : "Overall statistics",
+  "groupOneOfTheDefaultGroups" : true,
+  "primaryDashboard" : true,
+  "secondaryDashboard" : false
+}, {
+  "uuid" : "462694a1-3327-4fb7-bfff-de8ebd4e21da",
+  "voided" : false,
+  "dashboardUUID" : "e5bb3ecb-a1d9-4516-b5bd-f6fdbaebe9b7",
+  "groupUUID" : "f1339912-9d52-4d65-ba94-171ab8c54aa3",
+  "groupName" : "Goonj Administrators",
+  "dashboardName" : "Overall statistics",
+  "dashboardDescription" : "Overall statistics",
+  "groupOneOfTheDefaultGroups" : false,
+  "primaryDashboard" : false,
+  "secondaryDashboard" : false
+}, {
+  "uuid" : "642dd92c-b82f-4d3e-8bbc-cac45a08fec4",
+  "voided" : false,
+  "dashboardUUID" : "e5bb3ecb-a1d9-4516-b5bd-f6fdbaebe9b7",
+  "groupUUID" : "932c2827-e93f-435b-8150-8a711fdb55fb",
+  "groupName" : "Everyone",
+  "dashboardName" : "Overall statistics",
+  "dashboardDescription" : "Overall statistics",
+  "groupOneOfTheDefaultGroups" : true,
+  "primaryDashboard" : false,
+  "secondaryDashboard" : false
+}, {
+  "uuid" : "465157b9-23d6-470d-89c7-031a77bafbfb",
+  "voided" : false,
+  "dashboardUUID" : "e5bb3ecb-a1d9-4516-b5bd-f6fdbaebe9b7",
+  "groupUUID" : "189bed89-067f-4cb0-b686-25b2261f714c",
+  "groupName" : "Field Users",
+  "dashboardName" : "Overall statistics",
+  "dashboardDescription" : "Overall statistics",
+  "groupOneOfTheDefaultGroups" : false,
+  "primaryDashboard" : false,
+  "secondaryDashboard" : false
+}, {
+  "uuid" : "b5a1cbb9-3307-489f-8851-7701269622c3",
+  "voided" : false,
+  "dashboardUUID" : "e5bb3ecb-a1d9-4516-b5bd-f6fdbaebe9b7",
+  "groupUUID" : "b439d26b-7663-4e75-a938-75d743e77fad",
+  "groupName" : "Field Supervisor",
+  "dashboardName" : "Overall statistics",
+  "dashboardDescription" : "Overall statistics",
+  "groupOneOfTheDefaultGroups" : false,
+  "primaryDashboard" : false,
+  "secondaryDashboard" : false
+} ]

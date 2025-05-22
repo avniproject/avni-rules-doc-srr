@@ -1,0 +1,274 @@
+{
+  "name" : "Recognitions/Award Registration",
+  "uuid" : "b755ee5b-4dd9-4fb3-8064-b606e655c5d6",
+  "formType" : "IndividualProfile",
+  "formElementGroups" : [ {
+    "uuid" : "7cff4f5f-78fa-4a0a-85c5-641f7e114297",
+    "name" : "Awards",
+    "displayOrder" : 1.0,
+    "formElements" : [ {
+      "name" : "Award / Recognition",
+      "uuid" : "7cb4b71c-d566-471d-b737-6383ed013f96",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Award / Recognition",
+        "uuid" : "6c2513f7-019c-4645-93d8-d5da18e9b879",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "voided" : true,
+      "mandatory" : true
+    }, {
+      "name" : "Awarded / recognised by",
+      "uuid" : "235a4234-6dbf-490d-9dd5-34cc18918fc6",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Awarded / recognised by",
+        "uuid" : "4f54400e-1d77-4be3-a541-516e38bcdb5f",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 2.0,
+      "type" : "SingleSelect",
+      "voided" : true,
+      "mandatory" : true
+    }, {
+      "name" : "Time period",
+      "uuid" : "5b73ba85-7b14-49c6-a041-d564c53f447c",
+      "keyValues" : [ {
+        "key" : "datePickerMode",
+        "value" : "calendar"
+      } ],
+      "concept" : {
+        "name" : "Date",
+        "uuid" : "2413000f-51f0-4cab-8ed7-7b61d2614d83",
+        "dataType" : "Date",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 3.0,
+      "type" : "SingleSelect",
+      "voided" : true,
+      "mandatory" : false
+    }, {
+      "name" : "Upload Certificate",
+      "uuid" : "db0ee30f-005b-4227-8568-7cd02f721046",
+      "keyValues" : [ {
+        "key" : "allowedMaxSize",
+        "value" : 1
+      } ],
+      "concept" : {
+        "name" : "Certificate",
+        "uuid" : "dc199edf-3181-4822-8063-fdc0450cdd99",
+        "dataType" : "File",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 4.0,
+      "type" : "SingleSelect",
+      "voided" : true,
+      "mandatory" : false
+    } ],
+    "display" : "Awards",
+    "voided" : true,
+    "timed" : false
+  }, {
+    "uuid" : "2cd0511e-d75a-411f-aaf1-c8e4e5b79b3f",
+    "name" : "Details of Recognition/Award",
+    "displayOrder" : 2.0,
+    "formElements" : [ {
+      "name" : "Fill the details related to the award/recognition received",
+      "uuid" : "0dc4f649-0a2c-413d-9d49-22989a4c4f28",
+      "keyValues" : [ {
+        "key" : "repeatable",
+        "value" : true
+      } ],
+      "concept" : {
+        "name" : "Award Details",
+        "uuid" : "f0b68b39-09ad-456b-94d6-33bb5dfd6ac3",
+        "dataType" : "QuestionGroup",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "voided" : true,
+      "mandatory" : false
+    }, {
+      "name" : "Name of Awardee / Recognition received",
+      "uuid" : "657b2551-efba-499b-8b70-5ccb403b9ac8",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Name of Awardee / Recognition received",
+        "uuid" : "86e3b4f0-238e-4327-9ade-8d856ce8fa7a",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 2.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    }, {
+      "name" : "Awarded / Recognised by",
+      "uuid" : "6d721c63-069d-49a6-b50e-7fb7e9ff6889",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Awarded / Recognised by",
+        "uuid" : "348196fc-c4d7-4591-95b8-119a3b221a5e",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 3.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    }, {
+      "name" : "Time period",
+      "uuid" : "7581bca9-c154-4f44-922d-6076ba2ac22e",
+      "keyValues" : [ {
+        "key" : "datePickerMode",
+        "value" : "calendar"
+      } ],
+      "concept" : {
+        "name" : "Time period",
+        "uuid" : "e783d674-835a-42e6-b7b7-cdde5dcd49a6",
+        "dataType" : "Date",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 4.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
+      "name" : "Upload Certificate",
+      "uuid" : "8f2e495f-38fe-49a0-a266-d24941b32e81",
+      "keyValues" : [ {
+        "key" : "allowedMaxSize",
+        "value" : 1
+      } ],
+      "concept" : {
+        "name" : "Upload Certificate",
+        "uuid" : "da717bad-eb8f-4729-966c-cf0d0da62ed1",
+        "dataType" : "File",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 5.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
+      "name" : "Upload certificate / etc - Image",
+      "uuid" : "21c165b9-3862-4136-89ff-bea38a31f7cb",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Upload certificate / etc - Image",
+        "uuid" : "3d71fee6-a7ef-4b74-8735-0af9839fc256",
+        "dataType" : "Image",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 6.0,
+      "type" : "SingleSelect",
+      "rule" : "",
+      "mandatory" : false
+    }, {
+      "name" : "Name of Awardee / Recognition received",
+      "uuid" : "9b5fba57-ea64-4e80-8dec-cae7c68fd004",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Award / Recognition",
+        "uuid" : "6c2513f7-019c-4645-93d8-d5da18e9b879",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 7.0,
+      "type" : "SingleSelect",
+      "parentFormElementUuid" : "0dc4f649-0a2c-413d-9d49-22989a4c4f28",
+      "voided" : true,
+      "mandatory" : true
+    }, {
+      "name" : "Awarded / Recognised by",
+      "uuid" : "68b5bcc9-0464-4469-bb8b-5f8801603a5a",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Awarded / recognised by",
+        "uuid" : "4f54400e-1d77-4be3-a541-516e38bcdb5f",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 8.0,
+      "type" : "SingleSelect",
+      "parentFormElementUuid" : "0dc4f649-0a2c-413d-9d49-22989a4c4f28",
+      "voided" : true,
+      "mandatory" : true
+    }, {
+      "name" : "Time period",
+      "uuid" : "a9471dc9-b64c-4040-847f-2db8da1e038b",
+      "keyValues" : [ {
+        "key" : "datePickerMode",
+        "value" : "calendar"
+      } ],
+      "concept" : {
+        "name" : "Date",
+        "uuid" : "2413000f-51f0-4cab-8ed7-7b61d2614d83",
+        "dataType" : "Date",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 9.0,
+      "type" : "SingleSelect",
+      "parentFormElementUuid" : "0dc4f649-0a2c-413d-9d49-22989a4c4f28",
+      "voided" : true,
+      "mandatory" : false
+    }, {
+      "name" : "Upload certificate / etc",
+      "uuid" : "4b75dddd-5113-42c2-8c3d-88beb0c50c78",
+      "keyValues" : [ {
+        "key" : "allowedMaxSize",
+        "value" : 1
+      } ],
+      "concept" : {
+        "name" : "Certificate",
+        "uuid" : "dc199edf-3181-4822-8063-fdc0450cdd99",
+        "dataType" : "File",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 10.0,
+      "type" : "SingleSelect",
+      "parentFormElementUuid" : "0dc4f649-0a2c-413d-9d49-22989a4c4f28",
+      "voided" : true,
+      "mandatory" : false
+    }, {
+      "name" : "Upload certificate / etc",
+      "uuid" : "feed91cf-a403-4977-8b04-88babb96bb72",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Image",
+        "uuid" : "ddaeefea-6c87-40a8-a209-8e25528a9614",
+        "dataType" : "Image",
+        "answers" : [ ],
+        "active" : true,
+        "keyValues" : [ ]
+      },
+      "displayOrder" : 11.0,
+      "type" : "SingleSelect",
+      "parentFormElementUuid" : "0dc4f649-0a2c-413d-9d49-22989a4c4f28",
+      "voided" : true,
+      "mandatory" : false
+    } ],
+    "display" : "Details of Recognition/Award",
+    "timed" : false
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : "",
+  "checklistsRule" : "",
+  "decisionConcepts" : [ ]
+}

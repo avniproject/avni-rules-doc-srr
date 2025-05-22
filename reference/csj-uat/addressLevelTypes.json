@@ -1,0 +1,109 @@
+[ {
+  "uuid" : "d91632e6-ac38-4246-bd91-3e207b13304d",
+  "id" : 2169,
+  "name" : "Level 1",
+  "level" : 1.0,
+  "voided" : true
+}, {
+  "uuid" : "e064c474-67ff-48ab-bc97-3112944c166f",
+  "id" : 2212,
+  "name" : "Level 2",
+  "level" : 0.9,
+  "parent" : {
+    "uuid" : "d91632e6-ac38-4246-bd91-3e207b13304d"
+  },
+  "voided" : true
+}, {
+  "uuid" : "61dcf287-5ec3-4983-9ed0-06cdf9607495",
+  "id" : 2213,
+  "name" : "Level 3",
+  "level" : 0.8,
+  "parent" : {
+    "uuid" : "e064c474-67ff-48ab-bc97-3112944c166f"
+  },
+  "voided" : true
+}, {
+  "uuid" : "b311341e-54f2-445e-8f42-d1422d893eca",
+  "id" : 2214,
+  "name" : "Level 4",
+  "level" : 0.7,
+  "parent" : {
+    "uuid" : "61dcf287-5ec3-4983-9ed0-06cdf9607495"
+  },
+  "voided" : true
+}, {
+  "uuid" : "e68249ed-c278-4c38-b838-a1d52896018a",
+  "id" : 2226,
+  "name" : "dummy 1",
+  "level" : 1.0,
+  "voided" : true
+}, {
+  "uuid" : "c6a4422b-07b6-40ba-bf9b-d5cc312549cf",
+  "id" : 2227,
+  "name" : "dummy 2",
+  "level" : 0.9,
+  "parent" : {
+    "uuid" : "e68249ed-c278-4c38-b838-a1d52896018a"
+  },
+  "voided" : true
+}, {
+  "uuid" : "4dcc08c0-cf4f-4c15-a946-1658beaa3376",
+  "id" : 2228,
+  "name" : "dummy 3",
+  "level" : 0.8,
+  "parent" : {
+    "uuid" : "c6a4422b-07b6-40ba-bf9b-d5cc312549cf"
+  },
+  "voided" : true
+}, {
+  "uuid" : "8f1d7866-0ad1-4026-bbcb-37cea12ee641",
+  "id" : 2229,
+  "name" : "dummy 4",
+  "level" : 0.7,
+  "parent" : {
+    "uuid" : "4dcc08c0-cf4f-4c15-a946-1658beaa3376"
+  },
+  "voided" : true
+}, {
+  "uuid" : "b11a3eba-5e28-4b7a-886d-5cec856d02ba",
+  "id" : 2344,
+  "name" : "State",
+  "level" : 10.0
+}, {
+  "uuid" : "f25882dc-2a0f-4267-ae88-7ae4bfb264ee",
+  "id" : 2345,
+  "name" : "District",
+  "level" : 9.0,
+  "parent" : {
+    "uuid" : "b11a3eba-5e28-4b7a-886d-5cec856d02ba"
+  }
+}, {
+  "uuid" : "212dc6a4-7f1a-4da3-a859-a333855825b1",
+  "id" : 2346,
+  "name" : "Block",
+  "level" : 8.0,
+  "parent" : {
+    "uuid" : "f25882dc-2a0f-4267-ae88-7ae4bfb264ee"
+  }
+}, {
+  "uuid" : "c1f26e98-816d-4cf5-aada-6f4dcab46487",
+  "id" : 2347,
+  "name" : "Village",
+  "level" : 7.0,
+  "parent" : {
+    "uuid" : "212dc6a4-7f1a-4da3-a859-a333855825b1"
+  }
+}, {
+  "uuid" : "3b373722-bac1-43a8-9a0a-ef00daa15b4c",
+  "id" : 2348,
+  "name" : "Administrative State",
+  "level" : 20.0
+}, {
+  "uuid" : "f59d29c2-dbfb-4c94-b1ff-41fb642c9291",
+  "id" : 2349,
+  "name" : "Administrative Unit",
+  "level" : 19.0,
+  "parent" : {
+    "uuid" : "3b373722-bac1-43a8-9a0a-ef00daa15b4c"
+  }
+} ]

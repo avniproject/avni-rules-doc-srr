@@ -1,0 +1,12 @@
+[ {
+  "uuid" : "faa6b428-e4d6-4520-a32b-6c60dcc1e6be",
+  "groupSubjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+  "memberSubjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+  "role" : "Members",
+  "subjectMemberName" : "Individual",
+  "groupRoleUUID" : "faa6b428-e4d6-4520-a32b-6c60dcc1e6be",
+  "maximumNumberOfMembers" : 100,
+  "minimumNumberOfMembers" : 1,
+  "primary" : false,
+  "voided" : false
+} ]

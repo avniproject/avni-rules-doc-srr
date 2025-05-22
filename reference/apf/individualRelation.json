@@ -1,0 +1,41 @@
+[ {
+  "id" : 1124,
+  "name" : "Mother",
+  "uuid" : "1937dd81-8f35-4cd2-821d-75760be8ef0a",
+  "voided" : false,
+  "genders" : [ {
+    "uuid" : "42d89e22-ffb0-4f5c-8b7c-fd4638247fac",
+    "name" : "Female",
+    "voided" : false
+  } ]
+}, {
+  "id" : 1125,
+  "name" : "Son",
+  "uuid" : "63a6a352-3f68-4c1e-ba54-6b393e426f25",
+  "voided" : false,
+  "genders" : [ {
+    "uuid" : "c9e2c809-a2cd-44e6-aae6-c31ddeab5e40",
+    "name" : "Male",
+    "voided" : false
+  } ]
+}, {
+  "id" : 1126,
+  "name" : "Daughter",
+  "uuid" : "c1e8d704-30a1-4aa4-92b9-3cb71867f0bf",
+  "voided" : false,
+  "genders" : [ {
+    "uuid" : "42d89e22-ffb0-4f5c-8b7c-fd4638247fac",
+    "name" : "Female",
+    "voided" : false
+  } ]
+}, {
+  "id" : 1127,
+  "name" : "Father",
+  "uuid" : "872ad6bb-cdad-4a9a-a83b-6754a0dcd167",
+  "voided" : false,
+  "genders" : [ {
+    "uuid" : "c9e2c809-a2cd-44e6-aae6-c31ddeab5e40",
+    "name" : "Male",
+    "voided" : false
+  } ]
+} ]

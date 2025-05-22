@@ -1,0 +1,53 @@
+{
+  "name" : "Claim Status Details",
+  "uuid" : "d3a98aa3-342f-432d-b162-1acb7192d710",
+  "formType" : "Encounter",
+  "formElementGroups" : [ {
+    "uuid" : "49ed3c83-dcda-49a5-8ec6-2875be30cd54",
+    "name" : "Status Details",
+    "displayOrder" : 1.0,
+    "formElements" : [ {
+      "name" : "Status",
+      "uuid" : "9bb3db2a-5f4c-4e16-9596-c0c77ff486d8",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Status",
+        "uuid" : "f3ce6acf-60e2-4b93-8de0-40348e40db79",
+        "dataType" : "Coded",
+        "answers" : [ {
+          "name" : "Closed",
+          "uuid" : "d56b69db-da83-4f60-9a3f-4cc159e5e191",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 2.0,
+          "active" : true
+        }, {
+          "name" : "Resolved",
+          "uuid" : "65688e86-a632-4e70-9ef8-4f19b0fc3bee",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 1.0,
+          "active" : true
+        }, {
+          "name" : "Active",
+          "uuid" : "a291f5e8-9e80-4420-99de-67996e72dae3",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 0.0,
+          "active" : true
+        } ],
+        "active" : true
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    } ],
+    "display" : "Status Details",
+    "timed" : false
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : "",
+  "checklistsRule" : "",
+  "decisionConcepts" : [ ]
+}

@@ -1,0 +1,1526 @@
+[ {
+  "uuid" : "c4d3bc0a-027e-4a6a-87dd-85e5b7285523",
+  "id" : 709,
+  "name" : "Default Dashboard (voided~709)",
+  "sections" : [ {
+    "uuid" : "741711ef-df17-4884-8928-20dee701479e",
+    "id" : 1224,
+    "name" : "Visit Details",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 1.0,
+    "dashboardUUID" : "c4d3bc0a-027e-4a6a-87dd-85e5b7285523",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "4d139c45-1854-46ec-ad80-40725f7b9b8a",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "741711ef-df17-4884-8928-20dee701479e",
+      "reportCardUUID" : "6085c2f4-52e7-4b08-85b6-d6b2612b4cf5",
+      "voided" : false
+    }, {
+      "uuid" : "4dff9285-88b3-43de-a90b-9823ab32e433",
+      "displayOrder" : 2.0,
+      "dashboardSectionUUID" : "741711ef-df17-4884-8928-20dee701479e",
+      "reportCardUUID" : "85ce7239-e8b5-4e57-b07d-66c18cee47b2",
+      "voided" : false
+    } ],
+    "voided" : true
+  }, {
+    "uuid" : "fb302038-25a1-4cd6-9f56-80ef67b21103",
+    "id" : 1225,
+    "name" : "Recent Statistics",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 2.0,
+    "dashboardUUID" : "c4d3bc0a-027e-4a6a-87dd-85e5b7285523",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "8afecd6c-741c-4871-86f1-bce171f8bfd8",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "fb302038-25a1-4cd6-9f56-80ef67b21103",
+      "reportCardUUID" : "f366f35a-5c4f-4ff7-b510-2dc9f5f88847",
+      "voided" : false
+    }, {
+      "uuid" : "383b8df8-93d8-43d9-bc96-545e1176fe63",
+      "displayOrder" : 2.0,
+      "dashboardSectionUUID" : "fb302038-25a1-4cd6-9f56-80ef67b21103",
+      "reportCardUUID" : "e1036b69-df46-4351-9916-10cd4cfcb6bd",
+      "voided" : false
+    }, {
+      "uuid" : "9fb198b6-ae10-4c3f-a8e6-652b7d1b7e9c",
+      "displayOrder" : 3.0,
+      "dashboardSectionUUID" : "fb302038-25a1-4cd6-9f56-80ef67b21103",
+      "reportCardUUID" : "dd961ee1-9d4e-4ec9-99f0-99b36672be7c",
+      "voided" : false
+    } ],
+    "voided" : true
+  }, {
+    "uuid" : "2ce712c2-3fa3-4ca4-9703-95766ef512c2",
+    "id" : 1223,
+    "name" : "Registration Overview",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 3.0,
+    "dashboardUUID" : "c4d3bc0a-027e-4a6a-87dd-85e5b7285523",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "e02a68ed-c02b-4cba-a5b5-6a5c71ab5eb8",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "2ce712c2-3fa3-4ca4-9703-95766ef512c2",
+      "reportCardUUID" : "a1673f8a-c394-4bcf-8b6f-63d83a5443e2",
+      "voided" : false
+    } ],
+    "voided" : false
+  } ],
+  "filters" : [ {
+    "uuid" : "efea5b8d-d621-47d0-a02c-c9b1a667b680",
+    "id" : 178,
+    "name" : "As On Date",
+    "filterConfig" : {
+      "type" : "AsOnDate",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : true
+  }, {
+    "uuid" : "20367018-a168-43ff-a28f-64cd46ad3e2c",
+    "id" : 179,
+    "name" : "Subject Type",
+    "filterConfig" : {
+      "type" : "SubjectType",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  } ],
+  "voided" : true
+}, {
+  "uuid" : "a741e780-4fac-48bb-8a57-28949c12e6f4",
+  "id" : 790,
+  "name" : "Active Campaign - Own Data (voided~790)",
+  "description" : "",
+  "sections" : [ {
+    "uuid" : "68d17b6d-e1c8-4c61-b88d-890d0859340a",
+    "id" : 1422,
+    "name" : "Active Campaign - Own Data",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "a741e780-4fac-48bb-8a57-28949c12e6f4",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "ae41477f-664e-4037-81b3-91837123cd76",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "68d17b6d-e1c8-4c61-b88d-890d0859340a",
+      "reportCardUUID" : "6ef87d47-e2b3-45e7-a11d-72b10dfdd09e",
+      "voided" : false
+    } ],
+    "voided" : false
+  } ],
+  "filters" : [ {
+    "uuid" : "43b3d1de-0354-4ebd-b7b3-862193a7eff8",
+    "id" : 341,
+    "name" : "Date",
+    "filterConfig" : {
+      "type" : "AsOnDate",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  }, {
+    "uuid" : "1f44dcb3-ba83-4c32-bc1f-97afd9e130cb",
+    "id" : 342,
+    "name" : "Address",
+    "filterConfig" : {
+      "type" : "Address",
+      "subjectTypeUUID" : "0ab6edd4-2a80-4ce9-9bfa-0464cb4ae6b0",
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  }, {
+    "uuid" : "3225d0d4-508f-41b5-aef2-9d523ae9d077",
+    "id" : 343,
+    "name" : "Subject Type",
+    "filterConfig" : {
+      "type" : "SubjectType",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  } ],
+  "voided" : true
+}, {
+  "uuid" : "ff745a65-fce3-4fee-ba17-6e7096d1acbb",
+  "id" : 788,
+  "name" : "Internal Trainings - Other Field Workers data  (voided~788)",
+  "description" : "",
+  "sections" : [ {
+    "uuid" : "60187a63-d5ec-42c0-aecb-551347d85762",
+    "id" : 1418,
+    "name" : "Internal Trainings - Other Field Workers data ",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "ff745a65-fce3-4fee-ba17-6e7096d1acbb",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "e526b667-1d84-4d59-a903-8a8b579a1041",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "60187a63-d5ec-42c0-aecb-551347d85762",
+      "reportCardUUID" : "462a7927-aa88-4813-80ea-c0f9846be5ce",
+      "voided" : false
+    } ],
+    "voided" : false
+  } ],
+  "filters" : [ {
+    "uuid" : "e384aaea-c245-43f2-b557-5733dc22796f",
+    "id" : 335,
+    "name" : "Date",
+    "filterConfig" : {
+      "type" : "AsOnDate",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  }, {
+    "uuid" : "f4042021-b84e-4396-8411-bc4ae46edc45",
+    "id" : 337,
+    "name" : "Subject Type",
+    "filterConfig" : {
+      "type" : "SubjectType",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  }, {
+    "uuid" : "cd2562ea-2dbc-4b52-9068-18486413aec0",
+    "id" : 336,
+    "name" : "Address",
+    "filterConfig" : {
+      "type" : "Address",
+      "subjectTypeUUID" : "816da5ca-d4df-449d-bcd4-8eef62930d5a",
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  } ],
+  "voided" : true
+}, {
+  "uuid" : "84f6f346-d86b-4a94-ba1f-2ad422817675",
+  "id" : 786,
+  "name" : "External Trainings - Other Field Workers data  (voided~786)",
+  "description" : "",
+  "sections" : [ {
+    "uuid" : "d628e015-3070-4f23-866e-0fcb01fefee1",
+    "id" : 1416,
+    "name" : "External Trainings - Other Field Workers data ",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "84f6f346-d86b-4a94-ba1f-2ad422817675",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "d20fe2b7-3cd7-4d44-9b31-077835b95472",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "d628e015-3070-4f23-866e-0fcb01fefee1",
+      "reportCardUUID" : "ef43ae77-576f-496e-9717-b24e5e1a3c75",
+      "voided" : false
+    } ],
+    "voided" : false
+  } ],
+  "filters" : [ {
+    "uuid" : "06be929a-4e21-4ddc-8cc5-e5a5eaf0a5cb",
+    "id" : 331,
+    "name" : "Subject Type",
+    "filterConfig" : {
+      "type" : "SubjectType",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  }, {
+    "uuid" : "556c6ef5-27f9-4eb9-9976-4250809a81f5",
+    "id" : 330,
+    "name" : "Address",
+    "filterConfig" : {
+      "type" : "Address",
+      "subjectTypeUUID" : "816da5ca-d4df-449d-bcd4-8eef62930d5a",
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  }, {
+    "uuid" : "b069e874-0d23-465d-bd87-35a5ea6a1279",
+    "id" : 329,
+    "name" : "Date",
+    "filterConfig" : {
+      "type" : "AsOnDate",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  } ],
+  "voided" : true
+}, {
+  "uuid" : "4c74db60-f0ed-43e7-b1d1-4df17d58589b",
+  "id" : 792,
+  "name" : "No. of total Active Cases\n",
+  "description" : "",
+  "sections" : [ {
+    "uuid" : "a769c869-04b8-4cae-a356-418160ec3148",
+    "id" : 1424,
+    "name" : "No. of total Active Cases",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "4c74db60-f0ed-43e7-b1d1-4df17d58589b",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "a1f8b756-30ba-44ae-8160-e55193f1b38c",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "a769c869-04b8-4cae-a356-418160ec3148",
+      "reportCardUUID" : "12672744-33e7-4330-95d3-bba2a264945b",
+      "voided" : false
+    }, {
+      "uuid" : "2bc2133d-e63e-4f28-9764-f776260bd1d0",
+      "displayOrder" : 2.0,
+      "dashboardSectionUUID" : "a769c869-04b8-4cae-a356-418160ec3148",
+      "reportCardUUID" : "9e436998-101d-4b97-b8de-a24fa59e9e85",
+      "voided" : false
+    } ],
+    "voided" : false
+  } ],
+  "filters" : [ {
+    "uuid" : "ca8c9782-7605-4fcd-9b76-9cd70a7731a7",
+    "id" : 391,
+    "name" : "Subject Type",
+    "filterConfig" : {
+      "type" : "SubjectType",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : true
+  }, {
+    "uuid" : "0eddee91-3537-45dd-8d2a-15bc79e77e2c",
+    "id" : 390,
+    "name" : "Nature Of Case",
+    "filterConfig" : {
+      "type" : "Concept",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : {
+        "scope" : "programEnrolment",
+        "programUUIDs" : [ "73651784-823d-43b0-a967-7e4508a6d12f" ],
+        "encounterTypeUUIDs" : [ ],
+        "conceptUUID" : "252f4c55-d113-4951-8ebb-eed01b9ccbb9"
+      }
+    },
+    "voided" : false
+  }, {
+    "uuid" : "4a53f1f1-f27a-498b-8a1b-7d4489e09b44",
+    "id" : 347,
+    "name" : "Date",
+    "filterConfig" : {
+      "type" : "AsOnDate",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : true
+  }, {
+    "uuid" : "181c9900-332f-4411-b8a7-50b850435a7d",
+    "id" : 348,
+    "name" : "Address",
+    "filterConfig" : {
+      "type" : "Address",
+      "subjectTypeUUID" : "0bc1dbf5-6790-4c9b-b5eb-d241ec6b0379",
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : true
+  }, {
+    "uuid" : "acf300d4-5021-48f1-bbc7-a2c2b54dd2f5",
+    "id" : 349,
+    "name" : "Subject Type",
+    "filterConfig" : {
+      "type" : "SubjectType",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : true
+  } ],
+  "voided" : false
+}, {
+  "uuid" : "d36350a2-93f9-4ce3-ad3e-da4b96516149",
+  "id" : 794,
+  "name" : "No. of total Active Cases - Other Field Workers data \n (voided~794)",
+  "description" : "",
+  "sections" : [ {
+    "uuid" : "9fea8d05-4146-45c0-a4a4-f9c97483439b",
+    "id" : 1428,
+    "name" : "No. of total Active Cases - Other Field Workers data ",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "d36350a2-93f9-4ce3-ad3e-da4b96516149",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "79b0defe-4621-4134-97cd-3213330420b9",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "9fea8d05-4146-45c0-a4a4-f9c97483439b",
+      "reportCardUUID" : "9e436998-101d-4b97-b8de-a24fa59e9e85",
+      "voided" : false
+    } ],
+    "voided" : false
+  } ],
+  "filters" : [ {
+    "uuid" : "748ef848-367f-4f60-a460-29956a40323f",
+    "id" : 352,
+    "name" : "Date",
+    "filterConfig" : {
+      "type" : "AsOnDate",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  }, {
+    "uuid" : "e1b4c37d-9850-48b1-b3e4-7454bfe0a599",
+    "id" : 353,
+    "name" : "Address",
+    "filterConfig" : {
+      "type" : "Address",
+      "subjectTypeUUID" : "0bc1dbf5-6790-4c9b-b5eb-d241ec6b0379",
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  }, {
+    "uuid" : "657d0b1a-3c6c-4d60-ad4c-a680d4e4b7d5",
+    "id" : 354,
+    "name" : "Subject Type",
+    "filterConfig" : {
+      "type" : "SubjectType",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  } ],
+  "voided" : true
+}, {
+  "uuid" : "222b4140-e902-4807-b4de-a084c4f2954b",
+  "id" : 795,
+  "name" : "No. of active case pre-lit",
+  "description" : "",
+  "sections" : [ {
+    "uuid" : "61e37fa9-fe3f-4233-b26e-2cd017ff16f8",
+    "id" : 1429,
+    "name" : "No. of active case pre-lit",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "222b4140-e902-4807-b4de-a084c4f2954b",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "8ff548b5-2a2e-4e1f-998d-1d1e58af5b2e",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "61e37fa9-fe3f-4233-b26e-2cd017ff16f8",
+      "reportCardUUID" : "daa9f02f-e63a-48b4-a135-77a7491420f7",
+      "voided" : false
+    }, {
+      "uuid" : "b063307d-9b27-4157-a944-d0e794c1a225",
+      "displayOrder" : 2.0,
+      "dashboardSectionUUID" : "61e37fa9-fe3f-4233-b26e-2cd017ff16f8",
+      "reportCardUUID" : "ad412b45-198e-4631-ba92-950a016ff43d",
+      "voided" : false
+    } ],
+    "voided" : false
+  } ],
+  "filters" : [ {
+    "uuid" : "ca56d86c-0490-45ac-8739-31c47a1039a9",
+    "id" : 355,
+    "name" : "Date",
+    "filterConfig" : {
+      "type" : "AsOnDate",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : true
+  }, {
+    "uuid" : "958a4ce3-cb04-4058-aead-47036730f847",
+    "id" : 356,
+    "name" : "Address",
+    "filterConfig" : {
+      "type" : "Address",
+      "subjectTypeUUID" : "0bc1dbf5-6790-4c9b-b5eb-d241ec6b0379",
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : true
+  }, {
+    "uuid" : "15c034fa-4798-41fc-947c-7e1b5f2b5b53",
+    "id" : 357,
+    "name" : "Subject Type",
+    "filterConfig" : {
+      "type" : "SubjectType",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : true
+  } ],
+  "voided" : false
+}, {
+  "uuid" : "998bf7cc-8a2d-47b3-9754-791710a9542e",
+  "id" : 796,
+  "name" : "No. of active case pre-lit - Other Field Workers data  (voided~796)",
+  "description" : "",
+  "sections" : [ {
+    "uuid" : "967a2260-17a8-4121-b076-6fc7d62ccf78",
+    "id" : 1430,
+    "name" : "No. of active case pre-lit - Other Field Workers data ",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "998bf7cc-8a2d-47b3-9754-791710a9542e",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "6829d690-4e44-4ab5-a37c-cad707cf7699",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "967a2260-17a8-4121-b076-6fc7d62ccf78",
+      "reportCardUUID" : "ad412b45-198e-4631-ba92-950a016ff43d",
+      "voided" : false
+    } ],
+    "voided" : false
+  } ],
+  "filters" : [ {
+    "uuid" : "c379cc24-4ebe-447d-9dbe-d0d55f697833",
+    "id" : 360,
+    "name" : "Subject Type",
+    "filterConfig" : {
+      "type" : "SubjectType",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  }, {
+    "uuid" : "a8af16f6-e0d7-43a5-bd78-b3d3422cfb87",
+    "id" : 358,
+    "name" : "Date",
+    "filterConfig" : {
+      "type" : "AsOnDate",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  }, {
+    "uuid" : "0598158c-d108-40d3-ac70-6b203c24ece7",
+    "id" : 359,
+    "name" : "Address",
+    "filterConfig" : {
+      "type" : "Address",
+      "subjectTypeUUID" : "0bc1dbf5-6790-4c9b-b5eb-d241ec6b0379",
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  } ],
+  "voided" : true
+}, {
+  "uuid" : "fe3dbf90-7a14-408f-afbd-d1b7ba872b7c",
+  "id" : 797,
+  "name" : "No. of Active (litigation)",
+  "description" : "",
+  "sections" : [ {
+    "uuid" : "0eace565-d034-4274-9bae-b1048cb19cb9",
+    "id" : 1431,
+    "name" : "No. of Active (litigation)",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "fe3dbf90-7a14-408f-afbd-d1b7ba872b7c",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "9b2edf5e-f070-46a5-8f24-d8ec03423714",
+      "displayOrder" : 2.0,
+      "dashboardSectionUUID" : "0eace565-d034-4274-9bae-b1048cb19cb9",
+      "reportCardUUID" : "f5322473-00da-4a1b-93a0-b68ef439f8a4",
+      "voided" : false
+    }, {
+      "uuid" : "8bd01e72-df22-4f66-b86a-e41825d8a539",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "0eace565-d034-4274-9bae-b1048cb19cb9",
+      "reportCardUUID" : "f8a88f9b-8f74-45d8-a8c0-19389cb7ad94",
+      "voided" : false
+    } ],
+    "voided" : false
+  } ],
+  "filters" : [ {
+    "uuid" : "a7b3ea23-acb8-467a-9b5c-f50c16082895",
+    "id" : 362,
+    "name" : "Address",
+    "filterConfig" : {
+      "type" : "Address",
+      "subjectTypeUUID" : "0bc1dbf5-6790-4c9b-b5eb-d241ec6b0379",
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : true
+  }, {
+    "uuid" : "35052c6a-04ef-4fdc-9ce2-c562a89158e0",
+    "id" : 361,
+    "name" : "Date",
+    "filterConfig" : {
+      "type" : "AsOnDate",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : true
+  }, {
+    "uuid" : "51383213-5eb7-474e-8b02-b7188a38a912",
+    "id" : 363,
+    "name" : "Subject Type",
+    "filterConfig" : {
+      "type" : "SubjectType",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : true
+  } ],
+  "voided" : false
+}, {
+  "uuid" : "7b6ec730-96f5-4e37-b2f5-8b4f10167c1b",
+  "id" : 798,
+  "name" : "No. of Active (litigation) - Other Field Workers data  (voided~798)",
+  "description" : "",
+  "sections" : [ {
+    "uuid" : "34daef11-ac09-4635-a651-b5a6fdb09308",
+    "id" : 1432,
+    "name" : "No. of Active (litigation) - Other Field Workers data ",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "7b6ec730-96f5-4e37-b2f5-8b4f10167c1b",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "f2fe0ee3-249c-4e82-b64b-8f210b2e5390",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "34daef11-ac09-4635-a651-b5a6fdb09308",
+      "reportCardUUID" : "f5322473-00da-4a1b-93a0-b68ef439f8a4",
+      "voided" : false
+    } ],
+    "voided" : false
+  } ],
+  "filters" : [ {
+    "uuid" : "217fc19a-8250-4622-8e9a-87f7ad4b173d",
+    "id" : 365,
+    "name" : "Address",
+    "filterConfig" : {
+      "type" : "Address",
+      "subjectTypeUUID" : "0bc1dbf5-6790-4c9b-b5eb-d241ec6b0379",
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  }, {
+    "uuid" : "d416b881-b279-4270-9b25-7c06c7835791",
+    "id" : 366,
+    "name" : "Subject Type",
+    "filterConfig" : {
+      "type" : "SubjectType",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  }, {
+    "uuid" : "a500c17c-ba6e-4a67-bacb-1aa3ad1336d1",
+    "id" : 364,
+    "name" : "Date",
+    "filterConfig" : {
+      "type" : "AsOnDate",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  } ],
+  "voided" : true
+}, {
+  "uuid" : "b2010df6-5e78-4c6d-8a2f-253ca9dd90b3",
+  "id" : 783,
+  "name" : "External Trainings (voided~783)",
+  "description" : "",
+  "sections" : [ {
+    "uuid" : "0971737e-9696-42f3-9932-fcb9303eecb0",
+    "id" : 1413,
+    "name" : "External Trainings",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "b2010df6-5e78-4c6d-8a2f-253ca9dd90b3",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "20b15aed-8526-46bf-8db6-4f5361a6b718",
+      "displayOrder" : 2.0,
+      "dashboardSectionUUID" : "0971737e-9696-42f3-9932-fcb9303eecb0",
+      "reportCardUUID" : "ef43ae77-576f-496e-9717-b24e5e1a3c75",
+      "voided" : false
+    }, {
+      "uuid" : "ecb3069d-3b1d-4354-9fea-7949a46427f9",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "0971737e-9696-42f3-9932-fcb9303eecb0",
+      "reportCardUUID" : "cc0edb0f-78be-48f7-bfb6-e45819de4f36",
+      "voided" : false
+    } ],
+    "voided" : false
+  } ],
+  "filters" : [ {
+    "uuid" : "11b3f268-b358-4742-ab47-9a84ded8dc80",
+    "id" : 320,
+    "name" : "Date",
+    "filterConfig" : {
+      "type" : "RegistrationDate",
+      "subjectTypeUUID" : null,
+      "widget" : "Range",
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  }, {
+    "uuid" : "7495ec81-1447-4e0b-ad8c-70f6544c56ed",
+    "id" : 322,
+    "name" : "Subject Type",
+    "filterConfig" : {
+      "type" : "SubjectType",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : true
+  }, {
+    "uuid" : "fb9e4c48-5f28-4dbf-9c00-d63be03e6121",
+    "id" : 321,
+    "name" : "Address",
+    "filterConfig" : {
+      "type" : "Address",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  } ],
+  "voided" : true
+}, {
+  "uuid" : "5712f830-3b89-454d-a38d-69ec451c6f63",
+  "id" : 785,
+  "name" : "Number of Interns (voided~785)",
+  "description" : "",
+  "sections" : [ {
+    "uuid" : "968f0b16-1e21-4008-a27c-0d0e2952d63d",
+    "id" : 1415,
+    "name" : "Number of Interns",
+    "description" : "Total Number of Interns in catchment",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "5712f830-3b89-454d-a38d-69ec451c6f63",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "e906fce9-f3e4-42e6-975d-f86185b6d2e8",
+      "displayOrder" : 2.0,
+      "dashboardSectionUUID" : "968f0b16-1e21-4008-a27c-0d0e2952d63d",
+      "reportCardUUID" : "951f5f88-ad00-4403-bb20-6cbf651e5dff",
+      "voided" : false
+    }, {
+      "uuid" : "89bfbc33-f302-48bb-a4a8-86240e9946fb",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "968f0b16-1e21-4008-a27c-0d0e2952d63d",
+      "reportCardUUID" : "347844fb-96d2-48ef-8dc1-d361852dc54a",
+      "voided" : false
+    } ],
+    "voided" : false
+  } ],
+  "filters" : [ {
+    "uuid" : "454339c9-13aa-4a11-943c-87b7608d6f8a",
+    "id" : 328,
+    "name" : "Subject Type",
+    "filterConfig" : {
+      "type" : "SubjectType",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : true
+  }, {
+    "uuid" : "1ceb746e-69aa-4c90-bc4b-b37d3aff6fdd",
+    "id" : 327,
+    "name" : "Address",
+    "filterConfig" : {
+      "type" : "Address",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  }, {
+    "uuid" : "a36c1eee-a7e6-43df-a371-ef90e95e0842",
+    "id" : 326,
+    "name" : "Date",
+    "filterConfig" : {
+      "type" : "RegistrationDate",
+      "subjectTypeUUID" : null,
+      "widget" : "Range",
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  } ],
+  "voided" : true
+}, {
+  "uuid" : "35cc052b-f951-4929-bcbb-a21f50f136aa",
+  "id" : 782,
+  "name" : "Outreach (voided~782)",
+  "description" : "Count of total outreach registered till date",
+  "sections" : [ {
+    "uuid" : "19b9410c-ee2d-4231-9149-233c11854c27",
+    "id" : 1412,
+    "name" : "Outreach ",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "35cc052b-f951-4929-bcbb-a21f50f136aa",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "1e793307-349d-4a81-b091-724efc652bb1",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "19b9410c-ee2d-4231-9149-233c11854c27",
+      "reportCardUUID" : "63d51ddf-1a82-43bc-83cb-2136693017cf",
+      "voided" : false
+    } ],
+    "voided" : false
+  } ],
+  "filters" : [ {
+    "uuid" : "6974ec3d-d611-48bb-94b7-85768a858816",
+    "id" : 317,
+    "name" : "Date",
+    "filterConfig" : {
+      "type" : "RegistrationDate",
+      "subjectTypeUUID" : null,
+      "widget" : "Default",
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  }, {
+    "uuid" : "3b6ac52e-26df-4614-8b23-c3978bf6e19f",
+    "id" : 318,
+    "name" : "Nature Of Case",
+    "filterConfig" : {
+      "type" : "Concept",
+      "subjectTypeUUID" : "0bc1dbf5-6790-4c9b-b5eb-d241ec6b0379",
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : {
+        "scope" : "programEnrolment",
+        "programUUIDs" : [ "73651784-823d-43b0-a967-7e4508a6d12f" ],
+        "encounterTypeUUIDs" : [ ],
+        "conceptUUID" : "252f4c55-d113-4951-8ebb-eed01b9ccbb9"
+      }
+    },
+    "voided" : false
+  }, {
+    "uuid" : "9fa5b0e6-73cf-429a-8d17-a98a7a2ac40b",
+    "id" : 319,
+    "name" : "Subject Type",
+    "filterConfig" : {
+      "type" : "SubjectType",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  }, {
+    "uuid" : "6f7e5c63-363b-4fc9-8ab1-8d6ba9d171a4",
+    "id" : 316,
+    "name" : "Location",
+    "filterConfig" : {
+      "type" : "Address",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  } ],
+  "voided" : true
+}, {
+  "uuid" : "27747c78-d6d4-480c-a916-d065fcbc169e",
+  "id" : 791,
+  "name" : "Active Campaign \n (voided~791)",
+  "description" : "",
+  "sections" : [ {
+    "uuid" : "7ae3373a-c28c-43af-a375-f06a315e61c2",
+    "id" : 1423,
+    "name" : "Active Campaign",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "27747c78-d6d4-480c-a916-d065fcbc169e",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "3a440d87-3226-4097-b0b6-2ade3a1de3f3",
+      "displayOrder" : 2.0,
+      "dashboardSectionUUID" : "7ae3373a-c28c-43af-a375-f06a315e61c2",
+      "reportCardUUID" : "d9d046c9-fe08-4049-8db2-824020a76555",
+      "voided" : false
+    }, {
+      "uuid" : "093c667a-4839-45ff-a2a2-62b68ff82888",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "7ae3373a-c28c-43af-a375-f06a315e61c2",
+      "reportCardUUID" : "6ef87d47-e2b3-45e7-a11d-72b10dfdd09e",
+      "voided" : false
+    } ],
+    "voided" : false
+  } ],
+  "filters" : [ {
+    "uuid" : "2604ccdb-ca9f-44b1-84cc-f2e784009f10",
+    "id" : 346,
+    "name" : "Subject Type",
+    "filterConfig" : {
+      "type" : "SubjectType",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : true
+  }, {
+    "uuid" : "1688898b-11c2-4b6f-ad5e-c91d94b621cc",
+    "id" : 344,
+    "name" : "Date",
+    "filterConfig" : {
+      "type" : "RegistrationDate",
+      "subjectTypeUUID" : null,
+      "widget" : "Range",
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  }, {
+    "uuid" : "ec079cd3-65e8-433c-a8fc-223892a030fb",
+    "id" : 345,
+    "name" : "Address",
+    "filterConfig" : {
+      "type" : "Address",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  } ],
+  "voided" : true
+}, {
+  "uuid" : "fb6ab931-229e-420b-9223-49c77f793124",
+  "id" : 800,
+  "name" : "Cases with dates w court dates in the next one month\n (voided~800)",
+  "description" : "",
+  "sections" : [ {
+    "uuid" : "f8c0ee9b-f181-48a0-8653-d98f036b1cb5",
+    "id" : 1436,
+    "name" : "Cases with dates w court dates in the next one month",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "fb6ab931-229e-420b-9223-49c77f793124",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "bcc922be-a0b0-4689-9330-4929caf49c08",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "f8c0ee9b-f181-48a0-8653-d98f036b1cb5",
+      "reportCardUUID" : "2cf489cb-c117-416a-9ffd-d23271784a99",
+      "voided" : false
+    } ],
+    "voided" : false
+  } ],
+  "filters" : [ ],
+  "voided" : true
+}, {
+  "uuid" : "ff5f12ad-ac6d-4f1d-8dd9-4f1e588a693a",
+  "id" : 806,
+  "name" : "Cases with court dates",
+  "description" : "",
+  "sections" : [ {
+    "uuid" : "f241eab8-8315-4f55-ae33-567c281caf26",
+    "id" : 1450,
+    "name" : "FF conversion ",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "ff5f12ad-ac6d-4f1d-8dd9-4f1e588a693a",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "3105b3a9-23fe-419c-b4dd-8db70933925f",
+      "displayOrder" : 2.0,
+      "dashboardSectionUUID" : "f241eab8-8315-4f55-ae33-567c281caf26",
+      "reportCardUUID" : "74e10e29-f266-4a51-a3f4-07fffaa199ac",
+      "voided" : false
+    }, {
+      "uuid" : "465058ad-a3ce-4608-9901-2c1e15ae9500",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "f241eab8-8315-4f55-ae33-567c281caf26",
+      "reportCardUUID" : "3539ddd9-533a-4b74-b530-9c1dbb4b3aae",
+      "voided" : false
+    } ],
+    "voided" : false
+  }, {
+    "uuid" : "64a8e7ca-0326-49cb-a5ce-581f3e24756f",
+    "id" : 1449,
+    "name" : "Cases with court dates",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "ff5f12ad-ac6d-4f1d-8dd9-4f1e588a693a",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "73fa0ed0-00b7-42b7-b458-ff77788a682b",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "64a8e7ca-0326-49cb-a5ce-581f3e24756f",
+      "reportCardUUID" : "2cf489cb-c117-416a-9ffd-d23271784a99",
+      "voided" : false
+    }, {
+      "uuid" : "5045b04b-386a-4dd4-ad05-9ca92e6837a4",
+      "displayOrder" : 3.0,
+      "dashboardSectionUUID" : "64a8e7ca-0326-49cb-a5ce-581f3e24756f",
+      "reportCardUUID" : "a4bad348-33bf-47b0-998e-92f7fe083e76",
+      "voided" : false
+    }, {
+      "uuid" : "b0312ae6-a65a-4759-9b5b-708e06566da2",
+      "displayOrder" : 4.0,
+      "dashboardSectionUUID" : "64a8e7ca-0326-49cb-a5ce-581f3e24756f",
+      "reportCardUUID" : "5223ae04-52fa-4c19-ac4a-6c7945de6569",
+      "voided" : false
+    }, {
+      "uuid" : "a5a57ee9-cfc2-43ea-a8fd-f69399405d04",
+      "displayOrder" : 2.0,
+      "dashboardSectionUUID" : "64a8e7ca-0326-49cb-a5ce-581f3e24756f",
+      "reportCardUUID" : "aec690c9-4937-43fd-9bd0-23d1dcde9e32",
+      "voided" : false
+    } ],
+    "voided" : false
+  } ],
+  "filters" : [ ],
+  "voided" : false
+}, {
+  "uuid" : "cf046b4b-2907-4d5d-a762-6dc241fcb1ea",
+  "id" : 808,
+  "name" : "Claims- Others Data (voided~808)",
+  "description" : "",
+  "sections" : [ {
+    "uuid" : "ebee9a66-20dc-4d99-822c-7bedd58474be",
+    "id" : 1455,
+    "name" : "Claims- Others Data",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "cf046b4b-2907-4d5d-a762-6dc241fcb1ea",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "cabde022-b05c-491a-863f-5840c9039cee",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "ebee9a66-20dc-4d99-822c-7bedd58474be",
+      "reportCardUUID" : "53464f4b-9022-4f56-9aa0-01ce85ad1339",
+      "voided" : false
+    } ],
+    "voided" : false
+  } ],
+  "filters" : [ {
+    "uuid" : "4942e416-0a0d-425c-9b97-57be199e9146",
+    "id" : 389,
+    "name" : "Address",
+    "filterConfig" : {
+      "type" : "Address",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  }, {
+    "uuid" : "ed7e150d-0cee-4300-a993-6e373c6b7543",
+    "id" : 388,
+    "name" : "Date",
+    "filterConfig" : {
+      "type" : "AsOnDate",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  } ],
+  "voided" : true
+}, {
+  "uuid" : "0abc0648-926a-4b58-b81b-0d6061ea5f7f",
+  "id" : 784,
+  "name" : "Internships (voided~784)",
+  "description" : "",
+  "sections" : [ {
+    "uuid" : "f95a38e3-4d03-44cb-a909-3ee2e2ca2689",
+    "id" : 1451,
+    "name" : "Internal Trainings",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "0abc0648-926a-4b58-b81b-0d6061ea5f7f",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "16b75c82-3182-4ee7-9d9d-d80bf5d610f4",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "f95a38e3-4d03-44cb-a909-3ee2e2ca2689",
+      "reportCardUUID" : "08148569-c29c-4b4e-8a2d-d41a50292270",
+      "voided" : false
+    }, {
+      "uuid" : "e0a75e7e-96ca-4fe8-8440-42a4e832b165",
+      "displayOrder" : 2.0,
+      "dashboardSectionUUID" : "f95a38e3-4d03-44cb-a909-3ee2e2ca2689",
+      "reportCardUUID" : "462a7927-aa88-4813-80ea-c0f9846be5ce",
+      "voided" : false
+    } ],
+    "voided" : false
+  }, {
+    "uuid" : "76ab7334-9a87-443d-8c3a-4691afb8ae05",
+    "id" : 1452,
+    "name" : "External Trainings",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "0abc0648-926a-4b58-b81b-0d6061ea5f7f",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "53be64da-6ab1-4204-ae98-5c0cdec870b9",
+      "displayOrder" : 2.0,
+      "dashboardSectionUUID" : "76ab7334-9a87-443d-8c3a-4691afb8ae05",
+      "reportCardUUID" : "ef43ae77-576f-496e-9717-b24e5e1a3c75",
+      "voided" : false
+    }, {
+      "uuid" : "1b5ff858-284c-4efb-99b2-8dd60ec1237a",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "76ab7334-9a87-443d-8c3a-4691afb8ae05",
+      "reportCardUUID" : "cc0edb0f-78be-48f7-bfb6-e45819de4f36",
+      "voided" : false
+    } ],
+    "voided" : false
+  }, {
+    "uuid" : "fb7c615b-b587-4880-8568-25317fa4e1e8",
+    "id" : 1414,
+    "name" : "Internships",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "0abc0648-926a-4b58-b81b-0d6061ea5f7f",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "1fae1779-5d39-43f0-a8dc-885c681a6e91",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "fb7c615b-b587-4880-8568-25317fa4e1e8",
+      "reportCardUUID" : "347844fb-96d2-48ef-8dc1-d361852dc54a",
+      "voided" : false
+    }, {
+      "uuid" : "2ee4a027-8a11-4eda-9711-43c0a8dca321",
+      "displayOrder" : 2.0,
+      "dashboardSectionUUID" : "fb7c615b-b587-4880-8568-25317fa4e1e8",
+      "reportCardUUID" : "951f5f88-ad00-4403-bb20-6cbf651e5dff",
+      "voided" : false
+    } ],
+    "voided" : false
+  }, {
+    "uuid" : "cb34d98d-295e-4440-91fa-a8742edaf5ee",
+    "id" : 1453,
+    "name" : "Active Campaign",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "0abc0648-926a-4b58-b81b-0d6061ea5f7f",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "6b61de81-2649-41ad-9751-9619c553f8b2",
+      "displayOrder" : 2.0,
+      "dashboardSectionUUID" : "cb34d98d-295e-4440-91fa-a8742edaf5ee",
+      "reportCardUUID" : "d9d046c9-fe08-4049-8db2-824020a76555",
+      "voided" : false
+    }, {
+      "uuid" : "392342fb-9699-4fa2-9018-5c8237c55847",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "cb34d98d-295e-4440-91fa-a8742edaf5ee",
+      "reportCardUUID" : "6ef87d47-e2b3-45e7-a11d-72b10dfdd09e",
+      "voided" : false
+    } ],
+    "voided" : false
+  } ],
+  "filters" : [ {
+    "uuid" : "efc50111-87ac-4230-9ced-159de03d1237",
+    "id" : 323,
+    "name" : "Date Range",
+    "filterConfig" : {
+      "type" : "RegistrationDate",
+      "subjectTypeUUID" : null,
+      "widget" : "Range",
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  }, {
+    "uuid" : "696ad2b4-2b94-4b7f-838e-5f28bf3a71b5",
+    "id" : 385,
+    "name" : " As on Date",
+    "filterConfig" : {
+      "type" : "AsOnDate",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : true
+  }, {
+    "uuid" : "2aa24a25-cc76-4ebf-a51d-43646b706d0d",
+    "id" : 325,
+    "name" : "Address",
+    "filterConfig" : {
+      "type" : "Address",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  }, {
+    "uuid" : "ae0155f6-2e79-451a-9144-cdd2faabdf1d",
+    "id" : 324,
+    "name" : "Subject",
+    "filterConfig" : {
+      "type" : "SubjectType",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : true
+  } ],
+  "voided" : true
+}, {
+  "uuid" : "59b6f076-43b6-40a2-a39d-e50db2c9798f",
+  "id" : 809,
+  "name" : "Total Registered",
+  "description" : "",
+  "sections" : [ {
+    "uuid" : "4f1043cd-daae-49a3-ac94-00283d35629c",
+    "id" : 1458,
+    "name" : "Intern",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "59b6f076-43b6-40a2-a39d-e50db2c9798f",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "8d29e60e-41dd-44e0-a0d0-e140a6dfb3e5",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "4f1043cd-daae-49a3-ac94-00283d35629c",
+      "reportCardUUID" : "951f5f88-ad00-4403-bb20-6cbf651e5dff",
+      "voided" : false
+    }, {
+      "uuid" : "71d07c8d-2eb7-4832-8f24-07667dfc3192",
+      "displayOrder" : 2.0,
+      "dashboardSectionUUID" : "4f1043cd-daae-49a3-ac94-00283d35629c",
+      "reportCardUUID" : "347844fb-96d2-48ef-8dc1-d361852dc54a",
+      "voided" : false
+    } ],
+    "voided" : false
+  }, {
+    "uuid" : "169b0fdc-79d8-49ff-bd9f-296c24cf60b0",
+    "id" : 1459,
+    "name" : "Internal Training",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "59b6f076-43b6-40a2-a39d-e50db2c9798f",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "176ecd47-92dc-4d48-b00e-369f8f925a84",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "169b0fdc-79d8-49ff-bd9f-296c24cf60b0",
+      "reportCardUUID" : "462a7927-aa88-4813-80ea-c0f9846be5ce",
+      "voided" : false
+    }, {
+      "uuid" : "2bee4666-5a9e-4dd9-836d-635f26380b81",
+      "displayOrder" : 2.0,
+      "dashboardSectionUUID" : "169b0fdc-79d8-49ff-bd9f-296c24cf60b0",
+      "reportCardUUID" : "08148569-c29c-4b4e-8a2d-d41a50292270",
+      "voided" : false
+    } ],
+    "voided" : false
+  }, {
+    "uuid" : "64bb09d8-bd04-4747-82bb-4c056775e52c",
+    "id" : 1456,
+    "name" : "Claim",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "59b6f076-43b6-40a2-a39d-e50db2c9798f",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "367458da-7b82-47e2-b901-1ce19c0c049f",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "64bb09d8-bd04-4747-82bb-4c056775e52c",
+      "reportCardUUID" : "53464f4b-9022-4f56-9aa0-01ce85ad1339",
+      "voided" : false
+    }, {
+      "uuid" : "96fd88ed-b447-449f-b89e-36c0e5f4a3fe",
+      "displayOrder" : 2.0,
+      "dashboardSectionUUID" : "64bb09d8-bd04-4747-82bb-4c056775e52c",
+      "reportCardUUID" : "7311597c-bab9-4fa3-bee7-be4333de4c66",
+      "voided" : false
+    } ],
+    "voided" : false
+  }, {
+    "uuid" : "460fc6dc-0970-405d-98dc-032ebcb6fc47",
+    "id" : 1457,
+    "name" : "Campaign",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "59b6f076-43b6-40a2-a39d-e50db2c9798f",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "10d2135b-0a9f-4b0d-bd1f-25b537c7eba3",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "460fc6dc-0970-405d-98dc-032ebcb6fc47",
+      "reportCardUUID" : "d9d046c9-fe08-4049-8db2-824020a76555",
+      "voided" : false
+    }, {
+      "uuid" : "3039cff1-716e-4346-a9b1-052691b11a7d",
+      "displayOrder" : 2.0,
+      "dashboardSectionUUID" : "460fc6dc-0970-405d-98dc-032ebcb6fc47",
+      "reportCardUUID" : "6ef87d47-e2b3-45e7-a11d-72b10dfdd09e",
+      "voided" : false
+    } ],
+    "voided" : false
+  }, {
+    "uuid" : "ae41ca26-3914-4675-974f-1be8197b9fcb",
+    "id" : 1460,
+    "name" : "External Training",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "59b6f076-43b6-40a2-a39d-e50db2c9798f",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "05e98168-1a7c-4afb-91e8-e64135d3dc56",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "ae41ca26-3914-4675-974f-1be8197b9fcb",
+      "reportCardUUID" : "ef43ae77-576f-496e-9717-b24e5e1a3c75",
+      "voided" : false
+    }, {
+      "uuid" : "6b18177e-35bb-4eb0-9cb1-9d44923fb5e9",
+      "displayOrder" : 2.0,
+      "dashboardSectionUUID" : "ae41ca26-3914-4675-974f-1be8197b9fcb",
+      "reportCardUUID" : "cc0edb0f-78be-48f7-bfb6-e45819de4f36",
+      "voided" : false
+    } ],
+    "voided" : false
+  } ],
+  "filters" : [ {
+    "uuid" : "5edd493a-2918-4eef-906d-6dcc2fd4344b",
+    "id" : 392,
+    "name" : "Date",
+    "filterConfig" : {
+      "type" : "RegistrationDate",
+      "subjectTypeUUID" : null,
+      "widget" : "Range",
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  } ],
+  "voided" : false
+}, {
+  "uuid" : "d3096554-d06c-40b7-b4c1-2aa720e38703",
+  "id" : 807,
+  "name" : "Claims (voided~807)",
+  "description" : "",
+  "sections" : [ {
+    "uuid" : "51ae5110-e253-4ff7-bef5-c129e4125756",
+    "id" : 1454,
+    "name" : "Claims",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "d3096554-d06c-40b7-b4c1-2aa720e38703",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "55e306d4-c1b5-4bd6-b55c-4cd88b767011",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "51ae5110-e253-4ff7-bef5-c129e4125756",
+      "reportCardUUID" : "7311597c-bab9-4fa3-bee7-be4333de4c66",
+      "voided" : false
+    }, {
+      "uuid" : "0d761f97-7aa2-43a5-9779-39488eaf353b",
+      "displayOrder" : 2.0,
+      "dashboardSectionUUID" : "51ae5110-e253-4ff7-bef5-c129e4125756",
+      "reportCardUUID" : "53464f4b-9022-4f56-9aa0-01ce85ad1339",
+      "voided" : false
+    } ],
+    "voided" : false
+  } ],
+  "filters" : [ {
+    "uuid" : "92b5d746-39e3-40a5-895c-8964236140d2",
+    "id" : 387,
+    "name" : "Address",
+    "filterConfig" : {
+      "type" : "Address",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  }, {
+    "uuid" : "32826bfc-263f-4e21-9261-65b4b607fa48",
+    "id" : 386,
+    "name" : "Date",
+    "filterConfig" : {
+      "type" : "RegistrationDate",
+      "subjectTypeUUID" : null,
+      "widget" : "Range",
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  } ],
+  "voided" : true
+}, {
+  "uuid" : "352ff6ea-b5f6-4d5e-a974-8a0d0b7be1af",
+  "id" : 787,
+  "name" : "Internal Trainings (voided~787)",
+  "description" : "",
+  "sections" : [ {
+    "uuid" : "f67a251d-e55d-4afa-a7ad-939d33bd668c",
+    "id" : 1417,
+    "name" : "Internal Trainings",
+    "description" : "",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "352ff6ea-b5f6-4d5e-a974-8a0d0b7be1af",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "adbe133a-7779-460a-b190-a1b2a849a5f7",
+      "displayOrder" : 2.0,
+      "dashboardSectionUUID" : "f67a251d-e55d-4afa-a7ad-939d33bd668c",
+      "reportCardUUID" : "462a7927-aa88-4813-80ea-c0f9846be5ce",
+      "voided" : false
+    }, {
+      "uuid" : "e375303f-70e9-47ca-b994-42881c96fee4",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "f67a251d-e55d-4afa-a7ad-939d33bd668c",
+      "reportCardUUID" : "08148569-c29c-4b4e-8a2d-d41a50292270",
+      "voided" : false
+    } ],
+    "voided" : false
+  } ],
+  "filters" : [ {
+    "uuid" : "f7156423-e079-47b6-a8ba-e0c7db851c8c",
+    "id" : 332,
+    "name" : "Date",
+    "filterConfig" : {
+      "type" : "RegistrationDate",
+      "subjectTypeUUID" : null,
+      "widget" : "Range",
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  }, {
+    "uuid" : "a5a3322a-7b41-472e-a68b-2992b2376c07",
+    "id" : 333,
+    "name" : "Address",
+    "filterConfig" : {
+      "type" : "Address",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  }, {
+    "uuid" : "bca5d018-b5f6-4744-aaa7-eeeb2deec7bd",
+    "id" : 334,
+    "name" : "Subject Type",
+    "filterConfig" : {
+      "type" : "SubjectType",
+      "subjectTypeUUID" : null,
+      "widget" : null,
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : true
+  } ],
+  "voided" : true
+}, {
+  "uuid" : "6aa2bc21-46a0-4908-8b23-7ee17ad48768",
+  "id" : 810,
+  "name" : "Default",
+  "description" : "",
+  "sections" : [ {
+    "uuid" : "c9929c25-fc3f-49b3-a1dc-521ec9ca2bd5",
+    "id" : 1461,
+    "name" : "Default",
+    "description" : "Default",
+    "viewType" : "Tile",
+    "displayOrder" : 100.0,
+    "dashboardUUID" : "6aa2bc21-46a0-4908-8b23-7ee17ad48768",
+    "dashboardSectionCardMappings" : [ {
+      "uuid" : "5ab5362c-83c6-41a1-8a6f-1fdd042afd9b",
+      "displayOrder" : 1.0,
+      "dashboardSectionUUID" : "c9929c25-fc3f-49b3-a1dc-521ec9ca2bd5",
+      "reportCardUUID" : "f366f35a-5c4f-4ff7-b510-2dc9f5f88847",
+      "voided" : false
+    } ],
+    "voided" : false
+  } ],
+  "filters" : [ {
+    "uuid" : "ed076800-582c-4237-9468-886ad984ee21",
+    "id" : 393,
+    "name" : "Date",
+    "filterConfig" : {
+      "type" : "RegistrationDate",
+      "subjectTypeUUID" : null,
+      "widget" : "Default",
+      "groupSubjectTypeFilter" : null,
+      "observationBasedFilter" : null
+    },
+    "voided" : false
+  } ],
+  "voided" : false
+} ]

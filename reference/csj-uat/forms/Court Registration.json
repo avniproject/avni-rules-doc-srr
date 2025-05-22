@@ -1,0 +1,18 @@
+{
+  "name" : "Court Registration",
+  "uuid" : "cf4087df-138e-4b63-89d3-46e11112640a",
+  "formType" : "IndividualProfile",
+  "formElementGroups" : [ {
+    "uuid" : "182588c5-0947-42f2-8c58-6ac03d3776e0",
+    "name" : "Details",
+    "displayOrder" : 1.0,
+    "formElements" : [ ],
+    "display" : "Details",
+    "timed" : false
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : "",
+  "checklistsRule" : "",
+  "decisionConcepts" : [ ]
+}

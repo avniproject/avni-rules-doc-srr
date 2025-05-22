@@ -1,0 +1,60 @@
+{
+  "name" : "Letter Status",
+  "uuid" : "b331d904-1948-4eab-8040-6fd995980253",
+  "formType" : "ProgramEnrolment",
+  "formElementGroups" : [ {
+    "uuid" : "e72e4769-e7fa-4a61-8f9c-fe884dd85e66",
+    "name" : "Letter Status Details",
+    "displayOrder" : 1.0,
+    "formElements" : [ {
+      "name" : "Status",
+      "uuid" : "ba796af3-7b4e-464c-9ef4-389dcb380277",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Letter Status",
+        "uuid" : "8bda3fb7-379c-4eaa-95fb-41a13fe28796",
+        "dataType" : "Coded",
+        "answers" : [ {
+          "name" : "Follow up RTI filed",
+          "uuid" : "8ef5b3db-a576-492a-8889-f1b271660b33",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 2.0,
+          "active" : true
+        }, {
+          "name" : "Initial letter filed",
+          "uuid" : "99eca39a-1c8c-4d58-96be-6fb8de751161",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 0.0,
+          "active" : true
+        }, {
+          "name" : "Closed",
+          "uuid" : "d56b69db-da83-4f60-9a3f-4cc159e5e191",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 3.0,
+          "active" : true
+        }, {
+          "name" : "Follow up letter filed",
+          "uuid" : "024ed9b6-521e-4349-ba27-b18597176937",
+          "dataType" : "NA",
+          "answers" : [ ],
+          "order" : 1.0,
+          "active" : true
+        } ],
+        "active" : true
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    } ],
+    "display" : "Letter Status Details",
+    "timed" : false
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : "",
+  "checklistsRule" : "",
+  "decisionConcepts" : [ ]
+}

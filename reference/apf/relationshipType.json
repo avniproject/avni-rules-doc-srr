@@ -1,0 +1,93 @@
+[ {
+  "uuid" : "9338c9b1-1eeb-435c-9727-6b0960993682",
+  "id" : 896,
+  "individualAIsToBRelation" : {
+    "uuid" : "1937dd81-8f35-4cd2-821d-75760be8ef0a",
+    "id" : 1124,
+    "name" : "Mother",
+    "genders" : [ "Female" ]
+  },
+  "individualBIsToARelation" : {
+    "uuid" : "63a6a352-3f68-4c1e-ba54-6b393e426f25",
+    "id" : 1125,
+    "name" : "Son",
+    "genders" : [ "Male" ]
+  }
+}, {
+  "uuid" : "b9db7813-68cf-48fe-8936-53e044df31f2",
+  "id" : 897,
+  "individualAIsToBRelation" : {
+    "uuid" : "1937dd81-8f35-4cd2-821d-75760be8ef0a",
+    "id" : 1124,
+    "name" : "Mother",
+    "genders" : [ "Female" ]
+  },
+  "individualBIsToARelation" : {
+    "uuid" : "c1e8d704-30a1-4aa4-92b9-3cb71867f0bf",
+    "id" : 1126,
+    "name" : "Daughter",
+    "genders" : [ "Female" ]
+  }
+}, {
+  "uuid" : "048f5a6d-d570-45c9-9722-e0400b3197b7",
+  "id" : 1189,
+  "individualAIsToBRelation" : {
+    "uuid" : "872ad6bb-cdad-4a9a-a83b-6754a0dcd167",
+    "id" : 1127,
+    "name" : "Father",
+    "genders" : [ "Male" ]
+  },
+  "individualBIsToARelation" : {
+    "uuid" : "63a6a352-3f68-4c1e-ba54-6b393e426f25",
+    "id" : 1125,
+    "name" : "Son",
+    "genders" : [ "Male" ]
+  }
+}, {
+  "uuid" : "76564fef-f428-490e-9b7c-c525e70d3b7c",
+  "id" : 1190,
+  "individualAIsToBRelation" : {
+    "uuid" : "872ad6bb-cdad-4a9a-a83b-6754a0dcd167",
+    "id" : 1127,
+    "name" : "Father",
+    "genders" : [ "Male" ]
+  },
+  "individualBIsToARelation" : {
+    "uuid" : "c1e8d704-30a1-4aa4-92b9-3cb71867f0bf",
+    "id" : 1126,
+    "name" : "Daughter",
+    "genders" : [ "Female" ]
+  }
+}, {
+  "uuid" : "4797ce69-e15e-49d9-bbf0-b01e8cee8643",
+  "id" : 1934,
+  "individualAIsToBRelation" : {
+    "uuid" : "63a6a352-3f68-4c1e-ba54-6b393e426f25",
+    "id" : 1125,
+    "name" : "Son",
+    "genders" : [ "Male" ]
+  },
+  "individualBIsToARelation" : {
+    "uuid" : "1937dd81-8f35-4cd2-821d-75760be8ef0a",
+    "id" : 1124,
+    "name" : "Mother",
+    "genders" : [ "Female" ]
+  },
+  "voided" : true
+}, {
+  "uuid" : "09617781-d02a-4b60-9bf9-c7bd1885082e",
+  "id" : 1935,
+  "individualAIsToBRelation" : {
+    "uuid" : "c1e8d704-30a1-4aa4-92b9-3cb71867f0bf",
+    "id" : 1126,
+    "name" : "Daughter",
+    "genders" : [ "Female" ]
+  },
+  "individualBIsToARelation" : {
+    "uuid" : "1937dd81-8f35-4cd2-821d-75760be8ef0a",
+    "id" : 1124,
+    "name" : "Mother",
+    "genders" : [ "Female" ]
+  },
+  "voided" : true
+} ]

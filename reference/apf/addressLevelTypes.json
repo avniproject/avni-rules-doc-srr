@@ -1,0 +1,43 @@
+[ {
+  "uuid" : "b8ad2233-c9fa-4d22-b355-c0c7c1757786",
+  "id" : 881,
+  "name" : "Block",
+  "level" : 3.0
+}, {
+  "uuid" : "a55fde74-637a-450a-87e0-1b88653bbe85",
+  "id" : 882,
+  "name" : "GP",
+  "level" : 2.0,
+  "parent" : {
+    "uuid" : "b8ad2233-c9fa-4d22-b355-c0c7c1757786"
+  }
+}, {
+  "uuid" : "55cb37d1-9dfa-440a-8410-2eb2def15dad",
+  "id" : 883,
+  "name" : "Village/Hamlet",
+  "level" : 1.0,
+  "parent" : {
+    "uuid" : "a55fde74-637a-450a-87e0-1b88653bbe85"
+  }
+}, {
+  "uuid" : "d4714a9a-9d64-4796-b550-ae0bae6d502d",
+  "id" : 884,
+  "name" : "Project/Block",
+  "level" : 6.0
+}, {
+  "uuid" : "94f8c5d6-dec7-447d-ade1-75145e661397",
+  "id" : 885,
+  "name" : "Sector",
+  "level" : 5.0,
+  "parent" : {
+    "uuid" : "d4714a9a-9d64-4796-b550-ae0bae6d502d"
+  }
+}, {
+  "uuid" : "0a997062-ff85-464d-b51f-95d1fd9ba8a7",
+  "id" : 886,
+  "name" : "AWC",
+  "level" : 4.0,
+  "parent" : {
+    "uuid" : "94f8c5d6-dec7-447d-ade1-75145e661397"
+  }
+} ]

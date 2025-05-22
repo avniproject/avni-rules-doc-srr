@@ -1,0 +1,76 @@
+{
+  "uuid" : "42361b04-f5a8-452a-ab80-6f7be7505205",
+  "settings" : {
+    "languages" : [ "en", "od_IN", "hi_IN" ],
+    "customRegistrationLocations" : [ {
+      "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75",
+      "locationTypeUUIDs" : [ "55cb37d1-9dfa-440a-8410-2eb2def15dad" ]
+    }, {
+      "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981",
+      "locationTypeUUIDs" : [ "0a997062-ff85-464d-b51f-95d1fd9ba8a7" ]
+    }, {
+      "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee",
+      "locationTypeUUIDs" : [ "55cb37d1-9dfa-440a-8410-2eb2def15dad" ]
+    }, {
+      "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01",
+      "locationTypeUUIDs" : [ "55cb37d1-9dfa-440a-8410-2eb2def15dad" ]
+    } ],
+    "searchFilters" : [ {
+      "type" : "SearchAll",
+      "widget" : "Default",
+      "titleKey" : "Individual",
+      "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01"
+    }, {
+      "type" : "SearchAll",
+      "widget" : "Default",
+      "titleKey" : "Household",
+      "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75"
+    }, {
+      "type" : "SearchAll",
+      "widget" : "Default",
+      "titleKey" : "Village profile",
+      "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee"
+    }, {
+      "type" : "SearchAll",
+      "widget" : "Default",
+      "titleKey" : "AWC profile",
+      "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981"
+    }, {
+      "type" : "Address",
+      "widget" : "Default",
+      "titleKey" : "Search by individuals address",
+      "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01"
+    }, {
+      "type" : "Address",
+      "widget" : "Default",
+      "titleKey" : "Search by households address",
+      "subjectTypeUUID" : "f2ffc396-2acc-4e97-af90-d9585eb2df75"
+    }, {
+      "type" : "Address",
+      "widget" : "Default",
+      "titleKey" : "Search by AWC profiles address",
+      "subjectTypeUUID" : "eb642a9c-ae1b-4247-81ba-87800227d981"
+    }, {
+      "type" : "Address",
+      "widget" : "Default",
+      "titleKey" : "Search by village profiles address",
+      "subjectTypeUUID" : "bfc36f13-831c-445a-ada9-5696840f8cee"
+    }, {
+      "type" : "Age",
+      "widget" : "Default",
+      "titleKey" : "Age",
+      "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01"
+    }, {
+      "type" : "Name",
+      "titleKey" : "name",
+      "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01"
+    } ],
+    "myDashboardFilters" : [ {
+      "type" : "Address",
+      "widget" : "Default",
+      "titleKey" : "location",
+      "subjectTypeUUID" : "ec69af69-8fd2-40b3-b429-025504c18a01"
+    } ]
+  },
+  "worklistUpdationRule" : ""
+}

@@ -1,0 +1,103 @@
+{
+  "name" : "PIL Case Activity",
+  "uuid" : "47f4d4a5-292e-45d6-a154-ec96802086a5",
+  "formType" : "ProgramEncounter",
+  "formElementGroups" : [ {
+    "uuid" : "88775c4b-0387-4517-bc96-cc3ef7676e1d",
+    "name" : "Case Activity Details",
+    "displayOrder" : 1.0,
+    "formElements" : [ {
+      "name" : "Fill in the information related to PIL Case Activity",
+      "uuid" : "eb71b610-7d90-40b7-ae85-2954db00347a",
+      "keyValues" : [ {
+        "key" : "repeatable",
+        "value" : true
+      } ],
+      "concept" : {
+        "name" : "Questions related to Case Activity Details",
+        "uuid" : "cf9fb870-802c-4196-8937-d4be9ed142d8",
+        "dataType" : "QuestionGroup",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
+      "name" : "Date of hearing",
+      "uuid" : "f03f854b-911f-4da9-8e7b-7de499159417",
+      "keyValues" : [ {
+        "key" : "datePickerMode",
+        "value" : "spinner"
+      } ],
+      "concept" : {
+        "name" : "Date of hearing (voided~269729)",
+        "uuid" : "8d2d9ab4-7d42-4cbf-b376-cee4a806c465",
+        "dataType" : "DateTime",
+        "answers" : [ ],
+        "active" : true,
+        "voided" : true
+      },
+      "displayOrder" : 2.0,
+      "type" : "SingleSelect",
+      "parentFormElementUuid" : "eb71b610-7d90-40b7-ae85-2954db00347a",
+      "voided" : true,
+      "mandatory" : true
+    }, {
+      "name" : "Date of hearing",
+      "uuid" : "59bc00ec-49d6-4984-b034-26927fd6b4e2",
+      "keyValues" : [ {
+        "key" : "datePickerMode",
+        "value" : "calendar"
+      } ],
+      "concept" : {
+        "name" : "PIL Date of hearing",
+        "uuid" : "23f4ce62-cfee-47bc-94d2-ca2e9f1998ab",
+        "dataType" : "Date",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 3.0,
+      "type" : "SingleSelect",
+      "parentFormElementUuid" : "eb71b610-7d90-40b7-ae85-2954db00347a",
+      "mandatory" : true
+    }, {
+      "name" : "Action taken / What happened in the hearing?",
+      "uuid" : "738a0119-346d-40b0-b63e-63220d87f8cd",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Action taken / What happened in the hearing?",
+        "uuid" : "1e69a4dd-916a-44bb-b6ec-235475b4f194",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 4.0,
+      "type" : "SingleSelect",
+      "parentFormElementUuid" : "eb71b610-7d90-40b7-ae85-2954db00347a",
+      "mandatory" : true
+    }, {
+      "name" : "Next Steps",
+      "uuid" : "e4177f54-fa2d-4512-8e34-268ea61ac087",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "PIL Case Next Steps",
+        "uuid" : "2aead5ab-a477-4646-ab7b-06748cc7cf64",
+        "dataType" : "Text",
+        "answers" : [ ],
+        "active" : true
+      },
+      "displayOrder" : 5.0,
+      "type" : "SingleSelect",
+      "parentFormElementUuid" : "eb71b610-7d90-40b7-ae85-2954db00347a",
+      "mandatory" : false
+    } ],
+    "display" : "Case Activity Details",
+    "timed" : false
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : "",
+  "checklistsRule" : "",
+  "decisionConcepts" : [ ]
+}

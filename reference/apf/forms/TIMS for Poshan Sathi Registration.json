@@ -1,0 +1,18 @@
+{
+  "name" : "TIMS for Poshan Sathi Registration",
+  "uuid" : "74b42742-8cef-49fc-97fe-69108159f213",
+  "formType" : "IndividualProfile",
+  "formElementGroups" : [ {
+    "uuid" : "18d62849-b293-4528-86c8-4f44c0c0be53",
+    "name" : "Details",
+    "displayOrder" : 1.0,
+    "formElements" : [ ],
+    "display" : "Details",
+    "timed" : false
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : "",
+  "checklistsRule" : "",
+  "decisionConcepts" : [ ]
+}

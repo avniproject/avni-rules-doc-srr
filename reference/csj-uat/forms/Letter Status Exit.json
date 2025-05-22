@@ -1,0 +1,7 @@
+{
+  "name" : "Letter Status Exit",
+  "uuid" : "fd87a68a-5c9a-4179-825e-09551c00a183",
+  "formType" : "ProgramExit",
+  "formElementGroups" : [ ],
+  "decisionConcepts" : [ ]
+}
