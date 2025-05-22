@@ -21,7 +21,8 @@
 20. https://github.com/avniproject/avni-client/blob/master/packages/openchs-android/src/service/facade/AddressLevelServiceFacade.js
 
 ### More about the code
-1. Some of the JavaScript and JSON code in this repository contains multiline JavaScript code within a JS/JSON string.
+1. All the javascript functions in this code are called rule.
+2. Some of the JavaScript and JSON code in this repository contains multiline JavaScript code within a JS/JSON string.
 2. The report cards use
 3. the data model is expressed in the files under */forms/* folder. these are called Forms.
 4. Each Form has form-element-groups. Each form element group has form-element. Each form element links to a concept. The full definition of concepts are present in */concepts.json file.
